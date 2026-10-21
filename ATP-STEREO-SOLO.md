@@ -8,7 +8,7 @@ Windows x64 VST3 functional reconstruction of the core audio controls in bx_solo
 
 ## Install and use
 
-<hr>
+---
 
 Download the repository ZIP and copy the complete `plugins/vst3/win-x64/ATP Stereo Solo.vst3` folder into `%LOCALAPPDATA%\Programs\Common\VST3` or your system VST3 folder, then rescan your host. Windows 10/11 x64 with Universal C Runtime is required. The bundle contains one module, has no external sample/preset dependencies, and is unsigned.
 
@@ -23,7 +23,7 @@ The editor selects one solo at a time. Default width is 100%; the host parameter
 
 ## License
 
-<hr>
+---
 
 This specific independently implemented binary is licensed under the MIT license reproduced below. The repository's existing GPL-3.0 license remains in place for repository material; it does not replace this binary's explicit license. Required bundled library notices are included in full below.
 
@@ -37,13 +37,13 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 ### Third-party notices
 
-<hr>
+---
 
 This plugin includes Steinberg VST3 SDK components and LLVM / libc++ runtime components. Their full notices and distribution terms follow.
 
 #### Steinberg VST3 SDK
 
-<hr>
+---
 
 MIT License
 
@@ -71,7 +71,7 @@ SOFTWARE.
 
 #### LLVM / libc++ runtime
 
-<hr>
+---
 
 ==============================================================================
 The LLVM Project is under the Apache License v2.0 with LLVM Exceptions:
