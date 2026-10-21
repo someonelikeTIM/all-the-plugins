@@ -6,9 +6,9 @@
 
 [Download the {{FORMAT}} module]({{DIRECT_DOWNLOAD_URL}}).
 
-## Install and use
-
+# Install and use
 ---
+
 
 Download the repository ZIP and copy the complete `{{BUNDLE_PATH}}` folder into `{{USER_PLUGIN_FOLDER}}` or your system {{FORMAT}} folder, then rescan your host. {{SYSTEM_REQUIREMENTS}}. {{BUNDLE_CONTENTS_AND_DEPENDENCIES}}.
 
@@ -18,9 +18,9 @@ Download the repository ZIP and copy the complete `{{BUNDLE_PATH}}` folder into 
 
 {{EDITOR_USAGE_DEFAULTS_AND_AUDIO_SUPPORT}}
 
-## License
-
+# License
 ---
+
 
 This specific independently implemented binary is licensed under the MIT license reproduced below. The repository's existing GPL-3.0 license remains in place for repository material; it does not replace this binary's explicit license. Required bundled library notices are included in full below.
 
@@ -32,15 +32,15 @@ The above copyright notice and this permission notice shall be included in all c
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-### Third-party notices
-
+# Third-party notices
 ---
+
 
 This plugin includes Steinberg VST3 SDK components and LLVM / libc++ runtime components. Their full notices and distribution terms follow.
 
-#### Steinberg VST3 SDK
-
+# Steinberg VST3 SDK
 ---
+
 
 MIT License
 
@@ -66,9 +66,9 @@ SOFTWARE.
 
 
 
-#### LLVM / libc++ runtime
-
+# LLVM / libc++ runtime
 ---
+
 
 ==============================================================================
 The LLVM Project is under the Apache License v2.0 with LLVM Exceptions:

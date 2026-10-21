@@ -6,9 +6,9 @@ Windows x64 VST3 functional reconstruction of the core audio controls in bx_solo
 
 [Download the VST3 module](https://raw.githubusercontent.com/someonelikeTIM/all-the-plugins/main/plugins/vst3/win-x64/ATP%20Stereo%20Solo.vst3/Contents/x86_64-win/ATP%20Stereo%20Solo.vst3).
 
-## Install and use
-
+# Install and use
 ---
+
 
 Download the repository ZIP and copy the complete `plugins/vst3/win-x64/ATP Stereo Solo.vst3` folder into `%LOCALAPPDATA%\Programs\Common\VST3` or your system VST3 folder, then rescan your host. Windows 10/11 x64 with Universal C Runtime is required. The bundle contains one module, has no external sample/preset dependencies, and is unsigned.
 
@@ -21,9 +21,9 @@ Download the repository ZIP and copy the complete `plugins/vst3/win-x64/ATP Ster
 
 The editor selects one solo at a time. Default width is 100%; the host parameter list provides direct selection and automation. Routing is width â†’ swap â†’ solo. If host automation enables multiple solo flags, priority is Side, Mid, Right, Left. Mid is `(L+R)/2`; side is `(L-R)/2`, multiplied by the selected width. Width can increase peaks, and this utility does not limit or clip them. Processing is stereo, zero-latency, and supports 32/64-bit floating point.
 
-## License
-
+# License
 ---
+
 
 This specific independently implemented binary is licensed under the MIT license reproduced below. The repository's existing GPL-3.0 license remains in place for repository material; it does not replace this binary's explicit license. Required bundled library notices are included in full below.
 
@@ -35,15 +35,15 @@ The above copyright notice and this permission notice shall be included in all c
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-### Third-party notices
-
+# Third-party notices
 ---
+
 
 This plugin includes Steinberg VST3 SDK components and LLVM / libc++ runtime components. Their full notices and distribution terms follow.
 
-#### Steinberg VST3 SDK
-
+# Steinberg VST3 SDK
 ---
+
 
 MIT License
 
@@ -69,9 +69,9 @@ SOFTWARE.
 
 
 
-#### LLVM / libc++ runtime
-
+# LLVM / libc++ runtime
 ---
+
 
 ==============================================================================
 The LLVM Project is under the Apache License v2.0 with LLVM Exceptions:
