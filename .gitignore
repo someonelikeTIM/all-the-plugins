@@ -1,0 +1,25 @@
+# Default deny: only basic Markdown documentation, existing license and VST outputs.
+/*
+!/.gitignore
+!/LICENSE
+!/*.md
+!/screenshots/
+/screenshots/*
+!/screenshots/*.png
+!/plugins/
+/plugins/*
+!/plugins/vst2/
+!/plugins/vst3/
+/plugins/vst2/*
+!/plugins/vst2/win-x64/
+!/plugins/vst2/win-x86/
+/plugins/vst2/win-x64/*
+/plugins/vst2/win-x86/*
+!/plugins/vst2/win-x64/*.dll
+!/plugins/vst2/win-x86/*.dll
+/plugins/vst3/*
+!/plugins/vst3/win-x64/
+/plugins/vst3/win-x64/*
+!/plugins/vst3/win-x64/*.vst3
+# VST3 directory bundles must be deliberately packaged with required resources.
+# The publication script checks exact paths and digests; gitignore is only a guardrail.
