@@ -1,4 +1,4 @@
-# ATP Metronome 0.1.0
+# ATP Metronome 0.1.1
 ---
 Windows x64 VST3 reconstruction of the standalone Metronome's transport and audio controls, with independently synthesized clicks and its own editor. The click sound differs from the original. It includes no original vendor sample material or artwork and is not affiliated with Steinberg.
 
