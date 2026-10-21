@@ -4,6 +4,8 @@ Downloadable audio plugins for Windows x64 VST3 hosts.
 
 ## Downloads
 
+<hr>
+
 | Plugin | Based on |
 | --- | --- |
 | [ATP Stereo Solo 0.1.0](ATP-STEREO-SOLO.md) | bx_solo |
@@ -11,8 +13,12 @@ Downloadable audio plugins for Windows x64 VST3 hosts.
 
 ## Install
 
+<hr>
+
 Download and extract the repository ZIP. Copy the complete plugin's `.vst3` folder from `plugins/vst3/win-x64/` into `%LOCALAPPDATA%\Programs\Common\VST3` or your system VST3 folder, then rescan your host. See each plugin's page for requirements and controls.
 
 ## License
 
-Each plugin's page includes its full license. Required library notices are in [THIRD-PARTY-NOTICES.md](THIRD-PARTY-NOTICES.md). The repository's [GPL-3.0 license](LICENSE) remains in place for repository material.
+<hr>
+
+Each plugin's page includes its full license and third-party notices. The repository's [GPL-3.0 license](LICENSE) remains in place for repository material.
