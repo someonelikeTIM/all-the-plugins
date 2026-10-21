@@ -1,5 +1,5 @@
 # ATP Clean Sweep 0.1.0
-
+---
 Windows x64 VST3 functional reconstruction of bx_cleansweep V2's audio controls, with an independent name, identity and editor. It contains no original vendor executable, artwork or activation system and is not affiliated with Brainworx or Plugin Alliance.
 
 ![ATP Clean Sweep editor](screenshots/ATP-Clean-Sweep.png)

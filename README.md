@@ -1,5 +1,5 @@
 # All the Plugins
-
+---
 Downloadable audio plugins for Windows x64 VST3 hosts.
 
 
@@ -9,6 +9,7 @@ Downloadable audio plugins for Windows x64 VST3 hosts.
 | --- | --- |
 | [ATP Stereo Solo 0.1.0](ATP-STEREO-SOLO.md) | bx_solo |
 | [ATP Clean Sweep 0.1.0](ATP-CLEAN-SWEEP.md) | bx_cleansweep V2 |
+| [ATP Metronome 0.1.0](ATP-METRONOME.md) | standalone Metronome |
 
 
 # Install

@@ -1,5 +1,5 @@
 # ATP Stereo Solo 0.1.0
-
+---
 Windows x64 VST3 functional reconstruction of the core audio controls in bx_solo. Independently implemented and published under its own name, plugin identity and interface. It does not contain or install the original vendor's binary, graphics or licensing system, and is not affiliated with Brainworx or Plugin Alliance.
 
 ![ATP Stereo Solo editor](screenshots/ATP-Stereo-Solo.png)
