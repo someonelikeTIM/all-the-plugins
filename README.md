@@ -32,6 +32,7 @@ Downloadable audio plugins for Windows x64 VST3 hosts.
 | [ATP LOADES 0.1.0](ATP-LOADES.md) | Analog Obsession LOADES |
 | [ATP PreBOX 0.1.0](ATP-PREBOX.md) | Analog Obsession PreBOX |
 | [ATP Vocal Intensity 0.1.0](ATP-VOCAL-INTENSITY.md) | Harrison Vocal Intensity Processor |
+| [ATP Sie-Q 0.1.0](ATP-SIE-Q.md) | Soundtoys Sie-Q |
 
 
 # Install
