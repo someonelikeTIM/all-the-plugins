@@ -19,6 +19,7 @@ Downloadable audio plugins for Windows x64 VST3 hosts.
 | [ATP Phase Align 0.1.0](ATP-PHASE-ALIGN.md) | SSL Native X-Phase |
 | [ATP Violet EQ 0.1.0](ATP-VIOLET-EQ.md) | SSL Fusion Violet EQ |
 | [ATP Micro Glide 0.1.0](ATP-MICRO-GLIDE.md) | Harrison Micro Glide |
+| [ATP Tremolo Panner 0.1.0](ATP-TREMOLO-PANNER.md) | Harrison Tremolo Panner |
 
 
 # Install
