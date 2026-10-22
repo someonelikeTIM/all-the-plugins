@@ -1,17 +1,22 @@
-# ATP dB Comp 0.1.0
+# ATP dB Comp
 ---
-Windows x64 VST3 independent reconstruction of Analog Obsession dBComp's program-dependent compressor/limiter controls, with an independent plugin identity and editor. It contains no original vendor executable or artwork and is not affiliated with Analog Obsession.
+Program-dependent compression and limiting with external sidechain, dry/wet mixing and optional oversampling.
 
 **Inspired by:** Analog Obsession dBComp
 
 ![ATP dB Comp editor](screenshots/ATP-dB-Comp.png)
 
-[Download the VST3 module](https://raw.githubusercontent.com/someonelikeTIM/all-the-plugins/main/plugins/vst3/win-x64/ATP%20dB%20Comp.vst3/Contents/x86_64-win/ATP%20dB%20Comp.vst3).
+
+# Downloads
+---
+| Platform | Format | Download |
+| --- | --- | --- |
+| Windows | VST3 | [Download](https://raw.githubusercontent.com/someonelikeTIM/all-the-plugins/main/downloads/windows/ATP-dB-Comp-Windows-VST3.zip) |
 
 
 # Install and use
 ---
-Download the repository ZIP and copy the complete `plugins/vst3/win-x64/ATP dB Comp.vst3` folder into `%LOCALAPPDATA%\Programs\Common\VST3` or your system VST3 folder, then rescan your host. Requires Windows 10 or later, a Windows x64 VST3 host, and a sample rate from 44.1 to 384 kHz. The bundle contains one x64 VST3 module and uses Windows system libraries; no separate SDK or runtime installation is needed.
+**Windows:** Extract the Windows ZIP and copy the complete `ATP dB Comp.vst3` folder into `%LOCALAPPDATA%\Programs\Common\VST3` or your system VST3 folder, then rescan your host. Requires Windows 10 or later, a Windows x64 VST3 host, and a sample rate from 44.1 to 384 kHz. The bundle contains one x64 VST3 module and uses Windows system libraries; no separate SDK or runtime installation is needed.
 
 | Control | Behavior |
 | --- | --- |

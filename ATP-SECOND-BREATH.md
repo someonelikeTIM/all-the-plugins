@@ -1,6 +1,6 @@
-# ATP Second Breath 0.1.1
+# ATP Second Breath
 ---
-Windows x64 VST3 dynamic-restoration processor with input drive, Shape contour, Life intensity, parallel blend and output gain. Its independently drawn editor provides five direct rotary controls and an IN/OUT switch. It contains no original vendor executable, artwork or logo.
+Dynamic restoration with input drive, Shape contour, Life intensity, parallel blend and output gain. Five rotary controls and an IN/OUT switch provide direct adjustment.
 
 **Inspired by:** Analog Obsession ReLife
 
@@ -9,18 +9,14 @@ Windows x64 VST3 dynamic-restoration processor with input drive, Shape contour, 
 
 # Downloads
 ---
-Choose the file for your operating system, plugin format, and processor architecture.
-
-| Platform | Format | Architecture | Version | Minimum OS | Download |
-| --- | --- | --- | --- | --- | --- |
-| Windows | VST3 | x64 | 0.1.1 | Windows 10 | [Download the VST3 module](https://raw.githubusercontent.com/someonelikeTIM/all-the-plugins/main/plugins/vst3/win-x64/ATP%20Second%20Breath.vst3/Contents/x86_64-win/ATP%20Second%20Breath.vst3). |
+| Platform | Format | Download |
+| --- | --- | --- |
+| Windows | VST3 | [Download](https://raw.githubusercontent.com/someonelikeTIM/all-the-plugins/main/downloads/windows/ATP-Second-Breath-Windows-VST3.zip) |
 
 
 # Install and use
 ---
-**Windows:** Download the repository ZIP and copy the complete `plugins/vst3/win-x64/ATP Second Breath.vst3` folder into `%LOCALAPPDATA%\Programs\Common\VST3` or your system VST3 folder, then rescan your host. Requires Windows 10 or later and a Windows x64 VST3 host. The bundle contains one x64 VST3 module and uses Windows system libraries; no separate SDK or runtime installation is needed.
-
-**macOS:** Mac VST3 and Audio Unit (AU) builds are not yet available.
+**Windows:** Extract the Windows ZIP and copy the complete `ATP Second Breath.vst3` folder into `%LOCALAPPDATA%\Programs\Common\VST3` or your system VST3 folder, then rescan your host. Requires Windows 10 or later and a Windows x64 VST3 host. The bundle contains one x64 VST3 module and uses Windows system libraries; no separate SDK or runtime installation is needed.
 
 When replacing a prior ATP build, remove its previous bundle before copying this one. Do not keep both builds installed: they share the same VST3 identity.
 

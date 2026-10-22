@@ -1,17 +1,22 @@
-# ATP Tiny Toaster 0.1.1
+# ATP Tiny Toaster
 ---
-Tube-style saturation with Heat, Mix, Bias and Noise controls. Independently implemented Windows x64 VST3 with an original ATP interface. No original vendor binary, artwork or licensing system is included.
+Tube-style saturation with Heat, Mix, Bias and Noise controls.
 
 **Inspired by:** Soundtoys Little Radiator
 
 ![ATP Tiny Toaster editor](screenshots/ATP-Tiny-Toaster.png)
 
-[Download the VST3 module](https://raw.githubusercontent.com/someonelikeTIM/all-the-plugins/main/plugins/vst3/win-x64/ATP%20Tiny%20Toaster.vst3/Contents/x86_64-win/ATP%20Tiny%20Toaster.vst3).
+
+# Downloads
+---
+| Platform | Format | Download |
+| --- | --- | --- |
+| Windows | VST3 | [Download](https://raw.githubusercontent.com/someonelikeTIM/all-the-plugins/main/downloads/windows/ATP-Tiny-Toaster-Windows-VST3.zip) |
 
 
 # Install and use
 ---
-Download the repository ZIP and copy the complete `plugins/vst3/win-x64/ATP Tiny Toaster.vst3` folder into `%LOCALAPPDATA%\Programs\Common\VST3` or your system VST3 folder, then rescan your host. Requires Windows 10 or later, a Windows x64 VST3 host, and a sample rate of 44.1, 48, 88.2, 96, 176.4 or 192 kHz. The bundle contains one x64 VST3 module and uses Windows system libraries; no separate SDK or runtime installation is needed.
+**Windows:** Extract the Windows ZIP and copy the complete `ATP Tiny Toaster.vst3` folder into `%LOCALAPPDATA%\Programs\Common\VST3` or your system VST3 folder, then rescan your host. Requires Windows 10 or later, a Windows x64 VST3 host, and a sample rate of 44.1, 48, 88.2, 96, 176.4 or 192 kHz. The bundle contains one x64 VST3 module and uses Windows system libraries; no separate SDK or runtime installation is needed.
 
 When replacing a prior ATP build, remove its previous bundle before copying this one. Do not keep both builds installed: they share the same VST3 identity.
 

@@ -1,6 +1,6 @@
-# ATP Stereo Loner 0.1.0
+# ATP Stereo Loner
 ---
-Stereo monitoring, channel swapping and stepped width adjustment. Independently implemented Windows and macOS plugins with an original ATP interface. No original vendor binary, artwork or licensing system is included.
+Stereo monitoring, channel swapping and stepped width adjustment.
 
 **Inspired by:** bx_solo
 
@@ -9,26 +9,20 @@ Stereo monitoring, channel swapping and stepped width adjustment. Independently 
 
 # Downloads
 ---
-Choose the file for your operating system and plugin format.
-
-| Platform | Format | Architecture | Version | Minimum OS | Download |
-| --- | --- | --- | --- | --- | --- |
-| Windows | VST3 | x64 | 0.1.0 | Windows 10 | [Download the VST3 module](https://raw.githubusercontent.com/someonelikeTIM/all-the-plugins/main/plugins/vst3/win-x64/ATP%20Stereo%20Loner.vst3/Contents/x86_64-win/ATP%20Stereo%20Loner.vst3). |
-| macOS | VST3 | Universal arm64 + x86_64; Intel compatibility unverified | 0.1.0 | macOS 12.0 deployment target | [Download the notarized VST3 ZIP](https://raw.githubusercontent.com/someonelikeTIM/all-the-plugins/main/downloads/macos/ATP-Stereo-Loner-0.1.0-macOS-universal-VST3.zip) |
-| macOS | AU | Universal arm64 + x86_64; Intel compatibility unverified | 0.1.0 | macOS 12.0 deployment target | [Download the notarized AU ZIP](https://raw.githubusercontent.com/someonelikeTIM/all-the-plugins/main/downloads/macos/ATP-Stereo-Loner-0.1.0-macOS-universal-AU.zip) |
-
-**Mac release status:** Both Mac downloads are Developer ID signed and notarized by Apple, with stapled notarization tickets. The ZIPs contain the complete plugin bundles, installation notes and licenses; no installer is required.
-
-Minimum deployment target: macOS 12.0. Use a compatible Apple silicon (arm64) host. The universal binary also includes an Intel x86_64 slice, but Intel compatibility is unverified. The deployment target is not a claim of qualification on every macOS version.
+| Platform | Format | Download |
+| --- | --- | --- |
+| Windows | VST3 | [Download](https://raw.githubusercontent.com/someonelikeTIM/all-the-plugins/main/downloads/windows/ATP-Stereo-Loner-Windows-VST3.zip) |
+| Mac | VST3 | [Download](https://raw.githubusercontent.com/someonelikeTIM/all-the-plugins/main/downloads/macos/ATP-Stereo-Loner-0.1.0-macOS-universal-VST3.zip) |
+| Mac | AU | [Download](https://raw.githubusercontent.com/someonelikeTIM/all-the-plugins/main/downloads/macos/ATP-Stereo-Loner-0.1.0-macOS-universal-AU.zip) |
 
 
 # Install and use
 ---
-**Windows:** Download the repository ZIP and copy the complete `plugins/vst3/win-x64/ATP Stereo Loner.vst3` folder into `%LOCALAPPDATA%\Programs\Common\VST3` or your system VST3 folder, then rescan your host. Windows 10/11 x64 with Universal C Runtime is required. The bundle contains one module, has no external sample/preset dependencies, and is unsigned.
+**Windows:** Extract the Windows ZIP and copy the complete `ATP Stereo Loner.vst3` folder into `%LOCALAPPDATA%\Programs\Common\VST3` or your system VST3 folder, then rescan your host. Windows 10/11 x64 with Universal C Runtime is required. The bundle contains one module, has no external sample/preset dependencies, and is unsigned.
 
-**macOS VST3:** Quit your audio host, extract the VST3 ZIP, and copy the complete `ATP Stereo Loner.vst3` bundle to `~/Library/Audio/Plug-Ins/VST3/` for your account or `/Library/Audio/Plug-Ins/VST3/` for all users. Reopen a compatible VST3 host and use its normal plugin rescan if necessary.
+**Mac VST3:** Use an Apple silicon host. Quit your audio host, extract the VST3 ZIP, and copy the complete `ATP Stereo Loner.vst3` bundle to `~/Library/Audio/Plug-Ins/VST3/` for your account or `/Library/Audio/Plug-Ins/VST3/` for all users. Reopen a compatible VST3 host and use its normal plugin rescan if necessary.
 
-**macOS AU:** Quit your audio host, extract the AU ZIP, and copy the complete `ATP Stereo Loner.component` bundle to `~/Library/Audio/Plug-Ins/Components/` for your account or `/Library/Audio/Plug-Ins/Components/` for all users. Reopen a compatible AU host and use its normal plugin rescan if necessary.
+**Mac AU:** Use an Apple silicon host. Quit your audio host, extract the AU ZIP, and copy the complete `ATP Stereo Loner.component` bundle to `~/Library/Audio/Plug-Ins/Components/` for your account or `/Library/Audio/Plug-Ins/Components/` for all users. Reopen a compatible AU host and use its normal plugin rescan if necessary.
 
 Keep each complete Mac bundle intact; do not rename, modify, or copy only its executable. No external samples, presets, or separate SDK installation are required. The AU bundle includes its own nested VST3 implementation and does not need a separate VST3 installation. VST3 and AU may be installed together, but saved sessions and presets are not promised to transfer between formats.
 
@@ -41,7 +35,7 @@ When replacing a prior ATP build of the same format, remove its previous bundle 
 | Width | A stepped rotary control for Mono, 50%, 100%, 150%, 200%, 300% and 400% |
 | Bypass | Passes input through unchanged |
 
-Drag the Width rotary up/down for immediate adjustment; hold Shift for fine control. Use the wheel or arrow keys to move between stops, or double-click to reset to 100%. The editor selects one solo at a time. Default width is 100%; the host parameter list provides direct selection and automation. Routing is width → swap → solo. If host automation enables multiple solo flags, priority is Side, Mid, Right, Left. Mid is `(L+R)/2`; side is `(L-R)/2`, multiplied by the selected width. Width can increase peaks, and this utility does not limit or clip them. Processing is stereo and zero-latency. VST3 supports 32/64-bit floating point; AU uses 32-bit floating point. In AU hosts, bypass is available through the native host bypass property and the editor button.
+Drag the Width rotary up/down for immediate adjustment; hold Shift for fine control. Use the wheel or arrow keys to move between stops, or double-click to reset to 100%. The editor selects one solo at a time. Default width is 100%; the host parameter list provides direct selection and automation. Routing is width, then swap, then solo. If host automation enables multiple solo flags, priority is Side, Mid, Right, Left. Mid is `(L+R)/2`; side is `(L-R)/2`, multiplied by the selected width. Width can increase peaks, and this utility does not limit or clip them. Processing is stereo and zero-latency. VST3 supports 32/64-bit floating point; AU uses 32-bit floating point. In AU hosts, bypass is available through the native host bypass property and the editor button.
 
 
 # License

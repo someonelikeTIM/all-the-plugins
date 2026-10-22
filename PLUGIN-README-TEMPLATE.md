@@ -1,6 +1,6 @@
-# {{PLUGIN_NAME}} {{VERSION}}
+# {{PLUGIN_NAME}}
 ---
-{{PLATFORM_AND_FORMAT}} functional reconstruction of {{ORIGINAL_PLUGIN}}'s audio controls, with an independent name, identity and editor. It contains no original vendor executable, artwork or activation system and is not affiliated with {{ORIGINAL_VENDOR}}.
+{{SHORT_PRODUCT_DESCRIPTION}}
 
 **Inspired by:** {{ORIGINAL_PLUGIN}}
 
@@ -9,18 +9,14 @@
 
 # Downloads
 ---
-Choose the file for your operating system, plugin format, and processor architecture.
-
-| Platform | Format | Architecture | Version | Minimum OS | Download |
-| --- | --- | --- | --- | --- | --- |
-| {{PLATFORM}} | {{FORMAT}} | {{ARCHITECTURE}} | {{BUILD_VERSION}} | {{MINIMUM_OS}} | [Download {{PLATFORM}} {{FORMAT}}]({{DOWNLOAD_URL}}) |
+| Platform | Format | Download |
+| --- | --- | --- |
+| {{PLATFORM}} | {{FORMAT}} | [Download]({{INDIVIDUAL_PLUGIN_ZIP_URL}}) |
 
 
 # Install and use
 ---
-**Windows:** {{WINDOWS_INSTALLATION_REQUIREMENTS_AND_DEPENDENCIES}}
-
-**macOS:** {{MACOS_INSTALLATION_REQUIREMENTS_AND_DEPENDENCIES}}
+{{INSTALLATION_REQUIREMENTS_FOR_AVAILABLE_FORMATS}}
 
 | Control | Behavior |
 | --- | --- |

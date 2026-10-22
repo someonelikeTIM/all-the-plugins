@@ -1,17 +1,22 @@
-# ATP Relay Utility 0.1.0
+# ATP Relay Utility
 ---
-Windows x64 VST3 functional reconstruction of Relay's standalone stereo audio controls, with an independent name, identity and editor. It contains no original vendor executable or artwork and is not affiliated with iZotope.
+A stereo utility with gain, pan, width, delay, polarity and high-pass controls.
 
 **Inspired by:** Relay
 
 ![ATP Relay Utility editor](screenshots/ATP-Relay-Utility.png)
 
-[Download the VST3 module](https://raw.githubusercontent.com/someonelikeTIM/all-the-plugins/main/plugins/vst3/win-x64/ATP%20Relay%20Utility.vst3/Contents/x86_64-win/ATP%20Relay%20Utility.vst3).
+
+# Downloads
+---
+| Platform | Format | Download |
+| --- | --- | --- |
+| Windows | VST3 | [Download](https://raw.githubusercontent.com/someonelikeTIM/all-the-plugins/main/downloads/windows/ATP-Relay-Utility-Windows-VST3.zip) |
 
 
 # Install and use
 ---
-Download the repository ZIP and copy the complete `plugins/vst3/win-x64/ATP Relay Utility.vst3` folder into `%LOCALAPPDATA%\Programs\Common\VST3` or your system VST3 folder, then rescan your host. Requires Windows 10 or later and a Windows x64 VST3 host. The bundle contains one x64 VST3 module and uses Windows system libraries; no separate SDK or runtime installation is needed.
+**Windows:** Extract the Windows ZIP and copy the complete `ATP Relay Utility.vst3` folder into `%LOCALAPPDATA%\Programs\Common\VST3` or your system VST3 folder, then rescan your host. Requires Windows 10 or later and a Windows x64 VST3 host. The bundle contains one x64 VST3 module and uses Windows system libraries; no separate SDK or runtime installation is needed.
 
 | Control | Behavior |
 | --- | --- |

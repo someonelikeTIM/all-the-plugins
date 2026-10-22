@@ -1,17 +1,22 @@
-# ATP De-Esser 0.1.0
+# ATP De-Esser
 ---
-Windows x64 VST3 functional reconstruction of Harrison De-Esser's sibilance detection and frequency-selective attenuation controls, with an independent plugin identity and editor. It contains no original vendor executable or artwork and is not affiliated with Harrison Audio.
+Sibilance detection and frequency-selective attenuation with band monitoring and level indicators.
 
 **Inspired by:** Harrison De-Esser
 
 ![ATP De-Esser editor](screenshots/ATP-De-Esser.png)
 
-[Download the VST3 module](https://raw.githubusercontent.com/someonelikeTIM/all-the-plugins/main/plugins/vst3/win-x64/ATP%20De-Esser.vst3/Contents/x86_64-win/ATP%20De-Esser.vst3).
+
+# Downloads
+---
+| Platform | Format | Download |
+| --- | --- | --- |
+| Windows | VST3 | [Download](https://raw.githubusercontent.com/someonelikeTIM/all-the-plugins/main/downloads/windows/ATP-De-Esser-Windows-VST3.zip) |
 
 
 # Install and use
 ---
-Download the repository ZIP and copy the complete `plugins/vst3/win-x64/ATP De-Esser.vst3` folder into `%LOCALAPPDATA%\Programs\Common\VST3` or your system VST3 folder, then rescan your host. Requires Windows 10 or later and a Windows x64 VST3 host. The bundle contains one x64 VST3 module and uses Windows system libraries; no separate SDK or runtime installation is needed.
+**Windows:** Extract the Windows ZIP and copy the complete `ATP De-Esser.vst3` folder into `%LOCALAPPDATA%\Programs\Common\VST3` or your system VST3 folder, then rescan your host. Requires Windows 10 or later and a Windows x64 VST3 host. The bundle contains one x64 VST3 module and uses Windows system libraries; no separate SDK or runtime installation is needed.
 
 | Control | Behavior |
 | --- | --- |

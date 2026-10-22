@@ -1,6 +1,6 @@
-# ATP Oui-Q 0.1.1
+# ATP Oui-Q
 ---
-Windows x64 VST3 three-band character equalizer and drive, with direct rotary controls and an independently drawn editor.
+Three-band character equalization and drive with direct rotary controls.
 
 **Inspired by:** Soundtoys Sie-Q
 
@@ -9,18 +9,14 @@ Windows x64 VST3 three-band character equalizer and drive, with direct rotary co
 
 # Downloads
 ---
-Choose the file for your operating system, plugin format, and processor architecture.
-
-| Platform | Format | Architecture | Version | Minimum OS | Download |
-| --- | --- | --- | --- | --- | --- |
-| Windows | VST3 | x64 | 0.1.1 | Windows 10 | [Download the VST3 module](https://raw.githubusercontent.com/someonelikeTIM/all-the-plugins/main/plugins/vst3/win-x64/ATP%20Oui-Q.vst3/Contents/x86_64-win/ATP%20Oui-Q.vst3). |
+| Platform | Format | Download |
+| --- | --- | --- |
+| Windows | VST3 | [Download](https://raw.githubusercontent.com/someonelikeTIM/all-the-plugins/main/downloads/windows/ATP-Oui-Q-Windows-VST3.zip) |
 
 
 # Install and use
 ---
-**Windows:** Download the repository ZIP and copy the complete `plugins/vst3/win-x64/ATP Oui-Q.vst3` folder into `%LOCALAPPDATA%\Programs\Common\VST3` or your system VST3 folder, then rescan your host. Requires Windows 10 or later, a Windows x64 VST3 host, and a supported sample rate of 44.1, 48, 88.2, 96, 176.4 or 192 kHz. The bundle contains one x64 VST3 module and uses Windows system libraries; no separate SDK or runtime installation is needed.
-
-**macOS:** Mac VST3 and Audio Unit (AU) builds are not yet available.
+**Windows:** Extract the Windows ZIP and copy the complete `ATP Oui-Q.vst3` folder into `%LOCALAPPDATA%\Programs\Common\VST3` or your system VST3 folder, then rescan your host. Requires Windows 10 or later, a Windows x64 VST3 host, and a supported sample rate of 44.1, 48, 88.2, 96, 176.4 or 192 kHz. The bundle contains one x64 VST3 module and uses Windows system libraries; no separate SDK or runtime installation is needed.
 
 | Control | Behavior |
 | --- | --- |

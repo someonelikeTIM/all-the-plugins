@@ -1,43 +1,43 @@
 # All the Plugins
 ---
-Downloadable audio plugins for Windows x64 VST3 hosts.
+Choose a plugin to see its available downloads and installation instructions.
 
 
 # Downloads
 ---
 | Plugin |
 | --- |
-| [ATP Stereo Loner 0.1.0](ATP-STEREO-LONER.md) |
-| [ATP Broom Service 0.1.2](ATP-BROOM-SERVICE.md) |
-| [ATP Metronome 0.1.1](ATP-METRONOME.md) |
-| [ATP Relay Utility 0.1.0](ATP-RELAY-UTILITY.md) |
-| [ATP Dyno Mite 0.1.0](ATP-DYNO-MITE.md) |
-| [ATP Tilt Nouveau 0.1.1](ATP-TILT-NOUVEAU.md) |
-| [ATP Fusion Stereo Image 0.1.0](ATP-FUSION-STEREO-IMAGE.md) |
-| [ATP Lookahead Compressor 0.1.0](ATP-LOOKAHEAD-COMPRESSOR.md) |
-| [ATP Sub Sifter 0.1.2](ATP-SUB-SIFTER.md) |
-| [ATP Phase Align 0.1.1](ATP-PHASE-ALIGN.md) |
-| [ATP Violet EQ 0.1.1](ATP-VIOLET-EQ.md) |
-| [ATP Nano Drift 0.1.1](ATP-NANO-DRIFT.md) |
-| [ATP Tremolo Panner 0.1.0](ATP-TREMOLO-PANNER.md) |
-| [ATP De-Esser 0.1.0](ATP-DE-ESSER.md) |
-| [ATP Free Ranger 0.1.0](ATP-FREE-RANGER.md) |
-| [ATP I Heart NY 0.1.0](ATP-I-HEART-NY.md) |
-| [ATP Demon Lock 0.1.0](ATP-DEMON-LOCK.md) |
-| [ATP FetSnap 0.1.0](ATP-FETSNAP.md) |
-| [ATP Mastering EQ 0.1.0](ATP-MASTERING-EQ.md) |
-| [ATP dB Comp 0.1.0](ATP-DB-COMP.md) |
-| [ATP Second Breath 0.1.1](ATP-SECOND-BREATH.md) |
-| [ATP Tiny Toaster 0.1.1](ATP-TINY-TOASTER.md) |
-| [ATP LOADES 0.1.0](ATP-LOADES.md) |
-| [ATP PreBOX 0.1.0](ATP-PREBOX.md) |
-| [ATP Vocal Intensity 0.1.0](ATP-VOCAL-INTENSITY.md) |
-| [ATP Oui-Q 0.1.1](ATP-OUI-Q.md) |
+| [ATP Stereo Loner](ATP-STEREO-LONER.md) |
+| [ATP Broom Service](ATP-BROOM-SERVICE.md) |
+| [ATP Metronome](ATP-METRONOME.md) |
+| [ATP Relay Utility](ATP-RELAY-UTILITY.md) |
+| [ATP Dyno Mite](ATP-DYNO-MITE.md) |
+| [ATP Tilt Nouveau](ATP-TILT-NOUVEAU.md) |
+| [ATP Fusion Stereo Image](ATP-FUSION-STEREO-IMAGE.md) |
+| [ATP Lookahead Compressor](ATP-LOOKAHEAD-COMPRESSOR.md) |
+| [ATP Sub Sifter](ATP-SUB-SIFTER.md) |
+| [ATP Phase Align](ATP-PHASE-ALIGN.md) |
+| [ATP Violet EQ](ATP-VIOLET-EQ.md) |
+| [ATP Nano Drift](ATP-NANO-DRIFT.md) |
+| [ATP Tremolo Panner](ATP-TREMOLO-PANNER.md) |
+| [ATP De-Esser](ATP-DE-ESSER.md) |
+| [ATP Free Ranger](ATP-FREE-RANGER.md) |
+| [ATP I Heart NY](ATP-I-HEART-NY.md) |
+| [ATP Demon Lock](ATP-DEMON-LOCK.md) |
+| [ATP FetSnap](ATP-FETSNAP.md) |
+| [ATP Mastering EQ](ATP-MASTERING-EQ.md) |
+| [ATP dB Comp](ATP-DB-COMP.md) |
+| [ATP Second Breath](ATP-SECOND-BREATH.md) |
+| [ATP Tiny Toaster](ATP-TINY-TOASTER.md) |
+| [ATP LOADES](ATP-LOADES.md) |
+| [ATP PreBOX](ATP-PREBOX.md) |
+| [ATP Vocal Intensity](ATP-VOCAL-INTENSITY.md) |
+| [ATP Oui-Q](ATP-OUI-Q.md) |
 
 
 # Install
 ---
-Download and extract the repository ZIP. Copy the complete plugin's `.vst3` folder from `plugins/vst3/win-x64/` into `%LOCALAPPDATA%\Programs\Common\VST3` or your system VST3 folder, then rescan your host. See each plugin's page for requirements and controls.
+Download the individual plugin ZIP from its page and extract it. Follow that page's instructions for your operating system and plugin format, then rescan your host.
 
 
 # License
