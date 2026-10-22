@@ -1,6 +1,6 @@
-# ATP Phase Align 0.1.0
+# ATP Phase Align 0.1.1
 ---
-Windows x64 VST3 functional reconstruction of X-Phase's stereo delay and all-pass alignment controls, with an independent plugin identity and editor. It contains no original vendor executable or artwork and is not affiliated with Solid State Logic.
+Windows x64 VST3 functional reconstruction of X-Phase's delay and all-pass alignment controls, with an independent plugin identity and editor. It contains no original vendor executable or artwork and is not affiliated with Solid State Logic.
 
 ![ATP Phase Align editor](screenshots/ATP-Phase-Align.png)
 
@@ -13,25 +13,25 @@ Download the repository ZIP and copy the complete `plugins/vst3/win-x64/ATP Phas
 
 | Control | Behavior |
 | --- | --- |
-| Input gain dB | Common stereo input gain from -42 to 0 dB, rounded to 0.1 dB and transitioned over 3 ms. |
-| Output gain dB | Common stereo output gain from -42 to 0 dB, rounded to 0.1 dB and transitioned over 3 ms. |
-| Left delay ms | Left-channel delay time from 0 to 2000 ms; time changes crossfade between delay heads. |
+| Input gain dB | Common input gain from -42 to 0 dB, rounded to 0.1 dB and transitioned over 3 ms. |
+| Output gain dB | Common output gain from -42 to 0 dB, rounded to 0.1 dB and transitioned over 3 ms. |
+| Left delay ms | Left or mono delay time from 0 to 2000 ms; time changes crossfade between delay heads. |
 | Right delay ms | Right-channel delay time from 0 to 2000 ms; time changes crossfade between delay heads. |
-| Left frequency Hz | Left all-pass frequency from 20 to 20480 Hz on a logarithmic control, rounded to 0.1 Hz. |
+| Left frequency Hz | Left or mono all-pass frequency from 20 to 20480 Hz on a logarithmic control, rounded to 0.1 Hz. |
 | Right frequency Hz | Right all-pass frequency from 20 to 20480 Hz on a logarithmic control, rounded to 0.1 Hz. |
-| Left Q | Left second-order all-pass Q from 0.01 to 100 on a logarithmic control, rounded to 0.001. |
+| Left Q | Left or mono second-order all-pass Q from 0.01 to 100 on a logarithmic control, rounded to 0.001. |
 | Right Q | Right second-order all-pass Q from 0.01 to 100 on a logarithmic control, rounded to 0.001. |
-| Left delay enabled | Blends the left delay path on or off over 100 ms. |
+| Left delay enabled | Blends the left or mono delay path on or off over 100 ms. |
 | Right delay enabled | Blends the right delay path on or off over 100 ms. |
-| Left all-pass enabled | Enables the left all-pass path through a short transition. |
+| Left all-pass enabled | Enables the left or mono all-pass path through a short transition. |
 | Right all-pass enabled | Enables the right all-pass path through a short transition. |
-| Invert left | Inverts left-channel polarity within the enabled all-pass path; it is neutral while that all-pass path is disabled. |
+| Invert left | Inverts left or mono polarity within the enabled all-pass path; it is neutral while that all-pass path is disabled. |
 | Invert right | Inverts right-channel polarity within the enabled all-pass path; it is neutral while that all-pass path is disabled. |
-| Second order left | Selects order 2 when on and order 1 when off for the left all-pass filter. |
+| Second order left | Selects order 2 when on and order 1 when off for the left or mono all-pass filter. |
 | Second order right | Selects order 2 when on and order 1 when off for the right all-pass filter. |
-| Bypass | Selects the unprocessed dry stereo signal through a 3 ms transition. |
+| Bypass | Selects the unprocessed dry signal through a 3 ms transition. |
 
-Insert on a stereo track. Edit numeric values, then press APPLY; click a switch to toggle it. Defaults are 0 dB input and output gain, 1000 ms left and right delay, 500 Hz and Q 1.3 for both all-pass filters, delays off, all-pass filters on, polarity inversion off, second-order processing selected and Bypass off. Supports 32-bit stereo audio at sample rates from 44.1 to 384 kHz and reports zero latency.
+Insert on a mono or stereo track. Edit numeric values, then press APPLY; click a switch to toggle it. Defaults are 0 dB input and output gain, 1000 ms left and right delay, 500 Hz and Q 1.3 for both all-pass filters, delays off, all-pass filters on, polarity inversion off, second-order processing selected and Bypass off. Supports 32-bit mono-to-mono, mono-to-stereo and stereo-to-stereo audio at sample rates from 44.1 to 384 kHz and reports zero latency. Mono routes use the left delay and all-pass controls; a stereo output receives the same processed mono signal on both channels.
 
 
 # License
