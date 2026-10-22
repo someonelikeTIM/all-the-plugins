@@ -20,6 +20,7 @@ Downloadable audio plugins for Windows x64 VST3 hosts.
 | [ATP Violet EQ 0.1.0](ATP-VIOLET-EQ.md) | SSL Fusion Violet EQ |
 | [ATP Micro Glide 0.1.0](ATP-MICRO-GLIDE.md) | Harrison Micro Glide |
 | [ATP Tremolo Panner 0.1.0](ATP-TREMOLO-PANNER.md) | Harrison Tremolo Panner |
+| [ATP De-Esser 0.1.0](ATP-DE-ESSER.md) | Harrison De-Esser |
 
 
 # Install
