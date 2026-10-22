@@ -23,6 +23,7 @@ Downloadable audio plugins for Windows x64 VST3 hosts.
 | [ATP De-Esser 0.1.0](ATP-DE-ESSER.md) | Harrison De-Esser |
 | [ATP Free Ranger 0.1.0](ATP-FREE-RANGER.md) | SPL Free Ranger |
 | [ATP I Heart NY 0.1.0](ATP-I-HEART-NY.md) | BABY Audio I Heart NY |
+| [ATP Devil Loc 0.1.0](ATP-DEVIL-LOC.md) | Soundtoys Devil-Loc |
 
 
 # Install
