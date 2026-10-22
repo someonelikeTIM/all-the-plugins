@@ -30,6 +30,7 @@ Downloadable audio plugins for Windows x64 VST3 hosts.
 | [ATP ReLife 0.1.0](ATP-RELIFE.md) | Analog Obsession ReLife |
 | [ATP Little Radiator 0.1.0](ATP-LITTLE-RADIATOR.md) | Soundtoys Little Radiator |
 | [ATP LOADES 0.1.0](ATP-LOADES.md) | Analog Obsession LOADES |
+| [ATP PreBOX 0.1.0](ATP-PREBOX.md) | Analog Obsession PreBOX |
 
 
 # Install
