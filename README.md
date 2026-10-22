@@ -8,7 +8,7 @@ Downloadable audio plugins for Windows x64 VST3 hosts.
 | Plugin |
 | --- |
 | [ATP Stereo Loner 0.1.0](ATP-STEREO-LONER.md) |
-| [ATP Clean Sweep 0.1.1](ATP-CLEAN-SWEEP.md) |
+| [ATP Broom Service 0.1.2](ATP-BROOM-SERVICE.md) |
 | [ATP Metronome 0.1.1](ATP-METRONOME.md) |
 | [ATP Relay Utility 0.1.0](ATP-RELAY-UTILITY.md) |
 | [ATP Dyno Mite 0.1.0](ATP-DYNO-MITE.md) |

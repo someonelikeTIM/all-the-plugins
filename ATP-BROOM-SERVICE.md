@@ -1,26 +1,31 @@
-# ATP Clean Sweep 0.1.1
+# ATP Broom Service 0.1.2
 ---
-Windows x64 VST3 functional reconstruction of bx_cleansweep V2's audio controls, with an independent name, identity and editor. It contains no original vendor executable, artwork or activation system and is not affiliated with Brainworx or Plugin Alliance.
+A Windows x64 VST3 high-pass and low-pass filter with a coupled sweep joystick, input gain, polarity inversion, and an independently drawn editor.
 
-![ATP Clean Sweep editor](screenshots/ATP-Clean-Sweep.png)
+![ATP Broom Service editor](screenshots/ATP-Broom-Service.png)
 
-[Download the VST3 module](https://raw.githubusercontent.com/someonelikeTIM/all-the-plugins/main/plugins/vst3/win-x64/ATP%20Clean%20Sweep.vst3/Contents/x86_64-win/ATP%20Clean%20Sweep.vst3).
+[Download the VST3 module](https://raw.githubusercontent.com/someonelikeTIM/all-the-plugins/main/plugins/vst3/win-x64/ATP%20Broom%20Service.vst3/Contents/x86_64-win/ATP%20Broom%20Service.vst3).
 
 
 # Install and use
 ---
-Download the repository ZIP and copy the complete `plugins/vst3/win-x64/ATP Clean Sweep.vst3` folder into `%LOCALAPPDATA%\Programs\Common\VST3` or your system VST3 folder, then rescan your host. Windows 10/11 x64 with Universal C Runtime is required. The bundle contains one module, has no external sample or preset dependencies, and is unsigned.
+Download the repository ZIP and copy the complete `plugins/vst3/win-x64/ATP Broom Service.vst3` folder into `%LOCALAPPDATA%\Programs\Common\VST3` or your system VST3 folder, then rescan your host. Windows 10/11 x64 with Universal C Runtime is required. The bundle contains one module, has no external sample or preset dependencies, and is unsigned. When replacing a prior ATP build, remove its previous bundle before copying this one. Do not keep both builds installed: they share the same VST3 identity.
 
 | Control | Behavior |
 | --- | --- |
-| High-pass Hz | 20–11,000 Hz, logarithmic. |
-| Low-pass Hz | 20–22,000 Hz, logarithmic. |
-| Filter enable buttons | Independently enable each first-order, nominal 6 dB/octave filter. |
-| Input gain dB | Input level from -12 to +12 dB. |
-| Invert polarity | Reverses every processed channel. |
-| Bypass / Host bypass | Transparent bypass of the entire signal chain. |
+| High-pass rotary | 20–11,000 Hz, logarithmic. Drag vertically to adjust. |
+| Low-pass rotary | 20–22,000 Hz, logarithmic. Drag vertically to adjust. |
+| XY sweep joystick | Horizontal movement adjusts high-pass; upward movement increases low-pass. Click or drag to set both cutoffs immediately. |
+| HP / LP switches | Independently enable each first-order, nominal 6 dB/octave filter. |
+| Input gain rotary | Input level from -12 to +12 dB. |
+| Polarity switch | Reverses every processed channel. |
+| Bypass / Host bypass | Transparent bypass of the complete signal chain. |
+| Filter response graph | Calculated frequency response of the current filters and bypass state at the active sample rate; input gain is excluded. |
+| Output peak meter | Read-only post-processing output peak, the larger channel in stereo. Scale -60 to +6 dBFS, with short hold and 24 dB per second release. |
 
-Insert on a mono or stereo track. Type numeric values and click APPLY; click a switch to toggle it. Host parameters remain continuous and automatable. Default cutoffs are 20 Hz and 22 kHz with both filters enabled and 0 dB gain. Processing is zero-latency and supports 32-bit and 64-bit floating point at sample rates from 44.1 to 384 kHz.
+Insert on a mono or stereo track. Controls respond directly without text entry or APPLY. Shift or Ctrl gives fine rotary/joystick movement. Double-click or Alt-click a knob to reset it; double-click or Alt-click the joystick resets both cutoffs. The mouse wheel adjusts a knob, or the joystick's high-pass axis; Ctrl-wheel over the joystick adjusts low-pass and Shift makes the wheel finer.
+
+Tab moves focus. Arrow keys adjust a focused knob or the joystick axes; Shift/Ctrl gives fine keyboard steps. Page Up/Down gives larger knob steps, Home/End reaches bounds, and Enter/Space resets a knob or joystick. Enter/Space toggles a focused switch. Host automation and restored state refresh the editor automatically. Defaults are 20 Hz high-pass, 22 kHz low-pass, both filters enabled, and 0 dB input gain. Processing is zero-latency and supports 32-bit and 64-bit floating point at sample rates from 44.1 to 384 kHz.
 
 
 # License
