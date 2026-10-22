@@ -32,7 +32,7 @@ Downloadable audio plugins for Windows x64 VST3 hosts.
 | [ATP LOADES 0.1.0](ATP-LOADES.md) |
 | [ATP PreBOX 0.1.0](ATP-PREBOX.md) |
 | [ATP Vocal Intensity 0.1.0](ATP-VOCAL-INTENSITY.md) |
-| [ATP Sie-Q 0.1.0](ATP-SIE-Q.md) |
+| [ATP Oui-Q 0.1.1](ATP-OUI-Q.md) |
 
 
 # Install

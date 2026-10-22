@@ -1,26 +1,38 @@
-# ATP Sie-Q 0.1.0
+# ATP Oui-Q 0.1.1
 ---
-Windows x64 VST3 functional approximation of Sie-Q's broad three-band equalizer and drive controls, with an independent plugin identity and editor. It contains no original vendor executable or artwork and is not affiliated with Soundtoys.
+Windows x64 VST3 three-band character equalizer and drive, with direct rotary controls and an independently drawn editor.
 
-![ATP Sie-Q editor](screenshots/ATP-Sie-Q.png)
+![ATP Oui-Q editor](screenshots/ATP-Oui-Q.png)
 
-[Download the VST3 module](https://raw.githubusercontent.com/someonelikeTIM/all-the-plugins/main/plugins/vst3/win-x64/ATP%20Sie-Q.vst3/Contents/x86_64-win/ATP%20Sie-Q.vst3).
+
+# Downloads
+---
+Choose the file for your operating system, plugin format, and processor architecture.
+
+| Platform | Format | Architecture | Version | Minimum OS | Download |
+| --- | --- | --- | --- | --- | --- |
+| Windows | VST3 | x64 | 0.1.1 | Windows 10 | [Download the VST3 module](https://raw.githubusercontent.com/someonelikeTIM/all-the-plugins/main/plugins/vst3/win-x64/ATP%20Oui-Q.vst3/Contents/x86_64-win/ATP%20Oui-Q.vst3). |
 
 
 # Install and use
 ---
-Download the repository ZIP and copy the complete `plugins/vst3/win-x64/ATP Sie-Q.vst3` folder into `%LOCALAPPDATA%\Programs\Common\VST3` or your system VST3 folder, then rescan your host. Requires Windows 10 or later, a Windows x64 VST3 host, and a supported sample rate of 44.1, 48, 88.2, 96, 176.4 or 192 kHz. The bundle contains one x64 VST3 module and uses Windows system libraries; no separate SDK or runtime installation is needed.
+**Windows:** Download the repository ZIP and copy the complete `plugins/vst3/win-x64/ATP Oui-Q.vst3` folder into `%LOCALAPPDATA%\Programs\Common\VST3` or your system VST3 folder, then rescan your host. Requires Windows 10 or later, a Windows x64 VST3 host, and a supported sample rate of 44.1, 48, 88.2, 96, 176.4 or 192 kHz. The bundle contains one x64 VST3 module and uses Windows system libraries; no separate SDK or runtime installation is needed.
+
+**macOS:** Mac VST3 and Audio Unit (AU) builds are not yet available.
 
 | Control | Behavior |
 | --- | --- |
-| Bypass | Selects the latency-matched dry signal through a smooth transition. |
+| Host Bypass | Selects the latency-matched dry signal through a smooth transition. |
 | Low Gain (dB) | Broad low-band gain from -15 to +15 dB, processed on a 0.1 dB grid. |
 | Mid Gain (dB) | Mid-band gain from -8 to +8 dB, processed on a 0.1 dB grid. |
-| Mid Frequency (kHz) | Selects 0.7, 1.0, 1.5, 2.3, 3.5 or 5.6 kHz for the mid band. |
+| Mid Frequency rotary (kHz) | Selects 0.7, 1.0, 1.5, 2.3, 3.5 or 5.6 kHz for the mid band. |
 | High Gain (dB) | Broad high-band gain from -15 to +15 dB, processed on a 0.1 dB grid. |
 | Drive (dB) | Sets drive from -15 to +15 dB into the independently reconstructed asymmetric saturation path; changes are smoothed. |
 
-Insert on a mono or stereo track. Type Low Gain, Mid Gain, High Gain and Drive values in dB, then press APPLY; click Mid Frequency to select its next frequency or Bypass to toggle it. Defaults are 0 dB for every gain and drive control, 1.5 kHz Mid Frequency and Bypass off. Continuous controls use a 0.1 dB processing grid. Supports 32-bit mono and stereo audio at 44.1, 48, 88.2, 96, 176.4 and 192 kHz. Reported latency is 37 samples at 44.1 or 48 kHz, 67 samples at 88.2 or 96 kHz and 131 samples at 176.4 or 192 kHz.
+Insert on a mono or stereo track. Drag Low, Mid Gain, Mid Frequency, High and Drive vertically, or use the mouse wheel. Mid Frequency is a six-position rotary selector. Hold Shift or Ctrl for fine gain adjustment; double-click or Alt-click a knob to reset it. Tab moves focus in visual order; arrow and Page keys adjust, Home/End select the bounds, and Enter/Space reset a knob or toggle Host Bypass. Host automation and restored states update the controls automatically. Releasing, cancelling, losing capture or closing the editor ends the edit and retains the last chosen value. Defaults are 0 dB for every gain and drive control, 1.5 kHz Mid Frequency and Bypass off. Continuous controls use a 0.1 dB processing grid. Supports 32-bit mono and stereo audio at 44.1, 48, 88.2, 96, 176.4 and 192 kHz. Reported latency is 37 samples at 44.1 or 48 kHz, 67 samples at 88.2 or 96 kHz and 131 samples at 176.4 or 192 kHz.
+
+
+This renamed release retains the existing ATP processor identity and saved-state format. When replacing a prior ATP build, remove its previous bundle before copying this one. Do not keep both builds installed: they share the same VST3 identity.
 
 
 # License
