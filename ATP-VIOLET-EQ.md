@@ -1,4 +1,4 @@
-# ATP Violet EQ 0.1.0
+# ATP Violet EQ 0.1.1
 ---
 Windows x64 VST3 functional approximation of Fusion Violet EQ's high-pass and two-band shelving controls, with an independent plugin identity and editor. It contains no original vendor executable or artwork and is not affiliated with Solid State Logic.
 
@@ -9,11 +9,11 @@ Windows x64 VST3 functional approximation of Fusion Violet EQ's high-pass and tw
 
 # Install and use
 ---
-Download the repository ZIP and copy the complete `plugins/vst3/win-x64/ATP Violet EQ.vst3` folder into `%LOCALAPPDATA%\Programs\Common\VST3` or your system VST3 folder, then rescan your host. Requires Windows 10 or later, a Windows x64 VST3 host, and a supported sample rate of 44.1, 48, 88.2, 96, 176.4 or 192 kHz. The bundle contains one x64 VST3 module and uses Windows system libraries; no separate SDK or runtime installation is needed.
+Download the repository ZIP and copy the complete `plugins/vst3/win-x64/ATP Violet EQ.vst3` folder into `%LOCALAPPDATA%\Programs\Common\VST3` or your system VST3 folder, then rescan your host. Requires Windows 10 or later and a Windows x64 VST3 host. The bundle contains one x64 VST3 module and uses Windows system libraries; no separate SDK or runtime installation is needed.
 
 | Control | Behavior |
 | --- | --- |
-| Bypass | Selects the latency-matched dry stereo signal through a short transition. |
+| Bypass | Selects the latency-matched dry signal through a short transition. |
 | Input Trim (dB) | Input level from -12 to +12 dB, rounded to 0.1 dB. |
 | Output Trim (dB) | Output level from -12 to +12 dB, rounded to 0.1 dB. |
 | HPF (Hz) | Third-order high-pass filter with Off, 30, 40 and 50 Hz choices. |
@@ -23,7 +23,7 @@ Download the repository ZIP and copy the complete `plugins/vst3/win-x64/ATP Viol
 | High Gain (dB) | Nominal -9 to +9 dB high-shelf control with a stepped internal taper. |
 | High Cut-off (Hz) | Selects an 8, 12, 16 or 20 kHz high-shelf frequency. |
 
-Insert on a stereo track. Edit numeric values, then press APPLY; click a switch or stepped control to advance it. Defaults are 0 dB trims and shelf gains, HPF and FAT off, Low Cut-off 30 Hz, High Cut-off 16 kHz and Bypass off. Supports 32-bit and 64-bit stereo audio at 44.1, 48, 88.2, 96, 176.4 and 192 kHz. Reported latency is 57 samples at 44.1 kHz, 47 samples at 48 kHz and zero samples at the other supported rates.
+Insert on a mono or stereo track. Edit numeric values, then press APPLY; click a switch or stepped control to advance it. Defaults are 0 dB trims and shelf gains, HPF and FAT off, Low Cut-off 30 Hz, High Cut-off 16 kHz and Bypass off. Supports 32-bit and 64-bit mono-to-mono, mono-to-stereo and stereo-to-stereo audio at positive sample rates. Rates below 44.1 kHz intentionally produce silence; effect processing operates continuously from 44.1 kHz upward. A mono signal is sent identically to both channels when the host requests stereo output. Reported latency is 57 samples from 44.1 kHz to below 48 kHz, 47 samples from 48 kHz to below 88.2 kHz, and zero samples at 88.2 kHz and above.
 
 
 # License
