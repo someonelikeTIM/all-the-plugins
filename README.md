@@ -29,6 +29,7 @@ Downloadable audio plugins for Windows x64 VST3 hosts.
 | [ATP dB Comp 0.1.0](ATP-DB-COMP.md) | Analog Obsession dBComp |
 | [ATP ReLife 0.1.0](ATP-RELIFE.md) | Analog Obsession ReLife |
 | [ATP Little Radiator 0.1.0](ATP-LITTLE-RADIATOR.md) | Soundtoys Little Radiator |
+| [ATP LOADES 0.1.0](ATP-LOADES.md) | Analog Obsession LOADES |
 
 
 # Install
