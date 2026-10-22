@@ -1,25 +1,27 @@
-# ATP Micro Glide 0.1.0
+# ATP Nano Drift 0.1.1
 ---
-Windows x64 VST3 functional reconstruction of Harrison Micro Glide's dual-voice detune and delay widening effect, with an independent plugin identity and editor. It contains no original vendor executable or artwork and is not affiliated with Harrison Audio.
+Dual-voice detune and delay widening with a dry/wet mix and held comparison control. Independently implemented Windows x64 VST3 with an original ATP interface. No original vendor binary, artwork or licensing system is included.
 
-![ATP Micro Glide editor](screenshots/ATP-Micro-Glide.png)
+![ATP Nano Drift editor](screenshots/ATP-Nano-Drift.png)
 
-[Download the VST3 module](https://raw.githubusercontent.com/someonelikeTIM/all-the-plugins/main/plugins/vst3/win-x64/ATP%20Micro%20Glide.vst3/Contents/x86_64-win/ATP%20Micro%20Glide.vst3).
+[Download the VST3 module](https://raw.githubusercontent.com/someonelikeTIM/all-the-plugins/main/plugins/vst3/win-x64/ATP%20Nano%20Drift.vst3/Contents/x86_64-win/ATP%20Nano%20Drift.vst3).
 
 
 # Install and use
 ---
-Download the repository ZIP and copy the complete `plugins/vst3/win-x64/ATP Micro Glide.vst3` folder into `%LOCALAPPDATA%\Programs\Common\VST3` or your system VST3 folder, then rescan your host. Requires Windows 10 or later, a Windows x64 VST3 host, and a sample rate from 44.1 to 384 kHz. The bundle contains one x64 VST3 module and uses Windows system libraries; no separate SDK or runtime installation is needed.
+Download the repository ZIP and copy the complete `plugins/vst3/win-x64/ATP Nano Drift.vst3` folder into `%LOCALAPPDATA%\Programs\Common\VST3` or your system VST3 folder, then rescan your host. Requires Windows 10 or later, a Windows x64 VST3 host, and a sample rate from 44.1 to 384 kHz. The bundle contains one x64 VST3 module and uses Windows system libraries; no separate SDK or runtime installation is needed.
+
+When replacing a prior ATP build, remove its previous bundle before copying this one. Do not keep both builds installed: they share the same VST3 identity.
 
 | Control | Behavior |
 | --- | --- |
 | Detune (cents) | Sets the equal upward and downward pitch offset of the wet voices from 0.1 to 50 cents. |
 | Delay (ms) | Sets the wet-voice delay from 10 to 150 ms; the internal delay moves smoothly toward control changes. |
-| Mix (%) | Constant-power dry/wet blend from 0 to 100% with the original squared control taper. |
-| Bypass | Returns to the dry signal through the same smoothed constant-power blend. |
-| Momentary Bypass | Comparison bypass parameter. This independent editor toggles it on and off; click again to restore the wet blend. |
+| Mix (%) | Constant-power dry/wet blend from 0 to 100% with the preserved squared control taper. |
+| Host Bypass | Separate latching switch returning to the dry signal through the same smoothed constant-power blend. |
+| Hold to Compare | Press and hold to compare against the dry signal; release to restore the effect. Space or Enter works while this control has focus. |
 
-Insert on a mono or stereo track. Edit numeric values, then press APPLY; click a switch to toggle it. Defaults are 2 cents Detune, 40 ms Delay, 25% Mix, Bypass off and Momentary Bypass off. Supports 32-bit mono and stereo audio at sample rates from 44.1 to 384 kHz and reports zero latency.
+Insert on a mono or stereo track. Drag the Detune, Delay and Mix rotary knobs up or down for immediate adjustment. Hold Shift or Ctrl for fine control; use the mouse wheel or arrow keys to adjust, and double-click or Alt-click a knob to reset it. Tab moves keyboard focus. Mix retains its squared control taper, so the midpoint reads 25%. The separate Host Bypass switch latches; Hold to Compare is active only while held. Defaults are 2 cents Detune, 40 ms Delay, 25% Mix, Bypass off and Momentary Bypass off. Supports 32-bit mono and stereo audio at sample rates from 44.1 to 384 kHz and reports zero latency.
 
 
 # License

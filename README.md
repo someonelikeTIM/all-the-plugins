@@ -18,7 +18,7 @@ Downloadable audio plugins for Windows x64 VST3 hosts.
 | [ATP Sub Filter 0.1.1](ATP-SUB-FILTER.md) |
 | [ATP Phase Align 0.1.1](ATP-PHASE-ALIGN.md) |
 | [ATP Violet EQ 0.1.1](ATP-VIOLET-EQ.md) |
-| [ATP Micro Glide 0.1.0](ATP-MICRO-GLIDE.md) |
+| [ATP Nano Drift 0.1.1](ATP-NANO-DRIFT.md) |
 | [ATP Tremolo Panner 0.1.0](ATP-TREMOLO-PANNER.md) |
 | [ATP De-Esser 0.1.0](ATP-DE-ESSER.md) |
 | [ATP Free Ranger 0.1.0](ATP-FREE-RANGER.md) |
