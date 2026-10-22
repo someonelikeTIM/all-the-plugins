@@ -1,30 +1,43 @@
-# ATP ReLife 0.1.0
+# ATP Second Breath 0.1.1
 ---
-Windows x64 VST3 functional reconstruction of ReLife's input drive, Life restoration, Shape contour, parallel blend and output controls, with an independent plugin identity and editor. It contains no original vendor executable or artwork and is not affiliated with Analog Obsession.
+Windows x64 VST3 dynamic-restoration processor with input drive, Shape contour, Life intensity, parallel blend and output gain. Its independently drawn editor provides five direct rotary controls and an IN/OUT switch. It contains no original vendor executable, artwork or logo.
 
 **Inspired by:** Analog Obsession ReLife
 
-![ATP ReLife editor](screenshots/ATP-ReLife.png)
+![ATP Second Breath editor](screenshots/ATP-Second-Breath.png)
 
-[Download the VST3 module](https://raw.githubusercontent.com/someonelikeTIM/all-the-plugins/main/plugins/vst3/win-x64/ATP%20ReLife.vst3/Contents/x86_64-win/ATP%20ReLife.vst3).
+
+# Downloads
+---
+Choose the file for your operating system, plugin format, and processor architecture.
+
+| Platform | Format | Architecture | Version | Minimum OS | Download |
+| --- | --- | --- | --- | --- | --- |
+| Windows | VST3 | x64 | 0.1.1 | Windows 10 | [Download the VST3 module](https://raw.githubusercontent.com/someonelikeTIM/all-the-plugins/main/plugins/vst3/win-x64/ATP%20Second%20Breath.vst3/Contents/x86_64-win/ATP%20Second%20Breath.vst3). |
 
 
 # Install and use
 ---
-Download the repository ZIP and copy the complete `plugins/vst3/win-x64/ATP ReLife.vst3` folder into `%LOCALAPPDATA%\Programs\Common\VST3` or your system VST3 folder, then rescan your host. Requires Windows 10 or later and a Windows x64 VST3 host. The bundle contains one x64 VST3 module and uses Windows system libraries; no separate SDK or runtime installation is needed.
+**Windows:** Download the repository ZIP and copy the complete `plugins/vst3/win-x64/ATP Second Breath.vst3` folder into `%LOCALAPPDATA%\Programs\Common\VST3` or your system VST3 folder, then rescan your host. Requires Windows 10 or later and a Windows x64 VST3 host. The bundle contains one x64 VST3 module and uses Windows system libraries; no separate SDK or runtime installation is needed.
+
+**macOS:** Mac VST3 and Audio Unit (AU) builds are not yet available.
+
+When replacing a prior ATP build, remove its previous bundle before copying this one. Do not keep both builds installed: they share the same VST3 identity.
 
 | Control | Behavior |
 | --- | --- |
-| Life | Sets the restoration amount from 0% to 100%. |
 | Input | Input drive from -24 to +24 dB. The processed path compensates this gain so the control primarily changes drive and character. |
+| Shape | Dynamic frequency-contour amount from 0% to 100%. |
+| Life | Restoration amount from 0% to 100%. |
+| Mix | Blends input and processed paths from 0% to 100% processed, followed by Life/Shape compensation and Output gain. With 2x oversampling enabled, the input side is delayed by 64 samples to remain aligned. |
 | Output | Final output gain from -24 to +24 dB. |
-| Shape | Sets the dynamic frequency-contour amount from 0% to 100%. |
-| Mix | Parallel dry/processed blend from 0% dry to 100% processed. With Oversampling enabled, the dry side is delayed by 64 samples to remain aligned. |
-| Oversampling | Enables the 2x processing path and 64-sample latency. The plug-in asks the host to refresh delay compensation whenever effective latency changes; either bypass returns reported effective latency to zero. |
-| Host Bypass | VST3 host bypass. Returns immediate dry input, skips effect processing and reduces reported effective latency to zero. |
-| Effect Bypass | Controls ReLife's internal Bypass parameter. On selects immediate dry output and reduces reported effective latency to zero; off keeps the effect active. |
+| IN / OUT | IN keeps the effect active. OUT selects immediate dry output and zero effective latency. This is the existing automatable Effect Bypass parameter: off means IN, on means OUT. |
+| ATP 2x Oversampling | Enables this processor's 2x path. Effective latency is 64 samples while both bypasses are off; otherwise it is zero. The host is notified when oversampling or effective latency changes. |
+| Host Bypass | VST3 host bypass. On returns immediate dry input, skips effect processing and reports zero effective latency. |
 
-Insert on a mono or stereo track. Edit numeric values in their labeled percent or dB units, then press APPLY; click switches to toggle them. Defaults are 0% Life, 0 dB Input, 0 dB Output, 0% Shape, 100% Mix, Oversampling off, Host Bypass off and Effect Bypass off. Supports mono/stereo 32-bit and 64-bit audio. Oversampling reports 64 samples of latency while both bypasses are off and asks the host to refresh delay compensation whenever effective latency changes. Either bypass returns immediate dry output and reduces reported effective latency to zero.
+Drag a knob up or down for immediate adjustment. Hold Shift or Ctrl for fine control. Use the mouse wheel or arrow keys to adjust, Page Up/Down for larger steps, Home/End for bounds, and double-click, Enter, Space, Backspace or Delete to reset a knob. Tab follows the visual control order. Switches toggle on click release or Space/Enter. Host automation and restored state update the editor automatically.
+
+Defaults are 0 dB Input, 0% Shape, 0% Life, 100% Mix, 0 dB Output, IN, 2x oversampling off and Host Bypass off. Supports mono/stereo 32-bit and 64-bit audio. The plug-in identity, parameter IDs and state format remain compatible with the previous ATP release. Processing is unchanged at 22.05 kHz and higher, including all standard 44.1 kHz and higher rates. At very low sample rates, filter frequencies are limited to 98% of Nyquist to prevent instability. No sample-rate restriction is added.
 
 
 # License
