@@ -1,4 +1,4 @@
-# ATP Niveau Filter 0.1.0
+# ATP Niveau Filter 0.1.1
 ---
 Windows x64 VST3 functional reconstruction of Niveau Filter's tilt-EQ audio controls, with an independent plugin identity and editor. It contains no original vendor executable or artwork and is not affiliated with elysia or Plugin Alliance.
 
@@ -19,7 +19,7 @@ Download the repository ZIP and copy the complete `plugins/vst3/win-x64/ATP Nive
 | Base frequency Hz | Tilt center control from 26 to 2200 Hz with the measured nonlinear control mapping; x10 extends it to 260–22000 Hz. |
 | Bypass | Selects the delayed dry signal through the parameter transition. |
 
-Insert on a stereo track. Edit numeric values, then press APPLY; click a switch to toggle it. Defaults are neutral Tilt Gain, Active on, Base Frequency 230 Hz, x10 off and Bypass off. Supports 32-bit and 64-bit stereo audio at 44.1, 48, 64, 88.2, 96, 128, 176.4, 192, 256, 352.8 and 384 kHz. Other sample rates are unsupported. Reports 16 samples of latency; Active off and Bypass retain that delay.
+Insert on a mono or stereo track. Edit numeric values, then press APPLY; click a switch to toggle it. Defaults are neutral Tilt Gain, Active on, Base Frequency 230 Hz, x10 off and Bypass off. Supports 32-bit and 64-bit mono and stereo audio at 44.1, 48, 64, 88.2, 96, 128, 176.4, 192, 256, 352.8 and 384 kHz. Other sample rates are unsupported. Reports 16 samples of latency; Active off and Bypass retain that delay.
 
 
 # License
