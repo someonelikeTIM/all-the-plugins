@@ -23,7 +23,7 @@ Downloadable audio plugins for Windows x64 VST3 hosts.
 | [ATP De-Esser 0.1.0](ATP-DE-ESSER.md) |
 | [ATP Free Ranger 0.1.0](ATP-FREE-RANGER.md) |
 | [ATP I Heart NY 0.1.0](ATP-I-HEART-NY.md) |
-| [ATP Devil Loc 0.1.0](ATP-DEVIL-LOC.md) |
+| [ATP Demon Lock 0.1.0](ATP-DEMON-LOCK.md) |
 | [ATP FetSnap 0.1.0](ATP-FETSNAP.md) |
 | [ATP Mastering EQ 0.1.0](ATP-MASTERING-EQ.md) |
 | [ATP dB Comp 0.1.0](ATP-DB-COMP.md) |
