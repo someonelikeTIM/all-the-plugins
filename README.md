@@ -15,7 +15,7 @@ Downloadable audio plugins for Windows x64 VST3 hosts.
 | [ATP Tilt Nouveau 0.1.1](ATP-TILT-NOUVEAU.md) |
 | [ATP Fusion Stereo Image 0.1.0](ATP-FUSION-STEREO-IMAGE.md) |
 | [ATP Lookahead Compressor 0.1.0](ATP-LOOKAHEAD-COMPRESSOR.md) |
-| [ATP Sub Filter 0.1.1](ATP-SUB-FILTER.md) |
+| [ATP Sub Sifter 0.1.2](ATP-SUB-SIFTER.md) |
 | [ATP Phase Align 0.1.1](ATP-PHASE-ALIGN.md) |
 | [ATP Violet EQ 0.1.1](ATP-VIOLET-EQ.md) |
 | [ATP Nano Drift 0.1.1](ATP-NANO-DRIFT.md) |

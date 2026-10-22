@@ -1,27 +1,30 @@
-# ATP Sub Filter 0.1.1
+# ATP Sub Sifter 0.1.2
 ---
-Windows x64 VST3 functional reconstruction of bx_subfilter's bass-shaping audio controls, with an independent plugin identity and editor. It contains no original vendor executable or artwork and is not affiliated with Brainworx or Plugin Alliance.
+Windows x64 VST3 bass-shaping filter with four direct rotary controls, a three-position resonance selector and stereo RMS metering. It uses independent DSP, artwork and plugin branding.
 
-![ATP Sub Filter editor](screenshots/ATP-Sub-Filter.png)
+![ATP Sub Sifter editor](screenshots/ATP-Sub-Sifter.png)
 
-[Download the VST3 module](https://raw.githubusercontent.com/someonelikeTIM/all-the-plugins/main/plugins/vst3/win-x64/ATP%20Sub%20Filter.vst3/Contents/x86_64-win/ATP%20Sub%20Filter.vst3).
+[Download the VST3 module](https://raw.githubusercontent.com/someonelikeTIM/all-the-plugins/main/plugins/vst3/win-x64/ATP%20Sub%20Sifter.vst3/Contents/x86_64-win/ATP%20Sub%20Sifter.vst3).
 
 
 # Install and use
 ---
-Download the repository ZIP and copy the complete `plugins/vst3/win-x64/ATP Sub Filter.vst3` folder into `%LOCALAPPDATA%\Programs\Common\VST3` or your system VST3 folder, then rescan your host. Requires Windows 10 or later and a Windows x64 VST3 host. The bundle contains one x64 VST3 module and uses Windows system libraries; no separate SDK or runtime installation is needed.
+Download the repository ZIP and copy the complete `plugins/vst3/win-x64/ATP Sub Sifter.vst3` folder into `%LOCALAPPDATA%\Programs\Common\VST3` or your system VST3 folder, then rescan your host. Requires Windows 10 or later and a Windows x64 VST3 host. The bundle contains one x64 VST3 module and uses Windows system libraries; no separate SDK or runtime installation is needed.
+
+When replacing a prior ATP build, remove its previous bundle before copying this one. Do not keep both builds installed: they share the same VST3 identity.
 
 | Control | Behavior |
 | --- | --- |
-| Effect Bypass | Selects the unprocessed input, including bypassing both gain controls. |
-| Input Gain | Input level from -20 to +20 dB. |
-| Tight Punch Hz (0 = Off) | Resonant high-pass filter. Enter 0 for Off; values above 20 through 90 set its frequency in Hz. |
-| Resonance | Cycles Low, High and Extreme resonant filter modes. |
-| Low End | Nominal -10 to +10 bass-shaping control. Negative settings cut and positive settings boost; zero is neutral. This is a shaping scale rather than a calibrated dB value. |
-| Output Gain | Output level from -20 to +20 dB. |
-| Host Bypass | VST3 host bypass. Either bypass switch selects the unprocessed input. |
+| Effect Bypass switch | Selects the unprocessed input, including bypassing both gain controls. |
+| Input Gain knob | Input level from -20 to +20 dB. |
+| Tight Punch knob | Resonant high-pass filter. Fully counterclockwise switches it Off; turn clockwise for frequencies from just above 20 through 90 Hz. |
+| Resonance selector | Three horizontal positions select Low, High and Extreme resonant filter modes. |
+| Low End knob | Nominal -10 to +10 bass-shaping control. Negative settings cut and positive settings boost; zero is neutral. This is a shaping scale rather than a calibrated dB value. |
+| Output Gain knob | Output level from -20 to +20 dB. |
+| Host Bypass switch | VST3 host bypass. Either bypass switch selects the unprocessed input. |
+| Input / Output meters | Stereo horizontal RMS meters show unprocessed input and processed output from -40 to 0 dBFS. |
 
-Insert on a mono or stereo track. Edit numeric values, then press APPLY; click a bypass switch to toggle it, or click Resonance to cycle modes. Defaults are 0 dB input and output gain, Tight Punch off, High resonance, Low End at zero and both bypasses off. Supports 32-bit mono and stereo audio, including sample rates from 44.1 to 384 kHz, with no reported latency. Control changes use short smoothed transitions.
+Insert on a mono or stereo track. Drag the four rotary knobs or use the mouse wheel and arrow keys. Hold Shift or Ctrl for fine adjustment; double-click or Alt-click a knob to reset it. Click or drag the horizontal Resonance selector to Low, High or Extreme. Click the separate Effect and Host bypass switches to toggle them. Input and output stereo RMS meters show actual signal levels from -40 to 0 dBFS with smooth decay. Defaults are 0 dB input and output gain, Tight Punch off, High resonance, Low End at zero and both bypasses off. Supports 32-bit mono and stereo audio, including sample rates from 44.1 to 384 kHz, with no reported latency. Control changes use short smoothed transitions.
 
 
 # License
