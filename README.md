@@ -8,7 +8,7 @@ Downloadable audio plugins for Windows x64 VST3 hosts.
 | Plugin | Based on |
 | --- | --- |
 | [ATP Stereo Solo 0.1.0](ATP-STEREO-SOLO.md) | bx_solo |
-| [ATP Clean Sweep 0.1.0](ATP-CLEAN-SWEEP.md) | bx_cleansweep V2 |
+| [ATP Clean Sweep 0.1.1](ATP-CLEAN-SWEEP.md) | bx_cleansweep V2 |
 | [ATP Metronome 0.1.1](ATP-METRONOME.md) | standalone Metronome |
 | [ATP Relay Utility 0.1.0](ATP-RELAY-UTILITY.md) | Relay |
 | [ATP Dyno Mite 0.1.0](ATP-DYNO-MITE.md) | Harrison Dyno Mite |
