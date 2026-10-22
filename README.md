@@ -28,6 +28,7 @@ Downloadable audio plugins for Windows x64 VST3 hosts.
 | [ATP Mastering EQ 0.1.0](ATP-MASTERING-EQ.md) | Harrison Mastering EQ |
 | [ATP dB Comp 0.1.0](ATP-DB-COMP.md) | Analog Obsession dBComp |
 | [ATP ReLife 0.1.0](ATP-RELIFE.md) | Analog Obsession ReLife |
+| [ATP Little Radiator 0.1.0](ATP-LITTLE-RADIATOR.md) | Soundtoys Little Radiator |
 
 
 # Install
