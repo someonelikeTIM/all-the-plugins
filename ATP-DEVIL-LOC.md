@@ -17,7 +17,7 @@ Download the repository ZIP and copy the complete `plugins/vst3/win-x64/ATP Devi
 | Crunch | Sets nonlinear transfer drive from 0.0 to 10.0. Processing rounds the value to the nearest 0.1. |
 | Bypass | Crossfades between the processed output and latency-aligned dry audio. |
 
-Insert on a mono or stereo track. Edit a numeric value, then press APPLY; click Bypass to toggle it. Defaults are Crush 1.0, Crunch 1.0 and Bypass off. Supports 32-bit mono and stereo audio. Reported latency is 48 samples at 44.1 and 48 kHz, 80 samples at 88.2 and 96 kHz, and 142 samples at 176.4 and 192 kHz.
+Insert on a mono or stereo track. Drag Crush or Crunch up/down for immediate adjustment; hold Shift for fine control. Use the wheel or arrow keys to adjust, or double-click to reset a knob to its default. Click Bypass to toggle it. Defaults are Crush 1.0, Crunch 1.0 and Bypass off. Supports 32-bit mono and stereo audio. Reported latency is 48 samples at 44.1 and 48 kHz, 80 samples at 88.2 and 96 kHz, and 142 samples at 176.4 and 192 kHz.
 
 
 # License
