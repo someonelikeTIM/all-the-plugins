@@ -2,6 +2,8 @@
 ---
 Windows x64 VST3 bass-shaping filter with four direct rotary controls, a three-position resonance selector and stereo RMS metering. It uses independent DSP, artwork and plugin branding.
 
+**Inspired by:** bx_subfilter
+
 ![ATP Sub Sifter editor](screenshots/ATP-Sub-Sifter.png)
 
 [Download the VST3 module](https://raw.githubusercontent.com/someonelikeTIM/all-the-plugins/main/plugins/vst3/win-x64/ATP%20Sub%20Sifter.vst3/Contents/x86_64-win/ATP%20Sub%20Sifter.vst3).

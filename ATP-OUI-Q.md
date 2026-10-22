@@ -2,6 +2,8 @@
 ---
 Windows x64 VST3 three-band character equalizer and drive, with direct rotary controls and an independently drawn editor.
 
+**Inspired by:** Soundtoys Sie-Q
+
 ![ATP Oui-Q editor](screenshots/ATP-Oui-Q.png)
 
 

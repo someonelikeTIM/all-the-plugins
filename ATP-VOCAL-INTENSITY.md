@@ -2,6 +2,8 @@
 ---
 Windows x64 VST3 functional reconstruction of Vocal Intensity Processor's drive, automatic leveling, high-pass, low-pass and bright-shaping controls, with an independent plugin identity and editor. It contains no original vendor executable or artwork and is not affiliated with Harrison Audio.
 
+**Inspired by:** Harrison Vocal Intensity Processor
+
 ![ATP Vocal Intensity editor](screenshots/ATP-Vocal-Intensity.png)
 
 [Download the VST3 module](https://raw.githubusercontent.com/someonelikeTIM/all-the-plugins/main/plugins/vst3/win-x64/ATP%20Vocal%20Intensity.vst3/Contents/x86_64-win/ATP%20Vocal%20Intensity.vst3).

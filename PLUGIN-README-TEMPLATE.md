@@ -2,6 +2,8 @@
 ---
 {{PLATFORM_AND_FORMAT}} functional reconstruction of {{ORIGINAL_PLUGIN}}'s audio controls, with an independent name, identity and editor. It contains no original vendor executable, artwork or activation system and is not affiliated with {{ORIGINAL_VENDOR}}.
 
+**Inspired by:** {{ORIGINAL_PLUGIN}}
+
 ![{{PLUGIN_NAME}} editor](screenshots/{{SCREENSHOT_FILENAME}})
 
 

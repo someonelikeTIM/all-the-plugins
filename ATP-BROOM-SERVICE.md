@@ -2,6 +2,8 @@
 ---
 A Windows x64 VST3 high-pass and low-pass filter with a coupled sweep joystick, input gain, polarity inversion, and an independently drawn editor.
 
+**Inspired by:** bx_cleansweep V2
+
 ![ATP Broom Service editor](screenshots/ATP-Broom-Service.png)
 
 [Download the VST3 module](https://raw.githubusercontent.com/someonelikeTIM/all-the-plugins/main/plugins/vst3/win-x64/ATP%20Broom%20Service.vst3/Contents/x86_64-win/ATP%20Broom%20Service.vst3).

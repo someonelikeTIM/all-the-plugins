@@ -2,6 +2,8 @@
 ---
 Tube-style saturation with Heat, Mix, Bias and Noise controls. Independently implemented Windows x64 VST3 with an original ATP interface. No original vendor binary, artwork or licensing system is included.
 
+**Inspired by:** Soundtoys Little Radiator
+
 ![ATP Tiny Toaster editor](screenshots/ATP-Tiny-Toaster.png)
 
 [Download the VST3 module](https://raw.githubusercontent.com/someonelikeTIM/all-the-plugins/main/plugins/vst3/win-x64/ATP%20Tiny%20Toaster.vst3/Contents/x86_64-win/ATP%20Tiny%20Toaster.vst3).

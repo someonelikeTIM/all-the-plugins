@@ -2,6 +2,8 @@
 ---
 Tilt equalization with frequency, gain and range controls. Independently implemented Windows x64 VST3 with an original ATP interface. No original vendor binary, artwork or licensing system is included.
 
+**Inspired by:** elysia niveau filter
+
 ![ATP Tilt Nouveau editor](screenshots/ATP-Tilt-Nouveau.png)
 
 [Download the VST3 module](https://raw.githubusercontent.com/someonelikeTIM/all-the-plugins/main/plugins/vst3/win-x64/ATP%20Tilt%20Nouveau.vst3/Contents/x86_64-win/ATP%20Tilt%20Nouveau.vst3).

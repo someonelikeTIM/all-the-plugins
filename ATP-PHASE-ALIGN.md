@@ -2,6 +2,8 @@
 ---
 Windows x64 VST3 functional reconstruction of X-Phase's delay and all-pass alignment controls, with an independent plugin identity and editor. It contains no original vendor executable or artwork and is not affiliated with Solid State Logic.
 
+**Inspired by:** SSL Native X-Phase
+
 ![ATP Phase Align editor](screenshots/ATP-Phase-Align.png)
 
 [Download the VST3 module](https://raw.githubusercontent.com/someonelikeTIM/all-the-plugins/main/plugins/vst3/win-x64/ATP%20Phase%20Align.vst3/Contents/x86_64-win/ATP%20Phase%20Align.vst3).

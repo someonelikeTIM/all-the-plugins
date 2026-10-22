@@ -2,6 +2,8 @@
 ---
 Windows x64 VST3 functional reconstruction of Harrison Lookahead Compressor's audio controls, with an independent plugin identity and editor. It contains no original vendor executable or artwork and is not affiliated with Harrison Audio.
 
+**Inspired by:** Harrison Lookahead Compressor
+
 ![ATP Lookahead Compressor editor](screenshots/ATP-Lookahead-Compressor.png)
 
 [Download the VST3 module](https://raw.githubusercontent.com/someonelikeTIM/all-the-plugins/main/plugins/vst3/win-x64/ATP%20Lookahead%20Compressor.vst3/Contents/x86_64-win/ATP%20Lookahead%20Compressor.vst3).

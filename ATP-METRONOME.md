@@ -2,6 +2,8 @@
 ---
 Windows x64 VST3 reconstruction of the standalone Metronome's transport and audio controls, with independently synthesized clicks and its own editor. The click sound differs from the original. It includes no original vendor sample material or artwork and is not affiliated with Steinberg.
 
+**Inspired by:** standalone Metronome
+
 ![ATP Metronome editor](screenshots/ATP-Metronome.png)
 
 [Download the VST3 module](https://raw.githubusercontent.com/someonelikeTIM/all-the-plugins/main/plugins/vst3/win-x64/ATP%20Metronome.vst3/Contents/x86_64-win/ATP%20Metronome.vst3).

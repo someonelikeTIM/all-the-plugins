@@ -2,6 +2,8 @@
 ---
 Windows x64 VST3 functional reconstruction of LOADES' linked de-essing detector, dynamic high shelf, Soft mode, release, parallel blend and gain controls, with an independent plugin identity and editor. It contains no original vendor executable or artwork and is not affiliated with Analog Obsession.
 
+**Inspired by:** Analog Obsession LOADES
+
 ![ATP LOADES editor](screenshots/ATP-LOADES.png)
 
 [Download the VST3 module](https://raw.githubusercontent.com/someonelikeTIM/all-the-plugins/main/plugins/vst3/win-x64/ATP%20LOADES.vst3/Contents/x86_64-win/ATP%20LOADES.vst3).
