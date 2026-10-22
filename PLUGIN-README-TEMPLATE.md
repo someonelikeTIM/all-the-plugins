@@ -4,12 +4,21 @@
 
 ![{{PLUGIN_NAME}} editor](screenshots/{{SCREENSHOT_FILENAME}})
 
-[Download the {{FORMAT}} module]({{DIRECT_DOWNLOAD_URL}}).
+
+# Downloads
+---
+Choose the file for your operating system, plugin format, and processor architecture.
+
+| Platform | Format | Architecture | Version | Minimum OS | Download |
+| --- | --- | --- | --- | --- | --- |
+| {{PLATFORM}} | {{FORMAT}} | {{ARCHITECTURE}} | {{BUILD_VERSION}} | {{MINIMUM_OS}} | [Download {{PLATFORM}} {{FORMAT}}]({{DOWNLOAD_URL}}) |
 
 
 # Install and use
 ---
-Download the repository ZIP and copy the complete `{{BUNDLE_PATH}}` folder into `{{USER_PLUGIN_FOLDER}}` or your system {{FORMAT}} folder, then rescan your host. {{SYSTEM_REQUIREMENTS}}. {{BUNDLE_CONTENTS_AND_DEPENDENCIES}}.
+**Windows:** {{WINDOWS_INSTALLATION_REQUIREMENTS_AND_DEPENDENCIES}}
+
+**macOS:** {{MACOS_INSTALLATION_REQUIREMENTS_AND_DEPENDENCIES}}
 
 | Control | Behavior |
 | --- | --- |
@@ -20,7 +29,7 @@ Download the repository ZIP and copy the complete `{{BUNDLE_PATH}}` folder into 
 
 # License
 ---
-This specific independently implemented binary is licensed under the MIT license reproduced below. The repository's existing GPL-3.0 license remains in place for repository material; it does not replace this binary's explicit license. Required bundled library notices are included in full below.
+Each independently implemented plugin build listed above is licensed under the MIT license reproduced below. The repository's existing GPL-3.0 license remains in place for repository material; it does not replace these builds' explicit license. Required bundled library notices are included in full below.
 
 Copyright (c) 2026 someonelikeTIM
 
