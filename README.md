@@ -18,6 +18,7 @@ Downloadable audio plugins for Windows x64 VST3 hosts.
 | [ATP Sub Filter 0.1.0](ATP-SUB-FILTER.md) | bx_subfilter |
 | [ATP Phase Align 0.1.0](ATP-PHASE-ALIGN.md) | SSL Native X-Phase |
 | [ATP Violet EQ 0.1.0](ATP-VIOLET-EQ.md) | SSL Fusion Violet EQ |
+| [ATP Micro Glide 0.1.0](ATP-MICRO-GLIDE.md) | Harrison Micro Glide |
 
 
 # Install
