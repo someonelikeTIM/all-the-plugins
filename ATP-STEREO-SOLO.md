@@ -15,7 +15,7 @@ Download the repository ZIP and copy the complete `plugins/vst3/win-x64/ATP Ster
 | --- | --- |
 | Swap L/R | Exchanges the processed stereo channels |
 | Left / Right / Mid / Side | Monitors the selected signal on both outputs; click it again to clear the selection |
-| Width | Cycles through Mono, 50%, 100%, 150%, 200%, 300% and 400% |
+| Width | Rotary control with Mono, 50%, 100%, 150%, 200%, 300% and 400% positions. Drag up/down; hold Shift for fine adjustment. Use the wheel or arrow keys to step, or double-click to reset to 100% |
 | Bypass | Passes input through unchanged |
 
 The editor selects one solo at a time. Default width is 100%; the host parameter list provides direct selection and automation. Routing is width → swap → solo. If host automation enables multiple solo flags, priority is Side, Mid, Right, Left. Mid is `(L+R)/2`; side is `(L-R)/2`, multiplied by the selected width. Width can increase peaks, and this utility does not limit or clip them. Processing is stereo, zero-latency, and supports 32/64-bit floating point.
