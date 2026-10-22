@@ -1,4 +1,4 @@
-# ATP Little Radiator 0.1.0
+# ATP Little Radiator 0.1.1
 ---
 Windows x64 VST3 functional reconstruction of Little Radiator's tube preamp saturation, dry/wet mix, bias and noise behavior, with an independent plugin identity and editor. It contains no original vendor executable or artwork and is not affiliated with Soundtoys.
 
@@ -13,13 +13,13 @@ Download the repository ZIP and copy the complete `plugins/vst3/win-x64/ATP Litt
 
 | Control | Behavior |
 | --- | --- |
-| Heat | Sets tube-stage drive from -15.00 to +15.00 dB. Processing rounds the value to the nearest 0.1 dB. |
-| Mix | Blends latency-aligned dry and saturated signals from 0.0 to 100.0%. |
+| Heat | Rotary knob sets tube-stage drive from -15.00 to +15.00 dB. Processing rounds the value to the nearest 0.1 dB. |
+| Mix | Rotary knob blends latency-aligned dry and saturated signals from 0.0 to 100.0%. |
 | Bias | Selects the alternate bias response and nonlinear transfer. |
 | Noise | Adds the modeled preamp noise path before saturation. |
 | Bypass | Crossfades to latency-aligned dry audio. |
 
-Insert on a mono or stereo track. Edit Heat or Mix, then press APPLY; click a switch to toggle it. Defaults are Heat 0.00 dB, Mix 100.0%, Bias off, Noise on and Bypass off. Supports 32-bit mono and stereo audio. Reported latency is 48 samples at 44.1 and 48 kHz, 82 samples at 88.2 and 96 kHz, and 142 samples at 176.4 and 192 kHz.
+Insert on a mono or stereo track. Drag Heat or Mix up or down; hold Shift for fine adjustment. Double-click a knob to reset it. The mouse wheel and arrow keys also adjust knobs, with Shift for fine changes. Home/End reach the endpoints; Enter or Space resets a knob. Click Noise, Bias or Bypass to toggle, or focus a switch and press Enter or Space. Tab moves between controls. Changes take effect immediately, and host automation or recalled settings update the display. Defaults are Heat 0.00 dB, Mix 100.0%, Bias off, Noise on and Bypass off. Supports 32-bit mono and stereo audio. Reported latency is 48 samples at 44.1 and 48 kHz, 82 samples at 88.2 and 96 kHz, and 142 samples at 176.4 and 192 kHz.
 
 
 # License
