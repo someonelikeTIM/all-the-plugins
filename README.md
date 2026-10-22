@@ -28,7 +28,7 @@ Downloadable audio plugins for Windows x64 VST3 hosts.
 | [ATP Mastering EQ 0.1.0](ATP-MASTERING-EQ.md) |
 | [ATP dB Comp 0.1.0](ATP-DB-COMP.md) |
 | [ATP ReLife 0.1.0](ATP-RELIFE.md) |
-| [ATP Little Radiator 0.1.0](ATP-LITTLE-RADIATOR.md) |
+| [ATP Tiny Toaster 0.1.1](ATP-TINY-TOASTER.md) |
 | [ATP LOADES 0.1.0](ATP-LOADES.md) |
 | [ATP PreBOX 0.1.0](ATP-PREBOX.md) |
 | [ATP Vocal Intensity 0.1.0](ATP-VOCAL-INTENSITY.md) |
