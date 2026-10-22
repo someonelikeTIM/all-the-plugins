@@ -13,13 +13,13 @@ Download the repository ZIP and copy the complete `plugins/vst3/win-x64/ATP Nive
 
 | Control | Behavior |
 | --- | --- |
-| Tilt gain dB | Nominal -6 to +6 dB tilt. Negative settings favor low frequencies; positive settings favor high frequencies. Zero is neutral. |
-| Active | Enables the EQ path. Off selects the delayed dry signal. |
+| EQ Gain | Nominal -6 to +6 dB tilt. Negative settings favor low frequencies; positive settings favor high frequencies. Zero is neutral. |
+| Filter On | Enables the EQ path. Off selects the delayed dry signal. |
 | EQ Freq x10 | Multiplies the base frequency by ten. |
-| Base frequency Hz | Tilt center control from 26 to 2200 Hz with the measured nonlinear control mapping; x10 extends it to 260–22000 Hz. |
+| EQ Freq | Tilt center control from 26 to 2200 Hz with the measured nonlinear control mapping; x10 extends it to 260–22000 Hz. |
 | Bypass | Selects the delayed dry signal through the parameter transition. |
 
-Insert on a mono or stereo track. Edit numeric values, then press APPLY; click a switch to toggle it. Defaults are neutral Tilt Gain, Active on, Base Frequency 230 Hz, x10 off and Bypass off. Supports 32-bit and 64-bit mono and stereo audio at 44.1, 48, 64, 88.2, 96, 128, 176.4, 192, 256, 352.8 and 384 kHz. Other sample rates are unsupported. Reports 16 samples of latency; Active off and Bypass retain that delay.
+Insert on a mono or stereo track. Drag either rotary up/down for immediate adjustment; hold Shift for fine control. Use the wheel or arrow keys to adjust, or double-click to reset that rotary to its default. Click a switch to toggle it. The frequency readout shows the effective frequency, including x10 when enabled. Defaults are neutral Tilt Gain, Active on, Base Frequency 230 Hz, x10 off and Bypass off. Supports 32-bit and 64-bit mono and stereo audio at 44.1, 48, 64, 88.2, 96, 128, 176.4, 192, 256, 352.8 and 384 kHz. Other sample rates are unsupported. Reports 16 samples of latency; Active off and Bypass retain that delay.
 
 
 # License
