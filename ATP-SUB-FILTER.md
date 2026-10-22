@@ -1,4 +1,4 @@
-# ATP Sub Filter 0.1.0
+# ATP Sub Filter 0.1.1
 ---
 Windows x64 VST3 functional reconstruction of bx_subfilter's bass-shaping audio controls, with an independent plugin identity and editor. It contains no original vendor executable or artwork and is not affiliated with Brainworx or Plugin Alliance.
 
@@ -21,7 +21,7 @@ Download the repository ZIP and copy the complete `plugins/vst3/win-x64/ATP Sub 
 | Output Gain | Output level from -20 to +20 dB. |
 | Host Bypass | VST3 host bypass. Either bypass switch selects the unprocessed input. |
 
-Insert on a stereo track. Edit numeric values, then press APPLY; click a bypass switch to toggle it, or click Resonance to cycle modes. Defaults are 0 dB input/output gain, Tight Punch off, High resonance, Low End at zero and both bypasses off. Supports 32-bit stereo audio, including sample rates from 44.1 to 384 kHz, with no reported latency. Control changes use short smoothed transitions.
+Insert on a mono or stereo track. Edit numeric values, then press APPLY; click a bypass switch to toggle it, or click Resonance to cycle modes. Defaults are 0 dB input and output gain, Tight Punch off, High resonance, Low End at zero and both bypasses off. Supports 32-bit mono and stereo audio, including sample rates from 44.1 to 384 kHz, with no reported latency. Control changes use short smoothed transitions.
 
 
 # License
