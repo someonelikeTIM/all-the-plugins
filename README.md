@@ -26,6 +26,7 @@ Downloadable audio plugins for Windows x64 VST3 hosts.
 | [ATP Devil Loc 0.1.0](ATP-DEVIL-LOC.md) | Soundtoys Devil-Loc |
 | [ATP FetSnap 0.1.0](ATP-FETSNAP.md) | Analog Obsession FetSnap |
 | [ATP Mastering EQ 0.1.0](ATP-MASTERING-EQ.md) | Harrison Mastering EQ |
+| [ATP dB Comp 0.1.0](ATP-DB-COMP.md) | Analog Obsession dBComp |
 
 
 # Install
