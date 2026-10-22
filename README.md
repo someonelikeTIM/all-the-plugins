@@ -16,6 +16,7 @@ Downloadable audio plugins for Windows x64 VST3 hosts.
 | [ATP Fusion Stereo Image 0.1.0](ATP-FUSION-STEREO-IMAGE.md) | SSL Fusion Stereo Image |
 | [ATP Lookahead Compressor 0.1.0](ATP-LOOKAHEAD-COMPRESSOR.md) | Harrison Lookahead Compressor |
 | [ATP Sub Filter 0.1.0](ATP-SUB-FILTER.md) | bx_subfilter |
+| [ATP Phase Align 0.1.0](ATP-PHASE-ALIGN.md) | SSL Native X-Phase |
 
 
 # Install
