@@ -5,34 +5,34 @@ Downloadable audio plugins for Windows x64 VST3 hosts.
 
 # Downloads
 ---
-| Plugin | Based on |
-| --- | --- |
-| [ATP Stereo Solo 0.1.0](ATP-STEREO-SOLO.md) | bx_solo |
-| [ATP Clean Sweep 0.1.1](ATP-CLEAN-SWEEP.md) | bx_cleansweep V2 |
-| [ATP Metronome 0.1.1](ATP-METRONOME.md) | standalone Metronome |
-| [ATP Relay Utility 0.1.0](ATP-RELAY-UTILITY.md) | Relay |
-| [ATP Dyno Mite 0.1.0](ATP-DYNO-MITE.md) | Harrison Dyno Mite |
-| [ATP Niveau Filter 0.1.1](ATP-NIVEAU-FILTER.md) | elysia niveau filter |
-| [ATP Fusion Stereo Image 0.1.0](ATP-FUSION-STEREO-IMAGE.md) | SSL Fusion Stereo Image |
-| [ATP Lookahead Compressor 0.1.0](ATP-LOOKAHEAD-COMPRESSOR.md) | Harrison Lookahead Compressor |
-| [ATP Sub Filter 0.1.1](ATP-SUB-FILTER.md) | bx_subfilter |
-| [ATP Phase Align 0.1.1](ATP-PHASE-ALIGN.md) | SSL Native X-Phase |
-| [ATP Violet EQ 0.1.1](ATP-VIOLET-EQ.md) | SSL Fusion Violet EQ |
-| [ATP Micro Glide 0.1.0](ATP-MICRO-GLIDE.md) | Harrison Micro Glide |
-| [ATP Tremolo Panner 0.1.0](ATP-TREMOLO-PANNER.md) | Harrison Tremolo Panner |
-| [ATP De-Esser 0.1.0](ATP-DE-ESSER.md) | Harrison De-Esser |
-| [ATP Free Ranger 0.1.0](ATP-FREE-RANGER.md) | SPL Free Ranger |
-| [ATP I Heart NY 0.1.0](ATP-I-HEART-NY.md) | BABY Audio I Heart NY |
-| [ATP Devil Loc 0.1.0](ATP-DEVIL-LOC.md) | Soundtoys Devil-Loc |
-| [ATP FetSnap 0.1.0](ATP-FETSNAP.md) | Analog Obsession FetSnap |
-| [ATP Mastering EQ 0.1.0](ATP-MASTERING-EQ.md) | Harrison Mastering EQ |
-| [ATP dB Comp 0.1.0](ATP-DB-COMP.md) | Analog Obsession dBComp |
-| [ATP ReLife 0.1.0](ATP-RELIFE.md) | Analog Obsession ReLife |
-| [ATP Little Radiator 0.1.0](ATP-LITTLE-RADIATOR.md) | Soundtoys Little Radiator |
-| [ATP LOADES 0.1.0](ATP-LOADES.md) | Analog Obsession LOADES |
-| [ATP PreBOX 0.1.0](ATP-PREBOX.md) | Analog Obsession PreBOX |
-| [ATP Vocal Intensity 0.1.0](ATP-VOCAL-INTENSITY.md) | Harrison Vocal Intensity Processor |
-| [ATP Sie-Q 0.1.0](ATP-SIE-Q.md) | Soundtoys Sie-Q |
+| Plugin |
+| --- |
+| [ATP Stereo Loner 0.1.0](ATP-STEREO-LONER.md) |
+| [ATP Clean Sweep 0.1.1](ATP-CLEAN-SWEEP.md) |
+| [ATP Metronome 0.1.1](ATP-METRONOME.md) |
+| [ATP Relay Utility 0.1.0](ATP-RELAY-UTILITY.md) |
+| [ATP Dyno Mite 0.1.0](ATP-DYNO-MITE.md) |
+| [ATP Niveau Filter 0.1.1](ATP-NIVEAU-FILTER.md) |
+| [ATP Fusion Stereo Image 0.1.0](ATP-FUSION-STEREO-IMAGE.md) |
+| [ATP Lookahead Compressor 0.1.0](ATP-LOOKAHEAD-COMPRESSOR.md) |
+| [ATP Sub Filter 0.1.1](ATP-SUB-FILTER.md) |
+| [ATP Phase Align 0.1.1](ATP-PHASE-ALIGN.md) |
+| [ATP Violet EQ 0.1.1](ATP-VIOLET-EQ.md) |
+| [ATP Micro Glide 0.1.0](ATP-MICRO-GLIDE.md) |
+| [ATP Tremolo Panner 0.1.0](ATP-TREMOLO-PANNER.md) |
+| [ATP De-Esser 0.1.0](ATP-DE-ESSER.md) |
+| [ATP Free Ranger 0.1.0](ATP-FREE-RANGER.md) |
+| [ATP I Heart NY 0.1.0](ATP-I-HEART-NY.md) |
+| [ATP Devil Loc 0.1.0](ATP-DEVIL-LOC.md) |
+| [ATP FetSnap 0.1.0](ATP-FETSNAP.md) |
+| [ATP Mastering EQ 0.1.0](ATP-MASTERING-EQ.md) |
+| [ATP dB Comp 0.1.0](ATP-DB-COMP.md) |
+| [ATP ReLife 0.1.0](ATP-RELIFE.md) |
+| [ATP Little Radiator 0.1.0](ATP-LITTLE-RADIATOR.md) |
+| [ATP LOADES 0.1.0](ATP-LOADES.md) |
+| [ATP PreBOX 0.1.0](ATP-PREBOX.md) |
+| [ATP Vocal Intensity 0.1.0](ATP-VOCAL-INTENSITY.md) |
+| [ATP Sie-Q 0.1.0](ATP-SIE-Q.md) |
 
 
 # Install

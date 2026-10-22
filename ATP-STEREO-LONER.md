@@ -1,24 +1,26 @@
-# ATP Stereo Solo 0.1.0
+# ATP Stereo Loner 0.1.0
 ---
-Windows x64 VST3 functional reconstruction of the core audio controls in bx_solo. Independently implemented and published under its own name, plugin identity and interface. It does not contain or install the original vendor's binary, graphics or licensing system, and is not affiliated with Brainworx or Plugin Alliance.
+Stereo monitoring, channel swapping and stepped width adjustment. Independently implemented Windows x64 VST3 with an original ATP interface. No original vendor binary, artwork or licensing system is included.
 
-![ATP Stereo Solo editor](screenshots/ATP-Stereo-Solo.png)
+![ATP Stereo Loner editor](screenshots/ATP-Stereo-Loner.png)
 
-[Download the VST3 module](https://raw.githubusercontent.com/someonelikeTIM/all-the-plugins/main/plugins/vst3/win-x64/ATP%20Stereo%20Solo.vst3/Contents/x86_64-win/ATP%20Stereo%20Solo.vst3).
+[Download the VST3 module](https://raw.githubusercontent.com/someonelikeTIM/all-the-plugins/main/plugins/vst3/win-x64/ATP%20Stereo%20Loner.vst3/Contents/x86_64-win/ATP%20Stereo%20Loner.vst3).
 
 
 # Install and use
 ---
-Download the repository ZIP and copy the complete `plugins/vst3/win-x64/ATP Stereo Solo.vst3` folder into `%LOCALAPPDATA%\Programs\Common\VST3` or your system VST3 folder, then rescan your host. Windows 10/11 x64 with Universal C Runtime is required. The bundle contains one module, has no external sample/preset dependencies, and is unsigned.
+Download the repository ZIP and copy the complete `plugins/vst3/win-x64/ATP Stereo Loner.vst3` folder into `%LOCALAPPDATA%\Programs\Common\VST3` or your system VST3 folder, then rescan your host. Windows 10/11 x64 with Universal C Runtime is required. The bundle contains one module, has no external sample/preset dependencies, and is unsigned.
+
+When replacing a prior ATP build, remove its previous bundle before copying this one. Do not keep both builds installed: they share the same VST3 identity.
 
 | Control | Behavior |
 | --- | --- |
 | Swap L/R | Exchanges the processed stereo channels |
 | Left / Right / Mid / Side | Monitors the selected signal on both outputs; click it again to clear the selection |
-| Width | Rotary control with Mono, 50%, 100%, 150%, 200%, 300% and 400% positions. Drag up/down; hold Shift for fine adjustment. Use the wheel or arrow keys to step, or double-click to reset to 100% |
+| Width | A stepped rotary control for Mono, 50%, 100%, 150%, 200%, 300% and 400% |
 | Bypass | Passes input through unchanged |
 
-The editor selects one solo at a time. Default width is 100%; the host parameter list provides direct selection and automation. Routing is width → swap → solo. If host automation enables multiple solo flags, priority is Side, Mid, Right, Left. Mid is `(L+R)/2`; side is `(L-R)/2`, multiplied by the selected width. Width can increase peaks, and this utility does not limit or clip them. Processing is stereo, zero-latency, and supports 32/64-bit floating point.
+Drag the Width rotary up/down for immediate adjustment; hold Shift for fine control. Use the wheel or arrow keys to move between stops, or double-click to reset to 100%. The editor selects one solo at a time. Default width is 100%; the host parameter list provides direct selection and automation. Routing is width → swap → solo. If host automation enables multiple solo flags, priority is Side, Mid, Right, Left. Mid is `(L+R)/2`; side is `(L-R)/2`, multiplied by the selected width. Width can increase peaks, and this utility does not limit or clip them. Processing is stereo, zero-latency, and supports 32/64-bit floating point.
 
 
 # License
