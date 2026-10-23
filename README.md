@@ -37,6 +37,7 @@ Choose a plugin to see its available downloads and installation instructions.
 | [Vocal Gatehouse](ATP-VOCAL-GATEHOUSE.md) |
 | [Tube Hearth](ATP-TUBE-HEARTH.md) |
 | [Overtone Mill](ATP-OVERTONE-MILL.md) |
+| [Console Clamp](ATP-CONSOLE-CLAMP.md) |
 
 
 # Install
