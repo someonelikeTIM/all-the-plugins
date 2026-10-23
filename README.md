@@ -34,6 +34,7 @@ Choose a plugin to see its available downloads and installation instructions.
 | [Vocal Intensity](ATP-VOCAL-INTENSITY.md) |
 | [Oui-Q](ATP-OUI-Q.md) |
 | [Demon Lock XL](ATP-DEMON-LOCK-XL.md) |
+| [Vocal Gatehouse](ATP-VOCAL-GATEHOUSE.md) |
 
 
 # Install
