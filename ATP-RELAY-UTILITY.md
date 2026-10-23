@@ -6,7 +6,9 @@ A stereo utility with gain, pan, width, delay, polarity and high-pass controls.
 
 **Release version:** v1.0
 
-![Relay Utility editor](screenshots/ATP-Relay-Utility.png)
+![Relay Utility Windows editor](screenshots/ATP-Relay-Utility.png)
+
+![Relay Utility Mac VST3 editor](screenshots/ATP-Relay-Utility-mac-VST3.png)
 
 
 # Downloads
@@ -14,11 +16,14 @@ A stereo utility with gain, pan, width, delay, polarity and high-pass controls.
 | Platform | Format | Download |
 | --- | --- | --- |
 | Windows | VST3 | [Download](https://raw.githubusercontent.com/someonelikeTIM/all-the-plugins/main/downloads/windows/ATP-Relay-Utility-Windows-VST3.zip) |
+| Mac | VST3 | [Download](https://raw.githubusercontent.com/someonelikeTIM/all-the-plugins/main/downloads/macos/ATP-Relay-Utility-macOS-universal-VST3.zip) |
 
 
 # Install and use
 ---
 **Windows:** Extract the Windows ZIP and copy the complete `ATP Relay Utility.vst3` folder into `%LOCALAPPDATA%\Programs\Common\VST3` or your system VST3 folder, then rescan your host. Requires Windows 10 or later and a Windows x64 VST3 host. The bundle contains one x64 VST3 module and uses Windows system libraries; no separate SDK or runtime installation is needed.
+
+**Mac:** Use an Apple silicon VST3 host on macOS 12 or later. Quit your audio host, extract the Mac ZIP, and copy the complete `ATP Relay Utility.vst3` bundle to `~/Library/Audio/Plug-Ins/VST3/`, then reopen your host and rescan if needed. Keep the complete bundle intact; do not rename, modify, or copy only its executable. When updating, remove its previous bundle first to avoid duplicate versions. Supported Mac sample rates are 44.1–384 kHz; rates outside this range are rejected.
 
 | Control | Behavior |
 | --- | --- |
@@ -33,7 +38,7 @@ A stereo utility with gain, pan, width, delay, polarity and high-pass controls.
 | HP slope | Cycles through 12, 24 and 48 dB/octave. |
 | Bypass | Smoothly returns to the unprocessed stereo input. |
 
-Insert on a stereo track. Edit numeric values, then press APPLY; click switches to toggle them and the slope button to cycle its choices. Defaults are 0 dB gain, centered pan, unchanged width, zero delays, and all switches off; the inactive high-pass defaults to 80 Hz and 12 dB/octave. Supports stereo 32-bit and 64-bit audio with no reported plugin latency. Nectar Unmask, inter-plugin communication and sidechain integration are outside this standalone utility.
+Insert on a stereo track. **Windows controls:** Edit numeric values, then press APPLY; click switches to toggle them and the slope button to cycle its choices. **Mac controls:** Drag or scroll the knobs; hold Shift or Control for fine adjustment. Double-click to reset, or use arrow keys on the selected control. Click switches and slope choices directly. Defaults are 0 dB gain, centered pan, unchanged width, zero delays, and all switches off; the inactive high-pass defaults to 80 Hz and 12 dB/octave. Supports stereo 32-bit and 64-bit audio with no reported plugin latency. Automation uses the last queued value for each parameter over the whole processing block, rather than sample-accurate changes. Nectar Unmask, inter-plugin communication and sidechain integration are outside this standalone utility.
 
 
 # License
