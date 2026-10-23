@@ -4,9 +4,9 @@ Phase alignment with independent channel delays, all-pass filters and polarity c
 
 **Inspired by:** SSL Native X-Phase
 
-**Release version:** v1.0
+**Release version:** v1.1
 
-![Phase Align editor](screenshots/ATP-Phase-Align.png)
+![Phase Align editor](screenshots/ATP-Phase-Align-mac.png)
 
 
 # Downloads
@@ -14,11 +14,14 @@ Phase alignment with independent channel delays, all-pass filters and polarity c
 | Platform | Format | Download |
 | --- | --- | --- |
 | Windows | VST3 | [Download](https://raw.githubusercontent.com/someonelikeTIM/all-the-plugins/main/downloads/windows/ATP-Phase-Align-Windows-VST3.zip) |
+| Mac | VST3 | [Download](https://raw.githubusercontent.com/someonelikeTIM/all-the-plugins/main/downloads/macos/ATP-Phase-Align-macOS-universal-VST3.zip) |
 
 
 # Install and use
 ---
 **Windows:** Extract the Windows ZIP and copy the complete `ATP Phase Align.vst3` folder into `%LOCALAPPDATA%\Programs\Common\VST3` or your system VST3 folder, then rescan your host. Requires Windows 10 or later and a Windows x64 VST3 host. The bundle contains one x64 VST3 module and uses Windows system libraries; no separate SDK or runtime installation is needed.
+
+**Mac:** Extract the Mac ZIP and copy the complete `ATP Phase Align.vst3` bundle into `~/Library/Audio/Plug-Ins/VST3/`, then reopen and rescan your host.
 
 | Control | Behavior |
 | --- | --- |
@@ -40,7 +43,7 @@ Phase alignment with independent channel delays, all-pass filters and polarity c
 | Second order right | Selects order 2 when on and order 1 when off for the right all-pass filter. |
 | Bypass | Selects the unprocessed dry signal through a 3 ms transition. |
 
-Insert on a mono or stereo track. Edit numeric values, then press APPLY; click a switch to toggle it. Defaults are 0 dB input and output gain, 1000 ms left and right delay, 500 Hz and Q 1.3 for both all-pass filters, delays off, all-pass filters on, polarity inversion off, second-order processing selected and Bypass off. Supports 32-bit mono-to-mono, mono-to-stereo and stereo-to-stereo audio at sample rates from 44.1 to 384 kHz and reports zero latency. Mono routes use the left delay and all-pass controls; a stereo output receives the same processed mono signal on both channels.
+Insert on a mono or stereo track. **Windows:** edit numeric values, then press APPLY; click a switch to toggle it. **Mac:** select LEFT or RIGHT, drag the corresponding knobs, and use the inner and outer delay fields for fine and coarse changes. The unit selector changes the displayed unit; LINK applies relative edits to both channels. Host automation remains independent. The side meters show input and output levels, and the graph shows the selected all-pass responses. Use the host's bypass control. Defaults are 0 dB input and output gain, 1000 ms left and right delay, 500 Hz and Q 1.3 for both all-pass filters, delays off, all-pass filters on, polarity inversion off, second-order processing selected and Bypass off. Supports 32-bit mono-to-mono, mono-to-stereo and stereo-to-stereo audio at sample rates from 44.1 to 384 kHz and reports zero latency. Mono routes use the left delay and all-pass controls; a stereo output receives the same processed mono signal on both channels.
 
 
 # License
