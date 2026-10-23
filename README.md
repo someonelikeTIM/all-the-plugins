@@ -40,6 +40,7 @@ Choose a plugin to see its available downloads and installation instructions.
 | [Console Clamp](ATP-CONSOLE-CLAMP.md) |
 | [Pulse Carver](ATP-PULSE-CARVER.md) |
 | [Needle Press](ATP-NEEDLE-PRESS.md) |
+| [Vocal Ember](ATP-VOCAL-EMBER.md) |
 
 
 # Install
