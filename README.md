@@ -36,6 +36,7 @@ Choose a plugin to see its available downloads and installation instructions.
 | [Demon Lock XL](ATP-DEMON-LOCK-XL.md) |
 | [Vocal Gatehouse](ATP-VOCAL-GATEHOUSE.md) |
 | [Tube Hearth](ATP-TUBE-HEARTH.md) |
+| [Overtone Mill](ATP-OVERTONE-MILL.md) |
 
 
 # Install
