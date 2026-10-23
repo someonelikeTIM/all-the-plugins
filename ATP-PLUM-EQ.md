@@ -1,39 +1,40 @@
-# LOADES
+# Plum EQ
 ---
-De-essing with a linked detector, dynamic high shelf, Soft mode, release, parallel blend and gain controls.
+High-pass filtering and two-band shelving equalization with input/output trim, FAT resonance and stereo peak meters.
 
-**Inspired by:** Analog Obsession LOADES
+**Inspired by:** SSL Fusion Violet EQ
 
 **Release version:** v1.0
 
-![LOADES editor](screenshots/ATP-LOADES.png)
+![Plum EQ editor](screenshots/ATP-Plum-EQ.png)
 
 
 # Downloads
 ---
 | Platform | Format | Download |
 | --- | --- | --- |
-| Windows | VST3 | [Download](https://raw.githubusercontent.com/someonelikeTIM/all-the-plugins/main/downloads/windows/ATP-LOADES-Windows-VST3.zip) |
+| Windows x64 | VST3 | [Download](https://raw.githubusercontent.com/someonelikeTIM/all-the-plugins/main/downloads/windows/ATP-Plum-EQ-Windows-VST3.zip) |
 
 
 # Install and use
 ---
-**Windows:** Extract the Windows ZIP and copy the complete `ATP LOADES.vst3` folder into `%LOCALAPPDATA%\Programs\Common\VST3` or your system VST3 folder, then rescan your host. Requires Windows 10 or later and a Windows x64 VST3 host. The bundle contains one x64 VST3 module and uses Windows system libraries; no separate SDK or runtime installation is needed.
+Extract the ZIP and copy the complete `ATP Plum EQ.vst3` folder into `%LOCALAPPDATA%\Programs\Common\VST3` or your system VST3 folder, then rescan your host. Requires Windows 10 or later and an x64 VST3 host. No separate SDK or runtime installation is needed. In the DAW, look for **ATP Plum EQ**.
+
+This replaces ATP Violet EQ while preserving its VST3 class identity, parameter IDs and saved-state format. Remove the earlier `ATP Violet EQ.vst3` bundle before installing this replacement; do not keep both installed. Back up existing sessions before replacing a plugin.
 
 | Control | Behavior |
 | --- | --- |
-| Threshold | Sets de-essing threshold from -60 to 0 dB. Lower values produce more high-frequency reduction. |
-| Release | Sets recovery time from 1 to 500 ms. |
-| Mix | Blends the unscaled dry input with the processed path from 0% dry to 100% processed. |
-| Input | Adjusts processed-path input level from -30 to +30 dB without changing detector level. |
-| Output | Sets final output gain from -30 to +30 dB. |
-| Band | Both positions use the same audio response. |
-| Soft | Selects gentler 1.5:1 reduction with a 4 ms attack; off uses 4:1 reduction with a 2 ms attack. |
-| Host Bypass | VST3 host bypass. Returns dry input and skips effect processing. |
-| Effect Active | Turns LOADES processing on or returns dry input while its detector continues following the signal. |
-| Meters | Show current gain reduction and summed output activity in the independent editor. |
+| Input / Output Trim | -12 to +12 dB, displayed to 0.1 dB. |
+| HPF | Off, 30, 40 or 50 Hz. |
+| FAT | Resonant high-pass response; no effect when HPF is off. |
+| Low Cut-off / High Cut-off | 30, 50, 70 or 90 Hz / 8, 12, 16 or 20 kHz. |
+| Low Gain / High Gain | -9 to +9 dB shelving controls. |
+| IN | On enables the equalizer; off selects latency-matched internal bypass. |
+| Input / Output meters | Read-only stereo sample peaks before input trim / after final output. Bars: -60 to 0 dBFS. Readouts: -90 to +24 dBFS. These are not calibrated VU meters. |
 
-Insert on a mono or stereo track. Edit numeric values in their labeled dB, millisecond or percent units, then press APPLY; click switches to toggle them. Defaults are 0 dB Threshold, 50 ms Release, 100% Mix, 0 dB Input and Output, Band and Soft off, Host Bypass off and Effect Active on. The two bars show reduction and output activity. Supports mono/stereo 32-bit and 64-bit audio and reports zero latency.
+Drag a knob, scroll the wheel or use arrow keys for immediate changes. Hold Shift for fine adjustment; double-click to reset. The three frequency selectors retain four exact positions. Defaults are 0 dB trims and gains, HPF/FAT off, Low Cut-off 30 Hz, High Cut-off 16 kHz and IN on.
+
+Supports mono-to-mono, mono-to-stereo and stereo-to-stereo 32-bit or 64-bit audio at common sample rates from 44.1 to 384 kHz. Rates below 44.1 kHz are intentionally silent. Reported latency is 57 samples below 48 kHz, 47 samples from 48 to below 88.2 kHz, and zero above. Extremely high or invalid rates are rejected by a setup guard. Automation uses the final parameter point in each block; it is not sample-accurate.
 
 
 # License
@@ -167,3 +168,106 @@ Permission is hereby granted, free of charge, to any person obtaining a copy of 
 * Neither the names of the LLVM Team, University of Illinois at Urbana-Champaign, nor the names of its contributors may be used to endorse or promote products derived from this Software without specific prior written permission.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.  IN NO EVENT SHALL THE CONTRIBUTORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS WITH THE SOFTWARE.
+
+
+# MinGW-w64 runtime licensing
+---
+This program or library was built using MinGW-w64 and statically linked against the MinGW-w64 runtime. Some parts of the runtime are under licenses which require that the copyright and license notices are included when distributing the code in binary form. These notices are listed below.
+
+
+# Overall copyright notice
+---
+Copyright (c) 2009, 2010, 2011, 2012, 2013 by the mingw-w64 project
+
+This license has been certified as open source. It has also been designated as GPL compatible by the Free Software Foundation (FSF).
+
+Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
+
+1. Redistributions in source code must retain the accompanying copyright notice, this list of conditions, and the following disclaimer. 2. Redistributions in binary form must reproduce the accompanying copyright notice, this list of conditions, and the following disclaimer in the documentation and/or other materials provided with the distribution. 3. Names of the copyright holders must not be used to endorse or promote products derived from this software without prior written permission from the copyright holders. 4. The right to distribute this software or to use it for any purpose does not give you the right to use Servicemarks (sm) or Trademarks (tm) of the copyright holders.  Use of them is covered by separate agreement with the copyright holders. 5. If any files are modified, you must cause the modified files to carry prominent notices stating that you changed the files and the date of any change.
+
+Disclaimer
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS ``AS IS'' AND ANY EXPRESSED OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDERS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+
+# getopt, getopt_long, and getop_long_only
+---
+Copyright (c) 2002 Todd C. Miller <Todd.Miller@courtesan.com>
+
+Permission to use, copy, modify, and distribute this software for any purpose with or without fee is hereby granted, provided that the above copyright notice and this permission notice appear in all copies.
+
+THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
+
+Sponsored in part by the Defense Advanced Research Projects Agency (DARPA) and Air Force Research Laboratory, Air Force Materiel Command, USAF, under agreement number F39502-99-1-0512.
+
+Copyright (c) 2000 The NetBSD Foundation, Inc. All rights reserved.
+
+This code is derived from software contributed to The NetBSD Foundation by Dieter Baron and Thomas Klausner.
+
+Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met: 1. Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer. 2. Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
+
+THIS SOFTWARE IS PROVIDED BY THE NETBSD FOUNDATION, INC. AND CONTRIBUTORS ``AS IS'' AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.  IN NO EVENT SHALL THE FOUNDATION OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+
+# gdtoa: Converting between IEEE floating point numbers and ASCII
+---
+The author of this software is David M. Gay.
+
+Copyright (C) 1997, 1998, 1999, 2000, 2001 by Lucent Technologies All Rights Reserved
+
+Permission to use, copy, modify, and distribute this software and its documentation for any purpose and without fee is hereby granted, provided that the above copyright notice appear in all copies and that both that the copyright notice and this permission notice and warranty disclaimer appear in supporting documentation, and that the name of Lucent or any of its entities not be used in advertising or publicity pertaining to distribution of the software without specific, written prior permission.
+
+LUCENT DISCLAIMS ALL WARRANTIES WITH REGARD TO THIS SOFTWARE, INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL LUCENT OR ANY OF ITS ENTITIES BE LIABLE FOR ANY SPECIAL, INDIRECT OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
+
+The author of this software is David M. Gay.
+
+Copyright (C) 2005 by David M. Gay All Rights Reserved
+
+Permission to use, copy, modify, and distribute this software and its documentation for any purpose and without fee is hereby granted, provided that the above copyright notice appear in all copies and that both that the copyright notice and this permission notice and warranty disclaimer appear in supporting documentation, and that the name of the author or any of his current or former employers not be used in advertising or publicity pertaining to distribution of the software without specific, written prior permission.
+
+THE AUTHOR DISCLAIMS ALL WARRANTIES WITH REGARD TO THIS SOFTWARE, INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS.  IN NO EVENT SHALL THE AUTHOR OR ANY OF HIS CURRENT OR FORMER EMPLOYERS BE LIABLE FOR ANY SPECIAL, INDIRECT OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
+
+The author of this software is David M. Gay.
+
+Copyright (C) 2004 by David M. Gay. All Rights Reserved Based on material in the rest of /netlib/fp/gdota.tar.gz, which is copyright (C) 1998, 2000 by Lucent Technologies.
+
+Permission to use, copy, modify, and distribute this software and its documentation for any purpose and without fee is hereby granted, provided that the above copyright notice appear in all copies and that both that the copyright notice and this permission notice and warranty disclaimer appear in supporting documentation, and that the name of Lucent or any of its entities not be used in advertising or publicity pertaining to distribution of the software without specific, written prior permission.
+
+LUCENT DISCLAIMS ALL WARRANTIES WITH REGARD TO THIS SOFTWARE, INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL LUCENT OR ANY OF ITS ENTITIES BE LIABLE FOR ANY SPECIAL, INDIRECT OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
+
+
+# Parts of the math library
+---
+Copyright (C) 1993 by Sun Microsystems, Inc. All rights reserved.
+
+Developed at SunSoft, a Sun Microsystems, Inc. business. Permission to use, copy, modify, and distribute this software is freely granted, provided that this notice is preserved.
+
+Copyright (C) 1993 by Sun Microsystems, Inc. All rights reserved.
+
+Developed at SunPro, a Sun Microsystems, Inc. business. Permission to use, copy, modify, and distribute this software is freely granted, provided that this notice is preserved.
+
+FIXME: Cephes math lib Copyright (C) 1984-1998 Stephen L. Moshier
+
+It sounds vague, but as to be found at <http://lists.debian.org/debian-legal/2004/12/msg00295.html>, it gives an impression that the author could be willing to give an explicit permission to distribute those files e.g. under a BSD style license. So probably there is no problem here, although it could be good to get a permission from the author and then add a license into the Cephes files in MinGW runtime. At least on follow-up it is marked that debian sees the version a-like BSD one. As MinGW.org (where those cephes parts are coming from) distributes them now over 6 years, it should be fine.
+
+
+# Some string, memory and time conversion functions
+---
+Copyright © 2005-2020 Rich Felker, et al.
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+
+# Headers and IDLs imported from Wine
+---
+Some header and IDL files were imported from the Wine project. These files are prominent maked in source. Their copyright belongs to contributors and they are distributed under LGPL license.
+
+Disclaimer
+
+This library is free software; you can redistribute it and/or modify it under the terms of the GNU Lesser General Public License as published by the Free Software Foundation; either version 2.1 of the License, or (at your option) any later version.
+
+This library is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public License for more details.

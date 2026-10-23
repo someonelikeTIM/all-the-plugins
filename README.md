@@ -17,7 +17,7 @@ Choose a plugin to see its available downloads and installation instructions.
 | [Lookahead Compressor](ATP-LOOKAHEAD-COMPRESSOR.md) |
 | [Sub Sifter](ATP-SUB-SIFTER.md) |
 | [Phase Align](ATP-PHASE-ALIGN.md) |
-| [Violet EQ](ATP-VIOLET-EQ.md) |
+| [Plum EQ](ATP-PLUM-EQ.md) |
 | [Nano Drift](ATP-NANO-DRIFT.md) |
 | [Tremolo Panner](ATP-TREMOLO-PANNER.md) |
 | [De-Esser](ATP-DE-ESSER.md) |
@@ -29,8 +29,8 @@ Choose a plugin to see its available downloads and installation instructions.
 | [DeciPress](ATP-DECIPRESS.md) |
 | [Second Breath](ATP-SECOND-BREATH.md) |
 | [Tiny Toaster](ATP-TINY-TOASTER.md) |
-| [LOADES](ATP-LOADES.md) |
-| [PreBOX](ATP-PREBOX.md) |
+| [Ess Exit](ATP-ESS-EXIT.md) |
+| [PreCrate](ATP-PRECRATE.md) |
 | [Vocal Intensity](ATP-VOCAL-INTENSITY.md) |
 | [Oui-Q](ATP-OUI-Q.md) |
 | [Demon Lock XL](ATP-DEMON-LOCK-XL.md) |
