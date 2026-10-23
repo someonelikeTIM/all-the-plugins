@@ -1,6 +1,6 @@
 # Vocal Ember
 ---
-Vocal saturation with seven characters, a treble shelf, parallel mix and level matching for bypass comparisons.
+Vocal saturation with seven characters, treble shaping, parallel mix and level matching for bypass comparisons.
 
 **Inspired by:** iZotope Nectar 4 Saturation
 
