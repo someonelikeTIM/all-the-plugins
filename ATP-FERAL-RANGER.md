@@ -1,34 +1,40 @@
-# ATP Free Ranger
+# ATP Feral Ranger
 ---
-Four-band equalization with output gain and bypass controls.
+A four-band equalizer with five horizontal faders, linked ON/Power switches, separate host bypass, and signal/clip indicators.
 
 **Inspired by:** SPL Free Ranger
 
-![ATP Free Ranger editor](screenshots/ATP-Free-Ranger.png)
+![ATP Feral Ranger editor](screenshots/ATP-Feral-Ranger.png)
 
 
 # Downloads
 ---
 | Platform | Format | Download |
 | --- | --- | --- |
-| Windows | VST3 | [Download](https://raw.githubusercontent.com/someonelikeTIM/all-the-plugins/main/downloads/windows/ATP-Free-Ranger-Windows-VST3.zip) |
+| Windows | VST3 | [Download ZIP](https://raw.githubusercontent.com/someonelikeTIM/all-the-plugins/main/downloads/windows/ATP-Feral-Ranger-Windows-VST3.zip) |
 
 
 # Install and use
 ---
-**Windows:** Extract the Windows ZIP and copy the complete `ATP Free Ranger.vst3` folder into `%LOCALAPPDATA%\Programs\Common\VST3` or your system VST3 folder, then rescan your host. Requires Windows 10 or later, a Windows x64 VST3 host, and a sample rate from 44.1 to 384 kHz. The bundle contains one x64 VST3 module and uses Windows system libraries; no separate SDK or runtime installation is needed.
+**Windows:** Extract the ZIP, copy the whole `ATP Feral Ranger.vst3` folder to `C:\Program Files\Common Files\VST3`, then rescan your host.
+
+When replacing a prior ATP build, remove its previous bundle before copying this one. Do not keep both builds installed: they share the same VST3 identity.
 
 | Control | Behavior |
 | --- | --- |
-| 40 Hz | Coupled low-band position from -1.00 for full cut to +1.00 for full boost. The default 0.00 is neutral; the position is not a calibrated dB value. |
-| 150 Hz | Coupled low-mid position from -1.00 for full cut to +1.00 for full boost. The default 0.00 is neutral; the position is not a calibrated dB value. |
-| 1.8 kHz | Coupled high-mid position from -1.00 for full cut to +1.00 for full boost. The default 0.00 is neutral; the position is not a calibrated dB value. |
 | 16 kHz | Coupled high-band position from -1.00 for full cut to +1.00 for full boost. The default 0.00 is neutral; the position is not a calibrated dB value. |
+| 1.8 kHz | Coupled high-mid position from -1.00 for full cut to +1.00 for full boost. The default 0.00 is neutral; the position is not a calibrated dB value. |
+| 150 Hz | Coupled low-mid position from -1.00 for full cut to +1.00 for full boost. The default 0.00 is neutral; the position is not a calibrated dB value. |
+| 40 Hz | Coupled low-band position from -1.00 for full cut to +1.00 for full boost. The default 0.00 is neutral; the position is not a calibrated dB value. |
 | Output dB | Output level from approximately -6.02 to +6.02 dB; the default is 0 dB. |
-| Power | Turns the equalizer path on or off through a short transition; the default is On. |
-| Bypass | VST3 host bypass selects the unprocessed input through a short transition; the default is Off. |
+| ON / Power | Linked switches for the same equalizer activation state. Either turns the equalizer path on or off through a short transition; the default is On. |
+| Host Bypass | Separate VST3 host bypass selects the unprocessed input through a short transition; the default is Off. |
+| SIG IN | Read-only indicator of input peaks at or above -60 dBFS, with a short hold. |
+| OUT CLIP | Read-only indicator of output peaks reaching 0 dBFS, with a short hold; reduce the Output fader if it lights. |
 
-Insert on a mono or stereo track. Edit numeric values, then press APPLY; click Power or Bypass to toggle it. Defaults are 0.00 position for all four bands, 0 dB Output, Power on and Bypass off. Supports 32-bit mono and stereo audio at sample rates from 44.1 to 384 kHz, with no reported latency. Control changes use short smoothed transitions.
+Insert on a mono or stereo track. The horizontal faders run from 16 kHz at the top through 1.8 kHz, 150 Hz, 40 Hz and Output. Drag a fader cap or click its track to adjust immediately. Shift or Ctrl gives fine adjustment while dragging, scrolling or using arrow keys. Double-click or Alt-click a fader to reset it to neutral. Tab moves through the controls; arrow keys adjust, Page Up/Down make larger changes, Home/End select limits, and Space, Enter, Backspace or Delete reset a focused fader.
+
+Click ON or Power to toggle their shared activation state; Host Bypass is separate. Space or Enter toggles a focused switch. Defaults are 0.00 position for all four bands, 0 dB Output, Power on and Host Bypass off. Supports mono and stereo audio with 32-bit floating-point processing at sample rates from 44.1 to 384 kHz, with no reported latency. 64-bit floating-point audio processing is not supported. Control changes use short smoothed transitions. Automation retains the last parameter value for each processing block; it is not sample-accurate.
 
 
 # License

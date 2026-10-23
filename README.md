@@ -21,7 +21,7 @@ Choose a plugin to see its available downloads and installation instructions.
 | [ATP Nano Drift](ATP-NANO-DRIFT.md) |
 | [ATP Tremolo Panner](ATP-TREMOLO-PANNER.md) |
 | [ATP De-Esser](ATP-DE-ESSER.md) |
-| [ATP Free Ranger](ATP-FREE-RANGER.md) |
+| [ATP Feral Ranger](ATP-FERAL-RANGER.md) |
 | [ATP I Heart NY](ATP-I-HEART-NY.md) |
 | [ATP Demon Lock](ATP-DEMON-LOCK.md) |
 | [ATP FetSnap](ATP-FETSNAP.md) |
