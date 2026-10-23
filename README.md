@@ -24,7 +24,7 @@ Choose a plugin to see its available downloads and installation instructions.
 | [Feral Ranger](ATP-FERAL-RANGER.md) |
 | [I Heart NY](ATP-I-HEART-NY.md) |
 | [Demon Lock](ATP-DEMON-LOCK.md) |
-| [FetSnap](ATP-FETSNAP.md) |
+| [FET Slap](ATP-FET-SLAP.md) |
 | [Mastering EQ](ATP-MASTERING-EQ.md) |
 | [DeciPress](ATP-DECIPRESS.md) |
 | [Second Breath](ATP-SECOND-BREATH.md) |
