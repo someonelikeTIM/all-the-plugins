@@ -26,7 +26,7 @@ Choose a plugin to see its available downloads and installation instructions.
 | [ATP Demon Lock](ATP-DEMON-LOCK.md) |
 | [ATP FetSnap](ATP-FETSNAP.md) |
 | [ATP Mastering EQ](ATP-MASTERING-EQ.md) |
-| [ATP dB Comp](ATP-DB-COMP.md) |
+| [ATP DeciPress](ATP-DECIPRESS.md) |
 | [ATP Second Breath](ATP-SECOND-BREATH.md) |
 | [ATP Tiny Toaster](ATP-TINY-TOASTER.md) |
 | [ATP LOADES](ATP-LOADES.md) |

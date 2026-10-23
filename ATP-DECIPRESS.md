@@ -1,27 +1,29 @@
-# ATP dB Comp
+# ATP DeciPress
 ---
-Program-dependent compression and limiting with external sidechain, dry/wet mixing and optional oversampling.
+A program-dependent compressor and limiter with five rotary controls, external sidechain, dry/wet mixing, oversampling, and a gain-reduction meter.
 
 **Inspired by:** Analog Obsession dBComp
 
-![ATP dB Comp editor](screenshots/ATP-dB-Comp.png)
+![ATP DeciPress editor](screenshots/ATP-DeciPress.png)
 
 
 # Downloads
 ---
 | Platform | Format | Download |
 | --- | --- | --- |
-| Windows | VST3 | [Download](https://raw.githubusercontent.com/someonelikeTIM/all-the-plugins/main/downloads/windows/ATP-dB-Comp-Windows-VST3.zip) |
+| Windows | VST3 | [Download ZIP](https://raw.githubusercontent.com/someonelikeTIM/all-the-plugins/main/downloads/windows/ATP-DeciPress-Windows-VST3.zip) |
 
 
 # Install and use
 ---
-**Windows:** Extract the Windows ZIP and copy the complete `ATP dB Comp.vst3` folder into `%LOCALAPPDATA%\Programs\Common\VST3` or your system VST3 folder, then rescan your host. Requires Windows 10 or later, a Windows x64 VST3 host, and a sample rate from 44.1 to 384 kHz. The bundle contains one x64 VST3 module and uses Windows system libraries; no separate SDK or runtime installation is needed.
+**Windows:** Extract the ZIP, copy the whole `ATP DeciPress.vst3` folder to `C:\Program Files\Common Files\VST3`, then rescan your host.
+
+When replacing a prior ATP build, remove its previous bundle before copying this one. Do not keep both builds installed: they share the same VST3 identity.
 
 | Control | Behavior |
 | --- | --- |
 | Threshold | Position from -1.00 to 3.00; lower values reduce the internal threshold from 0 dB toward -96 dB and produce more compression. Default: 3.00. |
-| Compression | Ratio from 1.0:1 to 100.0:1 on the original nonlinear control law. Default: 2.0:1. |
+| Compression | Ratio from 1.0:1 to 100.0:1 on the preserved nonlinear control law. Default: 2.0:1. |
 | Output Gain | Post-compressor output level from -20 to +20 dB. Default: 0 dB. |
 | HPF | High-pass cutoff for the linked detector and external sidechain, from 20 to 500 Hz. Default: 20 Hz. |
 | MIX | Dry/wet blend from 0% dry to 100% compressed. Default: 100%. |
@@ -29,9 +31,11 @@ Program-dependent compression and limiting with external sidechain, dry/wet mixi
 | Power | Internal power bypass. Off returns immediate dry audio and changes effective oversampling latency to 0; On restores the active oversampled latency and requests a host latency restart when needed. Default: On. |
 | Oversampling | Enables the antialiased processing path. While processing is active it reports 64 samples of latency; changes request a VST3 latency restart. Default: Off. |
 | Host Bypass | VST3 host bypass. Loaded bypassed, it is immediate dry at 0 latency. Engaged during active oversampling, it freezes compressor state and keeps a 64-sample compensated dry path until re-enabled. |
-| Gain Reduction meter | Read-only live feedback in dB from the recovered smoothed gain-reduction state; it does not change the audio. |
+| Gain Reduction meter | Read-only live needle and numeric feedback from the smoothed gain-reduction state. The needle spans 0–40 dB and the numeric value can show more; it reads INACTIVE while Power is off or host bypass is enabled. It is not an output-level or calibrated VU meter. |
 
-Insert on a mono or stereo track. For external keying, route a mono or stereo signal to the Aux bus and enable External SC. Defaults are Threshold 3.00, Compression 2.0:1, Output Gain 0 dB, HPF 20 Hz, MIX 100%, Power on, External SC off, Oversampling off and host Bypass off. Supports 32-bit and 64-bit audio from 44.1 to 384 kHz.
+Drag a knob vertically for immediate adjustment; hold Shift for fine movement. Mouse wheel and arrow keys adjust a focused knob, Home/End select its limits, and double-click or Enter resets its default. Tab follows the visual control order. Switches activate on release; moving outside or losing capture cancels the click. Host automation and restored state refresh automatically.
+
+Insert on a mono or stereo track. For external keying, route a mono or stereo signal to the Aux bus and enable External SC. Defaults are Threshold 3.00, Compression 2.0:1, Output Gain 0 dB, HPF 20 Hz, MIX 100%, Power on, External SC off, Oversampling off and host Bypass off. Supports 32-bit and 64-bit audio from 44.1 to 384 kHz. Automation uses the last queued parameter value for the whole processing block; it is not sample-accurate.
 
 
 # License
