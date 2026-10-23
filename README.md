@@ -33,6 +33,7 @@ Choose a plugin to see its available downloads and installation instructions.
 | [PreBOX](ATP-PREBOX.md) |
 | [Vocal Intensity](ATP-VOCAL-INTENSITY.md) |
 | [Oui-Q](ATP-OUI-Q.md) |
+| [Demon Lock XL](ATP-DEMON-LOCK-XL.md) |
 
 
 # Install
