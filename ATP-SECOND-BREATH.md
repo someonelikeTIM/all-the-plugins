@@ -4,7 +4,7 @@ Dynamic restoration with input drive, Shape contour, Life intensity, parallel bl
 
 **Inspired by:** Analog Obsession ReLife
 
-**Release version:** v1.0
+**Release version:** v1.1
 
 ![Second Breath editor](screenshots/ATP-Second-Breath.png)
 

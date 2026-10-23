@@ -4,7 +4,7 @@ Aggressive compression and distortion with direct Crush and Crunch controls.
 
 **Inspired by:** Soundtoys Devil-Loc
 
-**Release version:** v1.0
+**Release version:** v1.1
 
 ![Demon Lock editor](screenshots/ATP-Demon-Lock.png)
 

@@ -4,6 +4,8 @@ Tube mixer-style saturation with Bass and Treble shaping, input and output drive
 
 **Inspired by:** Soundtoys Radiator
 
+**Release version:** v1.1
+
 ![Tube Hearth editor](screenshots/ATP-Tube-Hearth.png)
 
 

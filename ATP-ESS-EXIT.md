@@ -4,7 +4,7 @@ De-essing with a linked detector, dynamic high shelf, Soft mode, release, parall
 
 **Inspired by:** Analog Obsession LOADES
 
-**Release version:** v1.0
+**Release version:** v1.1
 
 ![Ess Exit editor](screenshots/ATP-Ess-Exit.png)
 

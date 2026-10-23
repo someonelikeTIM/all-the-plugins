@@ -4,7 +4,7 @@ Tilt equalization with frequency, gain and range controls.
 
 **Inspired by:** elysia niveau filter
 
-**Release version:** v1.0
+**Release version:** v1.1
 
 ![Tilt Nouveau editor](screenshots/ATP-Tilt-Nouveau.png)
 

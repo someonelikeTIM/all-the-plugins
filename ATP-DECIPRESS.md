@@ -4,7 +4,7 @@ A program-dependent compressor and limiter with five rotary controls, external s
 
 **Inspired by:** Analog Obsession dBComp
 
-**Release version:** v1.0
+**Release version:** v1.1
 
 ![DeciPress editor](screenshots/ATP-DeciPress.png)
 

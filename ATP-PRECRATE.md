@@ -4,7 +4,7 @@ Eleven selectable saturation models with input/output gain, high-pass and low-pa
 
 **Inspired by:** Analog Obsession PreBOX
 
-**Release version:** v1.0
+**Release version:** v1.1
 
 ![PreCrate editor](screenshots/ATP-PreCrate.png)
 

@@ -4,6 +4,8 @@ Six-mode rhythmic stereo motion with editable step and event patterns, audio-tri
 
 **Inspired by:** Soundtoys PanMan
 
+**Release version:** v1.1
+
 ![PANdemonium editor](screenshots/ATP-PANdemonium.png)
 
 

@@ -4,7 +4,7 @@ High-pass and low-pass filtering with a coupled sweep joystick, input gain and p
 
 **Inspired by:** bx_cleansweep V2
 
-**Release version:** v1.0
+**Release version:** v1.1
 
 ![Broom Service editor](screenshots/ATP-Broom-Service.png)
 

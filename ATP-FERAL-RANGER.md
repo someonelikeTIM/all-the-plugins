@@ -4,7 +4,7 @@ A four-band equalizer with five horizontal faders, linked ON/Power switches, sep
 
 **Inspired by:** SPL Free Ranger
 
-**Release version:** v1.0
+**Release version:** v1.1
 
 ![Feral Ranger editor](screenshots/ATP-Feral-Ranger.png)
 

@@ -4,7 +4,7 @@ High-pass filtering and two-band shelving equalization with input/output trim, F
 
 **Inspired by:** SSL Fusion Violet EQ
 
-**Release version:** v1.0
+**Release version:** v1.1
 
 ![Plum EQ editor](screenshots/ATP-Plum-EQ.png)
 

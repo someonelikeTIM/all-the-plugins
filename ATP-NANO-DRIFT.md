@@ -4,7 +4,7 @@ Dual-voice detune and delay widening with a dry/wet mix and held comparison cont
 
 **Inspired by:** Harrison Micro Glide
 
-**Release version:** v1.0
+**Release version:** v1.1
 
 ![Nano Drift editor](screenshots/ATP-Nano-Drift.png)
 

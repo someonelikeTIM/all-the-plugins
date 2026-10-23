@@ -4,6 +4,8 @@ Four-character compression with pre/post tone shaping, harmonic color, parallel 
 
 **Inspired by:** Purafied Audio VU Compressor
 
+**Release version:** v1.1
+
 ![Needle Press editor](screenshots/ATP-Needle-Press.png)
 
 
