@@ -1,10 +1,12 @@
-# ATP Phase Align
+# Phase Align
 ---
 Phase alignment with independent channel delays, all-pass filters and polarity controls.
 
 **Inspired by:** SSL Native X-Phase
 
-![ATP Phase Align editor](screenshots/ATP-Phase-Align.png)
+**Release version:** v1.0
+
+![Phase Align editor](screenshots/ATP-Phase-Align.png)
 
 
 # Downloads

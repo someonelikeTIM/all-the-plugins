@@ -1,10 +1,12 @@
-# ATP Nano Drift
+# Nano Drift
 ---
 Dual-voice detune and delay widening with a dry/wet mix and held comparison control.
 
 **Inspired by:** Harrison Micro Glide
 
-![ATP Nano Drift editor](screenshots/ATP-Nano-Drift.png)
+**Release version:** v1.0
+
+![Nano Drift editor](screenshots/ATP-Nano-Drift.png)
 
 
 # Downloads
@@ -18,7 +20,7 @@ Dual-voice detune and delay widening with a dry/wet mix and held comparison cont
 ---
 **Windows:** Extract the Windows ZIP and copy the complete `ATP Nano Drift.vst3` folder into `%LOCALAPPDATA%\Programs\Common\VST3` or your system VST3 folder, then rescan your host. Requires Windows 10 or later, a Windows x64 VST3 host, and a sample rate from 44.1 to 384 kHz. The bundle contains one x64 VST3 module and uses Windows system libraries; no separate SDK or runtime installation is needed.
 
-When replacing a prior ATP build, remove its previous bundle before copying this one. Do not keep both builds installed: they share the same VST3 identity.
+When replacing a prior build, remove its previous bundle before copying this one. Do not keep both builds installed: they share the same VST3 identity.
 
 | Control | Behavior |
 | --- | --- |

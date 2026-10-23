@@ -1,10 +1,12 @@
-# ATP Relay Utility
+# Relay Utility
 ---
 A stereo utility with gain, pan, width, delay, polarity and high-pass controls.
 
 **Inspired by:** Relay
 
-![ATP Relay Utility editor](screenshots/ATP-Relay-Utility.png)
+**Release version:** v1.0
+
+![Relay Utility editor](screenshots/ATP-Relay-Utility.png)
 
 
 # Downloads

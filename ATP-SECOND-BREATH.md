@@ -1,10 +1,12 @@
-# ATP Second Breath
+# Second Breath
 ---
 Dynamic restoration with input drive, Shape contour, Life intensity, parallel blend and output gain. Five rotary controls and an IN/OUT switch provide direct adjustment.
 
 **Inspired by:** Analog Obsession ReLife
 
-![ATP Second Breath editor](screenshots/ATP-Second-Breath.png)
+**Release version:** v1.0
+
+![Second Breath editor](screenshots/ATP-Second-Breath.png)
 
 
 # Downloads
@@ -18,7 +20,7 @@ Dynamic restoration with input drive, Shape contour, Life intensity, parallel bl
 ---
 **Windows:** Extract the Windows ZIP and copy the complete `ATP Second Breath.vst3` folder into `%LOCALAPPDATA%\Programs\Common\VST3` or your system VST3 folder, then rescan your host. Requires Windows 10 or later and a Windows x64 VST3 host. The bundle contains one x64 VST3 module and uses Windows system libraries; no separate SDK or runtime installation is needed.
 
-When replacing a prior ATP build, remove its previous bundle before copying this one. Do not keep both builds installed: they share the same VST3 identity.
+When replacing a prior build, remove its previous bundle before copying this one. Do not keep both builds installed: they share the same VST3 identity.
 
 | Control | Behavior |
 | --- | --- |
@@ -28,12 +30,12 @@ When replacing a prior ATP build, remove its previous bundle before copying this
 | Mix | Blends input and processed paths from 0% to 100% processed, followed by Life/Shape compensation and Output gain. With 2x oversampling enabled, the input side is delayed by 64 samples to remain aligned. |
 | Output | Final output gain from -24 to +24 dB. |
 | IN / OUT | IN keeps the effect active. OUT selects immediate dry output and zero effective latency. This is the existing automatable Effect Bypass parameter: off means IN, on means OUT. |
-| ATP 2x Oversampling | Enables this processor's 2x path. Effective latency is 64 samples while both bypasses are off; otherwise it is zero. The host is notified when oversampling or effective latency changes. |
+| 2x Oversampling | Enables this processor's 2x path. Effective latency is 64 samples while both bypasses are off; otherwise it is zero. The host is notified when oversampling or effective latency changes. |
 | Host Bypass | VST3 host bypass. On returns immediate dry input, skips effect processing and reports zero effective latency. |
 
 Drag a knob up or down for immediate adjustment. Hold Shift or Ctrl for fine control. Use the mouse wheel or arrow keys to adjust, Page Up/Down for larger steps, Home/End for bounds, and double-click, Enter, Space, Backspace or Delete to reset a knob. Tab follows the visual control order. Switches toggle on click release or Space/Enter. Host automation and restored state update the editor automatically.
 
-Defaults are 0 dB Input, 0% Shape, 0% Life, 100% Mix, 0 dB Output, IN, 2x oversampling off and Host Bypass off. Supports mono/stereo 32-bit and 64-bit audio. The plug-in identity, parameter IDs and state format remain compatible with the previous ATP release. Processing is unchanged at 22.05 kHz and higher, including all standard 44.1 kHz and higher rates. At very low sample rates, filter frequencies are limited to 98% of Nyquist to prevent instability. No sample-rate restriction is added.
+Defaults are 0 dB Input, 0% Shape, 0% Life, 100% Mix, 0 dB Output, IN, 2x oversampling off and Host Bypass off. Supports mono/stereo 32-bit and 64-bit audio. The plug-in identity, parameter IDs and state format remain compatible with the previous release. Processing is unchanged at 22.05 kHz and higher, including all standard 44.1 kHz and higher rates. At very low sample rates, filter frequencies are limited to 98% of Nyquist to prevent instability. No sample-rate restriction is added.
 
 
 # License

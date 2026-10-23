@@ -1,10 +1,12 @@
-# ATP PreBOX
+# PreBOX
 ---
 Eleven selectable saturation models with input/output gain, high-pass and low-pass filters.
 
 **Inspired by:** Analog Obsession PreBOX
 
-![ATP PreBOX editor](screenshots/ATP-PreBOX.png)
+**Release version:** v1.0
+
+![PreBOX editor](screenshots/ATP-PreBOX.png)
 
 
 # Downloads

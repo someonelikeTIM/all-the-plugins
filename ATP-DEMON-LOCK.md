@@ -1,10 +1,12 @@
-# ATP Demon Lock
+# Demon Lock
 ---
 Aggressive compression and distortion with direct Crush and Crunch controls.
 
 **Inspired by:** Soundtoys Devil-Loc
 
-![ATP Demon Lock editor](screenshots/ATP-Demon-Lock.png)
+**Release version:** v1.0
+
+![Demon Lock editor](screenshots/ATP-Demon-Lock.png)
 
 
 # Downloads
@@ -18,7 +20,7 @@ Aggressive compression and distortion with direct Crush and Crunch controls.
 ---
 **Windows:** Extract the Windows ZIP and copy the complete `ATP Demon Lock.vst3` folder into `%LOCALAPPDATA%\Programs\Common\VST3` or your system VST3 folder, then rescan your host. Requires Windows 10 or later, a Windows x64 VST3 host, and a sample rate of 44.1, 48, 88.2, 96, 176.4 or 192 kHz. The bundle contains one x64 VST3 module and uses Windows system libraries; no separate SDK or runtime installation is needed.
 
-When replacing a prior ATP build, remove its previous bundle before copying this one. Do not keep both builds installed: they share the same VST3 identity.
+When replacing a prior build, remove its previous bundle before copying this one. Do not keep both builds installed: they share the same VST3 identity.
 
 | Control | Behavior |
 | --- | --- |

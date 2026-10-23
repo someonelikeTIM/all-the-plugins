@@ -1,10 +1,12 @@
-# ATP Tremolo Panner
+# Tremolo Panner
 ---
 Frequency-selective tremolo and stereo modulation with selectable LFO shapes and sync modes.
 
 **Inspired by:** Harrison Tremolo Panner
 
-![ATP Tremolo Panner editor](screenshots/ATP-Tremolo-Panner.png)
+**Release version:** v1.0
+
+![Tremolo Panner editor](screenshots/ATP-Tremolo-Panner.png)
 
 
 # Downloads

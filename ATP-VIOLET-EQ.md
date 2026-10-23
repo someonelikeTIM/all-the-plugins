@@ -1,10 +1,12 @@
-# ATP Violet EQ
+# Violet EQ
 ---
 High-pass filtering and two-band shelving equalization with input/output trim.
 
 **Inspired by:** SSL Fusion Violet EQ
 
-![ATP Violet EQ editor](screenshots/ATP-Violet-EQ.png)
+**Release version:** v1.0
+
+![Violet EQ editor](screenshots/ATP-Violet-EQ.png)
 
 
 # Downloads

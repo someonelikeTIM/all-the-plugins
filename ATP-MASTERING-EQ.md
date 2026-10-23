@@ -1,10 +1,12 @@
-# ATP Mastering EQ
+# Mastering EQ
 ---
 A graphic equalizer with low-pass and high-pass filters, trim and comparison bypass.
 
 **Inspired by:** Harrison Mastering EQ
 
-![ATP Mastering EQ editor](screenshots/ATP-Mastering-EQ.png)
+**Release version:** v1.0
+
+![Mastering EQ editor](screenshots/ATP-Mastering-EQ.png)
 
 
 # Downloads

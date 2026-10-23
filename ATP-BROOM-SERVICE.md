@@ -1,10 +1,12 @@
-# ATP Broom Service
+# Broom Service
 ---
 High-pass and low-pass filtering with a coupled sweep joystick, input gain and polarity inversion.
 
 **Inspired by:** bx_cleansweep V2
 
-![ATP Broom Service editor](screenshots/ATP-Broom-Service.png)
+**Release version:** v1.0
+
+![Broom Service editor](screenshots/ATP-Broom-Service.png)
 
 
 # Downloads
@@ -16,7 +18,7 @@ High-pass and low-pass filtering with a coupled sweep joystick, input gain and p
 
 # Install and use
 ---
-**Windows:** Extract the Windows ZIP and copy the complete `ATP Broom Service.vst3` folder into `%LOCALAPPDATA%\Programs\Common\VST3` or your system VST3 folder, then rescan your host. Windows 10/11 x64 with Universal C Runtime is required. The bundle contains one module, has no external sample or preset dependencies, and is unsigned. When replacing a prior ATP build, remove its previous bundle before copying this one. Do not keep both builds installed: they share the same VST3 identity.
+**Windows:** Extract the Windows ZIP and copy the complete `ATP Broom Service.vst3` folder into `%LOCALAPPDATA%\Programs\Common\VST3` or your system VST3 folder, then rescan your host. Windows 10/11 x64 with Universal C Runtime is required. The bundle contains one module, has no external sample or preset dependencies, and is unsigned. When replacing a prior build, remove its previous bundle before copying this one. Do not keep both builds installed: they share the same VST3 identity.
 
 | Control | Behavior |
 | --- | --- |

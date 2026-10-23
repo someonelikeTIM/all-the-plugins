@@ -1,10 +1,12 @@
-# ATP Dyno Mite
+# Dyno Mite
 ---
 Transient shaping with threshold, sustain and output trim.
 
 **Inspired by:** Harrison Dyno Mite
 
-![ATP Dyno Mite editor](screenshots/ATP-Dyno-Mite.png)
+**Release version:** v1.0
+
+![Dyno Mite editor](screenshots/ATP-Dyno-Mite.png)
 
 
 # Downloads

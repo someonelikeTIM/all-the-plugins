@@ -1,10 +1,12 @@
-# ATP Fusion Stereo Image
+# Fusion Stereo Image
 ---
 Mid/Side stereo imaging with width, low-frequency space shaping and input/output trim.
 
 **Inspired by:** SSL Fusion Stereo Image
 
-![ATP Fusion Stereo Image editor](screenshots/ATP-Fusion-Stereo-Image.png)
+**Release version:** v1.0
+
+![Fusion Stereo Image editor](screenshots/ATP-Fusion-Stereo-Image.png)
 
 
 # Downloads

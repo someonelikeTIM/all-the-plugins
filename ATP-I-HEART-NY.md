@@ -1,10 +1,12 @@
-# ATP I Heart NY
+# I Heart NY
 ---
 Parallel compression with Spank intensity, compressed-signal level, output gain and solo controls.
 
 **Inspired by:** BABY Audio I Heart NY
 
-![ATP I Heart NY editor](screenshots/ATP-I-Heart-NY.png)
+**Release version:** v1.0
+
+![I Heart NY editor](screenshots/ATP-I-Heart-NY.png)
 
 
 # Downloads

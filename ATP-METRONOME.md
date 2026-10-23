@@ -1,10 +1,12 @@
-# ATP Metronome
+# Metronome
 ---
 A metronome with transport modes, volume and accent controls, and independently synthesized clicks.
 
 **Inspired by:** standalone Metronome
 
-![ATP Metronome editor](screenshots/ATP-Metronome.png)
+**Release version:** v1.0
+
+![Metronome editor](screenshots/ATP-Metronome.png)
 
 
 # Downloads

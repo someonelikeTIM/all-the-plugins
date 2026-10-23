@@ -1,10 +1,12 @@
-# ATP Feral Ranger
+# Feral Ranger
 ---
 A four-band equalizer with five horizontal faders, linked ON/Power switches, separate host bypass, and signal/clip indicators.
 
 **Inspired by:** SPL Free Ranger
 
-![ATP Feral Ranger editor](screenshots/ATP-Feral-Ranger.png)
+**Release version:** v1.0
+
+![Feral Ranger editor](screenshots/ATP-Feral-Ranger.png)
 
 
 # Downloads
@@ -18,7 +20,7 @@ A four-band equalizer with five horizontal faders, linked ON/Power switches, sep
 ---
 **Windows:** Extract the ZIP, copy the whole `ATP Feral Ranger.vst3` folder to `C:\Program Files\Common Files\VST3`, then rescan your host.
 
-When replacing a prior ATP build, remove its previous bundle before copying this one. Do not keep both builds installed: they share the same VST3 identity.
+When replacing a prior build, remove its previous bundle before copying this one. Do not keep both builds installed: they share the same VST3 identity.
 
 | Control | Behavior |
 | --- | --- |

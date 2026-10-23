@@ -1,10 +1,12 @@
-# ATP Lookahead Compressor
+# Lookahead Compressor
 ---
 Lookahead compression with threshold, ratio, knee and makeup gain controls.
 
 **Inspired by:** Harrison Lookahead Compressor
 
-![ATP Lookahead Compressor editor](screenshots/ATP-Lookahead-Compressor.png)
+**Release version:** v1.0
+
+![Lookahead Compressor editor](screenshots/ATP-Lookahead-Compressor.png)
 
 
 # Downloads

@@ -1,10 +1,12 @@
-# ATP Stereo Loner
+# Stereo Loner
 ---
 Stereo monitoring, channel swapping and stepped width adjustment.
 
 **Inspired by:** bx_solo
 
-![ATP Stereo Loner macOS editor](screenshots/ATP-Stereo-Loner-mac.png)
+**Release version:** v1.0
+
+![Stereo Loner macOS editor](screenshots/ATP-Stereo-Loner-mac.png)
 
 
 # Downloads
@@ -26,7 +28,7 @@ Stereo monitoring, channel swapping and stepped width adjustment.
 
 Keep each complete Mac bundle intact; do not rename, modify, or copy only its executable. No external samples, presets, or separate SDK installation are required. The AU bundle includes its own nested VST3 implementation and does not need a separate VST3 installation. VST3 and AU may be installed together, but saved sessions and presets are not promised to transfer between formats.
 
-When replacing a prior ATP build of the same format, remove its previous bundle before copying this one. Do not keep duplicate versions installed. Updated VST3 builds retain the same VST3 identity; AU has its own format-specific identity.
+When replacing a prior build of the same format, remove its previous bundle before copying this one. Do not keep duplicate versions installed. Updated VST3 builds retain the same VST3 identity; AU has its own format-specific identity.
 
 | Control | Behavior |
 | --- | --- |

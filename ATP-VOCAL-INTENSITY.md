@@ -1,10 +1,12 @@
-# ATP Vocal Intensity
+# Vocal Intensity
 ---
 Drive and automatic leveling with high-pass, low-pass and bright-shaping controls.
 
 **Inspired by:** Harrison Vocal Intensity Processor
 
-![ATP Vocal Intensity editor](screenshots/ATP-Vocal-Intensity.png)
+**Release version:** v1.0
+
+![Vocal Intensity editor](screenshots/ATP-Vocal-Intensity.png)
 
 
 # Downloads

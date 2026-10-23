@@ -1,10 +1,12 @@
-# ATP De-Esser
+# De-Esser
 ---
 Sibilance detection and frequency-selective attenuation with band monitoring and level indicators.
 
 **Inspired by:** Harrison De-Esser
 
-![ATP De-Esser editor](screenshots/ATP-De-Esser.png)
+**Release version:** v1.0
+
+![De-Esser editor](screenshots/ATP-De-Esser.png)
 
 
 # Downloads

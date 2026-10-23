@@ -4,6 +4,8 @@
 
 **Inspired by:** {{ORIGINAL_PLUGIN}}
 
+**Release version:** v1.0
+
 ![{{PLUGIN_NAME}} editor](screenshots/{{SCREENSHOT_FILENAME}})
 
 

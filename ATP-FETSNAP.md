@@ -1,10 +1,12 @@
-# ATP FetSnap
+# FetSnap
 ---
 FET-style transient enhancement with Mix, Tone, Snap and Output controls.
 
 **Inspired by:** Analog Obsession FetSnap
 
-![ATP FetSnap editor](screenshots/ATP-FetSnap.png)
+**Release version:** v1.0
+
+![FetSnap editor](screenshots/ATP-FetSnap.png)
 
 
 # Downloads

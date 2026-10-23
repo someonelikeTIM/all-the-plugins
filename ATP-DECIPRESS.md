@@ -1,10 +1,12 @@
-# ATP DeciPress
+# DeciPress
 ---
 A program-dependent compressor and limiter with five rotary controls, external sidechain, dry/wet mixing, oversampling, and a gain-reduction meter.
 
 **Inspired by:** Analog Obsession dBComp
 
-![ATP DeciPress editor](screenshots/ATP-DeciPress.png)
+**Release version:** v1.0
+
+![DeciPress editor](screenshots/ATP-DeciPress.png)
 
 
 # Downloads
@@ -18,7 +20,7 @@ A program-dependent compressor and limiter with five rotary controls, external s
 ---
 **Windows:** Extract the ZIP, copy the whole `ATP DeciPress.vst3` folder to `C:\Program Files\Common Files\VST3`, then rescan your host.
 
-When replacing a prior ATP build, remove its previous bundle before copying this one. Do not keep both builds installed: they share the same VST3 identity.
+When replacing a prior build, remove its previous bundle before copying this one. Do not keep both builds installed: they share the same VST3 identity.
 
 | Control | Behavior |
 | --- | --- |

@@ -1,10 +1,12 @@
-# ATP Oui-Q
+# Oui-Q
 ---
 Three-band character equalization and drive with direct rotary controls.
 
 **Inspired by:** Soundtoys Sie-Q
 
-![ATP Oui-Q editor](screenshots/ATP-Oui-Q.png)
+**Release version:** v1.0
+
+![Oui-Q editor](screenshots/ATP-Oui-Q.png)
 
 
 # Downloads
@@ -30,7 +32,7 @@ Three-band character equalization and drive with direct rotary controls.
 Insert on a mono or stereo track. Drag Low, Mid Gain, Mid Frequency, High and Drive vertically, or use the mouse wheel. Mid Frequency is a six-position rotary selector. Hold Shift or Ctrl for fine gain adjustment; double-click or Alt-click a knob to reset it. Tab moves focus in visual order; arrow and Page keys adjust, Home/End select the bounds, and Enter/Space reset a knob or toggle Host Bypass. Host automation and restored states update the controls automatically. Releasing, cancelling, losing capture or closing the editor ends the edit and retains the last chosen value. Defaults are 0 dB for every gain and drive control, 1.5 kHz Mid Frequency and Bypass off. Continuous controls use a 0.1 dB processing grid. Supports 32-bit mono and stereo audio at 44.1, 48, 88.2, 96, 176.4 and 192 kHz. Reported latency is 37 samples at 44.1 or 48 kHz, 67 samples at 88.2 or 96 kHz and 131 samples at 176.4 or 192 kHz.
 
 
-This renamed release retains the existing ATP processor identity and saved-state format. When replacing a prior ATP build, remove its previous bundle before copying this one. Do not keep both builds installed: they share the same VST3 identity.
+This renamed release retains the existing processor identity and saved-state format. When replacing a prior build, remove its previous bundle before copying this one. Do not keep both builds installed: they share the same VST3 identity.
 
 
 # License

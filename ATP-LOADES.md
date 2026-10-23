@@ -1,10 +1,12 @@
-# ATP LOADES
+# LOADES
 ---
 De-essing with a linked detector, dynamic high shelf, Soft mode, release, parallel blend and gain controls.
 
 **Inspired by:** Analog Obsession LOADES
 
-![ATP LOADES editor](screenshots/ATP-LOADES.png)
+**Release version:** v1.0
+
+![LOADES editor](screenshots/ATP-LOADES.png)
 
 
 # Downloads

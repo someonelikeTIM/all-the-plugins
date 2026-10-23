@@ -1,10 +1,12 @@
-# ATP Tiny Toaster
+# Tiny Toaster
 ---
 Tube-style saturation with Heat, Mix, Bias and Noise controls.
 
 **Inspired by:** Soundtoys Little Radiator
 
-![ATP Tiny Toaster editor](screenshots/ATP-Tiny-Toaster.png)
+**Release version:** v1.0
+
+![Tiny Toaster editor](screenshots/ATP-Tiny-Toaster.png)
 
 
 # Downloads
@@ -18,7 +20,7 @@ Tube-style saturation with Heat, Mix, Bias and Noise controls.
 ---
 **Windows:** Extract the Windows ZIP and copy the complete `ATP Tiny Toaster.vst3` folder into `%LOCALAPPDATA%\Programs\Common\VST3` or your system VST3 folder, then rescan your host. Requires Windows 10 or later, a Windows x64 VST3 host, and a sample rate of 44.1, 48, 88.2, 96, 176.4 or 192 kHz. The bundle contains one x64 VST3 module and uses Windows system libraries; no separate SDK or runtime installation is needed.
 
-When replacing a prior ATP build, remove its previous bundle before copying this one. Do not keep both builds installed: they share the same VST3 identity.
+When replacing a prior build, remove its previous bundle before copying this one. Do not keep both builds installed: they share the same VST3 identity.
 
 | Control | Behavior |
 | --- | --- |
