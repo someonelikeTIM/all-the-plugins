@@ -25,10 +25,10 @@ Download and extract the individual ZIP. Copy the complete `ATP Tube Hearth.vst3
 | Mix | Blends latency-aligned dry and processed signals from Dry to Wet with a rounded equal-power curve. |
 | Mic / Line | Selects the higher-drive Mic character or the lower-drive Line character. |
 | Noise | Enables independently generated circuit-style noise; switch it off for clean operation. |
-| Bypass | Smoothly returns to the latency-aligned dry input. |
+| Host bypass | Smoothly returns to the latency-aligned dry input. Use the host bypass control; there is no separate bypass button in this editor. |
 | Heat meter | Shows internal signal intensity through the saturation path. |
 
-Defaults: Bass and Treble 0 dB, Input and Output 0 dB, Mix 100%, Line mode, Noise on and Bypass off. Drag the knobs, use the mouse wheel or arrow keys, and double-click to reset. Supports mono and stereo at 44.1, 48, 88.2, 96, 176.4 and 192 kHz. The effect can raise peaks; adjust the level in your host.
+Defaults: Bass and Treble 0 dB, Input and Output 0 dB, Mix 100%, Line mode, Noise on and Bypass off. Drag the knobs, use the mouse wheel or arrow keys, and double-click to reset. Supports mono and stereo at 44.1, 48, 88.2, 96, 176.4 and 192 kHz. The effect can raise peaks; adjust the level in your host. Use the host bypass control to bypass processing; this editor has no separate bypass button.
 
 
 # License
