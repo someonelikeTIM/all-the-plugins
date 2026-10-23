@@ -41,6 +41,7 @@ Choose a plugin to see its available downloads and installation instructions.
 | [Pulse Carver](ATP-PULSE-CARVER.md) |
 | [Needle Press](ATP-NEEDLE-PRESS.md) |
 | [Vocal Ember](ATP-VOCAL-EMBER.md) |
+| [Blacktop 76](ATP-BLACKTOP-76.md) |
 
 
 # Install
