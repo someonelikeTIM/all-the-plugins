@@ -6,7 +6,7 @@ A metronome with transport modes, volume and accent controls, and independently 
 
 **Release version:** v1.0
 
-![Metronome editor](screenshots/ATP-Metronome.png)
+![Metronome macOS editor](screenshots/ATP-Metronome-mac.png)
 
 
 # Downloads
@@ -14,11 +14,16 @@ A metronome with transport modes, volume and accent controls, and independently 
 | Platform | Format | Download |
 | --- | --- | --- |
 | Windows | VST3 | [Download](https://raw.githubusercontent.com/someonelikeTIM/all-the-plugins/main/downloads/windows/ATP-Metronome-Windows-VST3.zip) |
+| Mac | VST3 | [Download](https://raw.githubusercontent.com/someonelikeTIM/all-the-plugins/main/downloads/macos/ATP-Metronome-macOS-universal-VST3.zip) |
 
 
 # Install and use
 ---
 **Windows:** Extract the Windows ZIP and copy the complete `ATP Metronome.vst3` folder into `%LOCALAPPDATA%\Programs\Common\VST3` or your system VST3 folder, then rescan your host. Requires Windows 10 or later and a Windows x64 VST3 host. The bundle contains one x64 VST3 module and uses Windows system libraries; no separate SDK or runtime installation is needed.
+
+**Mac VST3:** Use an Apple silicon host on macOS 12 or later. Quit your audio host, extract the VST3 ZIP, and copy the complete `ATP Metronome.vst3` bundle to `~/Library/Audio/Plug-Ins/VST3/`, then reopen your host and rescan if needed.
+
+Keep the complete Mac VST3 bundle intact; do not rename, modify, or copy only its executable. When updating, remove its previous bundle first to avoid duplicate versions. Supported Mac sample rates are 44.1–384 kHz; rates outside this range are rejected.
 
 | Control | Behavior |
 | --- | --- |
@@ -27,12 +32,12 @@ A metronome with transport modes, volume and accent controls, and independently 
 | Play mode | Playback runs when the host is playing or recording. Count-in runs when the host flags recording while playback is stopped. Always also runs while the transport is stopped. |
 | Bypass | Fades the click to silence. |
 
-Load as an instrument or generator and route its stereo output to an audio bus. Edit Volume, then press APPLY; click the other controls to change them. Defaults are 50% volume, Accent on, Playback mode, and Bypass off. The plugin follows host tempo and time signature, supports 32-bit and 64-bit audio, and produces its own stereo click without an audio or MIDI input. Volume and bypass use a short fade. Click sounds are synthesized independently.
+Load as an instrument or generator and route its stereo output to an audio bus. On Windows, edit Volume and press APPLY. On Mac, drag or scroll the Volume rotary for immediate adjustment; hold Shift or Control for fine control, use arrow keys to adjust the selected control, or double-click to reset to 50%. Click the other controls to change them. Defaults are 50% volume, Accent on, Playback mode, and Bypass off. The plugin follows host tempo and time signature, supports 32-bit and 64-bit audio in VST3, and produces its own stereo click without an audio or MIDI input. Volume and bypass use a short fade. Click sounds are synthesized independently. Automation uses the last queued value for each processing block rather than sample-accurate changes. Count-in behavior depends on the host reporting the required transport state; it does not create a separate count-in timeline.
 
 
 # License
 ---
-This specific independently implemented binary is licensed under the MIT license reproduced below. The repository's existing GPL-3.0 license remains in place for repository material; it does not replace this binary's explicit license. Required bundled library notices are included in full below.
+Each independently implemented plugin build listed above is licensed under the MIT license reproduced below. The repository's existing GPL-3.0 license remains in place for repository material; it does not replace these builds' explicit license. Required bundled library notices are included in full below.
 
 Copyright (c) 2026 someonelikeTIM
 
@@ -45,7 +50,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 # Third-party notices
 ---
-This plugin includes Steinberg VST3 SDK components and LLVM / libc++ runtime components. Their full notices and distribution terms follow.
+All formats include Steinberg VST3 SDK components. The Windows build includes LLVM / libc++ runtime components; Mac builds use system frameworks and libc++. Their full notices and distribution terms follow.
 
 
 # Steinberg VST3 SDK
