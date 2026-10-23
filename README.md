@@ -38,6 +38,7 @@ Choose a plugin to see its available downloads and installation instructions.
 | [Tube Hearth](ATP-TUBE-HEARTH.md) |
 | [Overtone Mill](ATP-OVERTONE-MILL.md) |
 | [Console Clamp](ATP-CONSOLE-CLAMP.md) |
+| [Pulse Carver](ATP-PULSE-CARVER.md) |
 
 
 # Install
