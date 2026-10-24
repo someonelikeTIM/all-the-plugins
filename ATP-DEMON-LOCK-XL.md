@@ -14,6 +14,7 @@ Heavy mono and stereo dynamics and saturation with independently modeled compres
 | Platform | Format | Download |
 | --- | --- | --- |
 | Windows | VST3 | [Windows VST3](https://raw.githubusercontent.com/someonelikeTIM/all-the-plugins/main/downloads/windows/ATP-Demon-Lock-XL-Windows-VST3.zip) |
+| Mac | VST3 | [Mac VST3](https://raw.githubusercontent.com/someonelikeTIM/all-the-plugins/main/downloads/macos/ATP-Demon-Lock-XL-macOS-universal-VST3.zip) |
 
 
 # Install and use
@@ -30,6 +31,26 @@ Download and extract the individual ZIP. Copy the complete `ATP Demon Lock XL.vs
 | Host bypass | Smoothly returns to the latency-aligned dry signal through the host bypass parameter; no editor bypass button. |
 
 Defaults: Crush 1.0, Crunch 1.0, Mix 100%, Darkness 20 kHz, Slow release and host bypass off. Drag the knobs, use the mouse wheel or arrow keys, and double-click to reset. Supports mono and stereo at 44.1, 48, 88.2, 96, 176.4 and 192 kHz with 32-bit floating-point audio processing. The effect can raise peaks; adjust the level in your host.
+
+
+# Mac VST3
+---
+![Demon Lock XL Mac editor](screenshots/ATP-Demon-Lock-XL-mac.png)
+
+Extract the Mac ZIP and copy the complete `ATP Demon Lock XL.vst3` bundle into `~/Library/Audio/Plug-Ins/VST3/`, then reopen and rescan your host.
+
+| Control | Behavior |
+| --- | --- |
+| Crush | Adjusts compression character from 0.0 to 10.0. |
+| Crunch | Adjusts saturation from 0.0 to 10.0. |
+| Darkness | Lowers the response from 20000 to 500 Hz. |
+| Mix | Blends the processed and latency-aligned dry paths. |
+| Release | Selects Slow or Fast release. |
+| Host Bypass | Returns to latency-aligned dry audio; there is no editor bypass button. |
+
+Crush and Crunch default to 1.0, Darkness to 20000 Hz, Mix to 100% and Release to Slow. Drag or wheel knobs to adjust and double-click to reset. Click the Release switch to change its state.
+
+The reported latency is 63 samples at 44.1/48 kHz, 111 at 88.2/96 kHz and 205 at 176.4/192 kHz. The dry Mix endpoint and host Bypass retain that alignment.
 
 
 # License
