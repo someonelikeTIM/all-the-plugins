@@ -14,6 +14,7 @@ Rhythmic amplitude modulation with editable Shapes, event-based Rhythms, detecto
 | Platform | Format | Download |
 | --- | --- | --- |
 | Windows | VST3 | [Windows VST3](https://raw.githubusercontent.com/someonelikeTIM/all-the-plugins/main/downloads/windows/ATP-Pulse-Carver-Windows-VST3.zip) |
+| Mac | VST3 | [Mac VST3](https://raw.githubusercontent.com/someonelikeTIM/all-the-plugins/main/downloads/macos/ATP-Pulse-Carver-macOS-universal-VST3.zip) |
 
 
 # Install and use
@@ -33,6 +34,29 @@ Download and extract the individual ZIP. Copy the complete `ATP Pulse Carver.vst
 | Host bypass | Crossfades to the latency-aligned dry signal while preserving the reported plug-in delay; no editor bypass button. |
 
 Drag or wheel knobs to adjust and double-click to reset. Select EDIT to open the Shape and Rhythm editors. Add or drag Shape points with the left mouse button; remove interior points with the right button. Click the Rhythm grid to add or remove events. Turn Sync off for manual Tempo and Tap Tempo. Supports mono and stereo at 44.1, 48, 88.2, 96, 176.4 and 192 kHz. Reported latency is 45 samples at 44.1/48 kHz, 64 at 88.2/96 kHz and 128 at 176.4/192 kHz; host bypass retains this delay.
+
+
+## Mac VST3
+
+![Pulse Carver Mac editor](screenshots/ATP-Pulse-Carver-mac.png)
+
+Extract the Mac ZIP and copy the complete `ATP Pulse Carver.vst3` bundle into `~/Library/Audio/Plug-Ins/VST3/`, then reopen and rescan your host.
+
+| Control | Behavior |
+| --- | --- |
+| Depth, Groove, Feel, Accent | Set modulation amount, rhythmic placement and emphasis. |
+| Rate, Sync, Tap Tempo | Follow the host clock, or turn Sync off for manual rate and repeated tempo taps. |
+| Input, Output | Adjust the gain trims. |
+| Analog / Digital, Color | Choose the processing mode and color style. |
+| Shape and Rhythm presets | Recall shape and event patterns, including saved custom patterns. |
+| EDIT / CLOSE | Open or close the detailed editor. |
+| Threshold, Attack, Release, ENV / GATE | Set detector response and mode. |
+| Rate Mod, Depth Mod, Width | Adjust the detector's modulation influence and stereo width. |
+| Shape graph, Smoothing, Curvature | Edit internal shape nodes and transition behavior. |
+| Rhythm graph, Bars, Beats / Bar, Edit Bar, Grid | Edit events and pattern structure. |
+| Host Bypass | Retains the existing host bypass parameter. |
+
+Shape and rhythm edits are saved with the plugin state. Drag or wheel rotaries to adjust; double-click resets a default. The reported latency is 45 samples at 44.1/48 kHz, 64 at 88.2/96 kHz and 128 at 176.4/192 kHz.
 
 
 # License
