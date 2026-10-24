@@ -6,7 +6,7 @@ Modeled even- and odd-harmonic saturation with drive, depth, shape, parallel mix
 
 **Release version:** v1.1
 
-![Overtone Mill editor](screenshots/ATP-Overtone-Mill.png)
+![Overtone Mill Mac editor](screenshots/ATP-Overtone-Mill-mac.png)
 
 
 # Downloads
@@ -14,11 +14,14 @@ Modeled even- and odd-harmonic saturation with drive, depth, shape, parallel mix
 | Platform | Format | Download |
 | --- | --- | --- |
 | Windows | VST3 | [Windows VST3](https://raw.githubusercontent.com/someonelikeTIM/all-the-plugins/main/downloads/windows/ATP-Overtone-Mill-Windows-VST3.zip) |
+| Mac | VST3 | [Mac VST3](https://raw.githubusercontent.com/someonelikeTIM/all-the-plugins/main/downloads/macos/ATP-Overtone-Mill-macOS-universal-VST3.zip) |
 
 
 # Install and use
 ---
-Download and extract the individual ZIP. Copy the complete `ATP Overtone Mill.vst3` folder to `%LOCALAPPDATA%\Programs\Common\VST3` or your system VST3 folder, then rescan your host.
+**Windows:** Download and extract the individual ZIP. Copy the complete `ATP Overtone Mill.vst3` folder to `%LOCALAPPDATA%\Programs\Common\VST3` or your system VST3 folder, then rescan your host.
+
+**Mac:** Extract the Mac ZIP and copy the complete `ATP Overtone Mill.vst3` bundle into `~/Library/Audio/Plug-Ins/VST3/`, then reopen and rescan your host.
 
 | Control | Behavior |
 | --- | --- |
@@ -33,6 +36,10 @@ Download and extract the individual ZIP. Copy the complete `ATP Overtone Mill.vs
 | Center meter | Shows the level and intensity of the driven saturation path. |
 
 Defaults: Input and Output 0 dB, Drive 0 dB, Depth and Harmonics 50%, Shape 0%, Mix 100%, +6 dB off and IN on. Drag or use the mouse wheel to adjust a knob; double-click to reset. Activation briefly passes dry audio before processing engages. Supports mono and stereo at 44.1, 48, 88.2, 96, 176.4 and 192 kHz. Drive can raise peaks; adjust the level in your host.
+
+Mac meter indications: the side meters show the last processed input and output levels. The center needle follows the normalized saturation/color indication; it is not a calibrated THD or gain-reduction meter.
+
+Mac dependencies: This Mac plugin uses the Steinberg VST3 SDK and the system LLVM / libc++ runtime. Complete notices follow.
 
 
 # License
