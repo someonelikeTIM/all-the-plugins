@@ -44,6 +44,7 @@ Choose a plugin to see its available downloads and installation instructions.
 | [Blacktop 76](ATP-BLACKTOP-76.md) |
 | [PANdemonium](ATP-PANDEMONIUM.md) |
 | [Offset Choir](ATP-OFFSET-CHOIR.md) |
+| [Velvet Cinch](ATP-VELVET-CINCH.md) |
 
 
 # Install
