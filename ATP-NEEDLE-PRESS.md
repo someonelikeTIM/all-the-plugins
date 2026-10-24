@@ -6,7 +6,7 @@ Four-character compression with pre/post tone shaping, harmonic color, parallel 
 
 **Release version:** v1.1
 
-![Needle Press editor](screenshots/ATP-Needle-Press.png)
+![Needle Press editor](screenshots/ATP-Needle-Press-mac.png)
 
 
 # Downloads
@@ -14,11 +14,14 @@ Four-character compression with pre/post tone shaping, harmonic color, parallel 
 | Platform | Format | Download |
 | --- | --- | --- |
 | Windows | VST3 | [Windows VST3](https://raw.githubusercontent.com/someonelikeTIM/all-the-plugins/main/downloads/windows/ATP-Needle-Press-Windows-VST3.zip) |
+| Mac | VST3 | [Mac VST3](https://raw.githubusercontent.com/someonelikeTIM/all-the-plugins/main/downloads/macos/ATP-Needle-Press-macOS-universal-VST3.zip) |
 
 
 # Install and use
 ---
-Download and extract the individual ZIP. Copy the complete `ATP Needle Press.vst3` folder to `%LOCALAPPDATA%\Programs\Common\VST3` or your system VST3 folder, then rescan your host.
+**Windows:** Download and extract the individual ZIP. Copy the complete `ATP Needle Press.vst3` folder to `%LOCALAPPDATA%\Programs\Common\VST3` or your system VST3 folder, then rescan your host.
+
+**Mac:** Extract the Mac ZIP and copy the complete `ATP Needle Press.vst3` bundle into `~/Library/Audio/Plug-Ins/VST3/`, then reopen and rescan your host.
 
 | Control | Behavior |
 | --- | --- |
