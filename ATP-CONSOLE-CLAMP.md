@@ -4,6 +4,8 @@ Lookahead console-style compression with Program timing, depth control and a fil
 
 **Inspired by:** Harrison MPC Compressor
 
+**Release version:** v1.1
+
 ![Console Clamp editor](screenshots/ATP-Console-Clamp.png)
 
 
@@ -30,7 +32,8 @@ Download and extract the individual ZIP. Copy the complete `ATP Console Clamp.vs
 | Listen | Monitors the selected sidechain signal. |
 | EQ In / Filter Shape | Enables the sidechain EQ and selects first- or second-order low/high pass, low/high shelf, bell, notch or search filtering. |
 | Filter graph / Gain / Frequency / Q | Drag the graph point for frequency and gain, or use the supporting knobs. Wheel over the graph adjusts Q; double-click resets its three controls. The graph shows the selected filter response. |
-| IN / MOMENT | IN is lit while processing is engaged. Switch it off for bypass, or hold MOMENT for temporary bypass. |
+| MOMENT | Hold for temporary bypass; releasing it or closing the editor restores its prior state. |
+| Host bypass | Use the host's bypass control for latched bypass; its automation and saved state remain available. |
 | Meters / History | Shows input level, gain reduction and recent reduction history. |
 
 Drag or wheel knobs to adjust; double-click to reset. Route a mono sidechain in your host before enabling External Key. Supports mono and stereo at 44.1, 48, 88.2, 96, 176.4 and 192 kHz. Reports 256 samples of lookahead at 44.1/48 kHz and 512 samples at the higher listed rates. Bypass passes undelayed input, so switching it can change alignment when your host applies delay compensation.
