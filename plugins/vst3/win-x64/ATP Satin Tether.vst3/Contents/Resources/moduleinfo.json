@@ -1,0 +1,31 @@
+{
+  "Name": "ATP Satin Tether",
+  "Version": "1.0.0",
+  "Factory Info": {
+    "Vendor": "All the Plugins",
+    "URL": "https://github.com/someonelikeTIM/all-the-plugins",
+    "E-Mail": "",
+    "Flags": {
+      "Unicode": true,
+      "Classes Discardable": false,
+      "Component Non Discardable": false
+    }
+  },
+  "Classes": [
+    {
+      "CID": "3713ACD52A7347D2A93B1FD0A71462B1",
+      "Category": "Audio Module Class",
+      "Name": "ATP Satin Tether",
+      "Vendor": "All the Plugins",
+      "Version": "1.0.0",
+      "SDKVersion": "VST 3.8.1",
+      "Sub Categories": [
+        "Fx",
+        "Dynamics"
+      ],
+      "Class Flags": 0,
+      "Cardinality": 2147483647,
+      "Snapshots": []
+    }
+  ]
+}

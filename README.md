@@ -46,6 +46,7 @@ Choose a plugin to see its available downloads and installation instructions.
 | [Offset Choir](ATP-OFFSET-CHOIR.md) |
 | [Velvet Cinch](ATP-VELVET-CINCH.md) |
 | [Quiet Verse](ATP-QUIET-VERSE.md) |
+| [Satin Tether](ATP-SATIN-TETHER.md) |
 | [Photon Clamp](ATP-PHOTON-CLAMP.md) |
 
 
