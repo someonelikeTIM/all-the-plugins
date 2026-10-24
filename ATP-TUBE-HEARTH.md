@@ -6,7 +6,7 @@ Tube mixer-style saturation with Bass and Treble shaping, input and output drive
 
 **Release version:** v1.1
 
-![Tube Hearth editor](screenshots/ATP-Tube-Hearth.png)
+![Tube Hearth editor](screenshots/ATP-Tube-Hearth-mac.png)
 
 
 # Downloads
@@ -14,11 +14,14 @@ Tube mixer-style saturation with Bass and Treble shaping, input and output drive
 | Platform | Format | Download |
 | --- | --- | --- |
 | Windows | VST3 | [Windows VST3](https://raw.githubusercontent.com/someonelikeTIM/all-the-plugins/main/downloads/windows/ATP-Tube-Hearth-Windows-VST3.zip) |
+| Mac | VST3 | [Mac VST3](https://raw.githubusercontent.com/someonelikeTIM/all-the-plugins/main/downloads/macos/ATP-Tube-Hearth-macOS-universal-VST3.zip) |
 
 
 # Install and use
 ---
-Download and extract the individual ZIP. Copy the complete `ATP Tube Hearth.vst3` folder to `%LOCALAPPDATA%\Programs\Common\VST3` or your system VST3 folder, then rescan your host.
+**Windows:** Download and extract the individual ZIP. Copy the complete `ATP Tube Hearth.vst3` folder to `%LOCALAPPDATA%\Programs\Common\VST3` or your system VST3 folder, then rescan your host.
+
+**Mac:** Extract the Mac ZIP and copy the complete `ATP Tube Hearth.vst3` bundle into `~/Library/Audio/Plug-Ins/VST3/`, then reopen and rescan your host.
 
 | Control | Behavior |
 | --- | --- |
@@ -30,7 +33,7 @@ Download and extract the individual ZIP. Copy the complete `ATP Tube Hearth.vst3
 | Host bypass | Smoothly returns to the latency-aligned dry input. Use the host bypass control; there is no separate bypass button in this editor. |
 | Heat meter | Shows internal signal intensity through the saturation path. |
 
-Defaults: Bass and Treble 0 dB, Input and Output 0 dB, Mix 100%, Line mode, Noise on and Bypass off. Drag the knobs, use the mouse wheel or arrow keys, and double-click to reset. Supports mono and stereo at 44.1, 48, 88.2, 96, 176.4 and 192 kHz. The effect can raise peaks; adjust the level in your host. Use the host bypass control to bypass processing; this editor has no separate bypass button.
+Defaults: Bass and Treble 0 dB, Input and Output 0 dB, Mix 100%, Line mode, Noise on and Bypass off. Drag the knobs, use the mouse wheel or arrow keys, and double-click to reset. Supports mono and stereo at 44.1, 48, 88.2, 96, 176.4 and 192 kHz.
 
 
 # License
