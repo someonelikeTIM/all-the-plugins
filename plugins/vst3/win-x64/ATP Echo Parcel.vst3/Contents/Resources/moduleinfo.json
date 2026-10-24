@@ -1,5 +1,5 @@
 {
-  "Name": "ATP Echo Parcel",
+  "Name": "ATP UltraTap",
   "Version": "1.0.0",
   "Factory Info": {
     "Vendor": "All the Plugins",
@@ -15,7 +15,7 @@
     {
       "CID": "3C6AB71295B84A57BBE6F291E2200002",
       "Category": "Audio Module Class",
-      "Name": "ATP Echo Parcel 2",
+      "Name": "ATP UltraTap 2",
       "Vendor": "All the Plugins",
       "Version": "1.0.0",
       "SDKVersion": "VST 3.8.1",
@@ -30,7 +30,7 @@
     {
       "CID": "3C6AB71295B84A57BBE6F291E2200006",
       "Category": "Audio Module Class",
-      "Name": "ATP Echo Parcel 6",
+      "Name": "ATP UltraTap 6",
       "Vendor": "All the Plugins",
       "Version": "1.0.0",
       "SDKVersion": "VST 3.8.1",
