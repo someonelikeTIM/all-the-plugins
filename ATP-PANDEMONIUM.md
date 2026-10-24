@@ -6,7 +6,7 @@ Six-mode rhythmic stereo motion with editable step and event patterns, audio-tri
 
 **Release version:** v1.1
 
-![PANdemonium editor](screenshots/ATP-PANdemonium.png)
+![PANdemonium editor](screenshots/ATP-PANdemonium-mac.png)
 
 
 # Downloads
@@ -14,11 +14,14 @@ Six-mode rhythmic stereo motion with editable step and event patterns, audio-tri
 | Platform | Format | Download |
 | --- | --- | --- |
 | Windows | VST3 | [Windows VST3](https://raw.githubusercontent.com/someonelikeTIM/all-the-plugins/main/downloads/windows/ATP-PANdemonium-Windows-VST3.zip) |
+| Mac | VST3 | [Mac VST3](https://raw.githubusercontent.com/someonelikeTIM/all-the-plugins/main/downloads/macos/ATP-PANdemonium-macOS-universal-VST3.zip) |
 
 
 # Install and use
 ---
-Download and extract the individual ZIP. Copy the complete `ATP PANdemonium.vst3` folder to `%LOCALAPPDATA%\Programs\Common\VST3` or your system VST3 folder, then rescan your host.
+**Windows:** Download and extract the individual ZIP. Copy the complete `ATP PANdemonium.vst3` folder to `%LOCALAPPDATA%\Programs\Common\VST3` or your system VST3 folder, then rescan your host.
+
+**Mac:** Extract the Mac ZIP and copy the complete `ATP PANdemonium.vst3` bundle into `~/Library/Audio/Plug-Ins/VST3/`, then reopen and rescan your host.
 
 | Control | Behavior |
 | --- | --- |
