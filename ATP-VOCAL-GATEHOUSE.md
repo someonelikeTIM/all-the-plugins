@@ -14,6 +14,7 @@ Mono and stereo vocal gating with adjustable hysteresis, envelope timing, parall
 | Platform | Format | Download |
 | --- | --- | --- |
 | Windows | VST3 | [Windows VST3](https://raw.githubusercontent.com/someonelikeTIM/all-the-plugins/main/downloads/windows/ATP-Vocal-Gatehouse-Windows-VST3.zip) |
+| Mac | VST3 | [Mac VST3](https://raw.githubusercontent.com/someonelikeTIM/all-the-plugins/main/downloads/macos/ATP-Vocal-Gatehouse-macOS-universal-VST3.zip) |
 
 
 # Install and use
@@ -32,6 +33,27 @@ Download and extract the individual ZIP. Copy the complete `ATP Vocal Gatehouse.
 | Bypass / Match | Bypass smoothly returns the delayed original input. Match adjusts the bypassed signal toward the processed level for comparison. |
 
 Defaults: Open and Close -60 dB, Ratio 15:1, Attack 5 ms, Release 50 ms, Wet 100%, Input and Output 0 dB, centered Pan and Width 100%. Drag controls, use the mouse wheel or arrow keys, and double-click to reset. Supports mono and stereo at 44.1, 48, 88.2, 96, 176.4 and 192 kHz.
+
+
+## Mac VST3
+
+![Vocal Gatehouse Mac editor](screenshots/ATP-Vocal-Gatehouse-mac.png)
+
+Extract the Mac ZIP and copy the complete `ATP Vocal Gatehouse.vst3` bundle into `~/Library/Audio/Plug-Ins/VST3/`, then reopen and rescan your host.
+
+| Control | Behavior |
+| --- | --- |
+| Open, Close | Set the opening threshold and closing offset using the graph handles. |
+| Attack, Release | Set how quickly the gate responds. |
+| Ratio | Adjust expansion strength. |
+| Wet | Blend the gate action. |
+| Module Bypass | Bypass the gate stage while retaining the other wet-path controls. |
+| Input, Output | Adjust gain using vertical faders. |
+| Global Bypass | Compare against the latency-aligned raw path. |
+| Match | Level-match the global bypass comparison. |
+| Pan, Width | Adjust stereo placement and width with horizontal sliders. |
+
+The graph shows live input history with Open and Close thresholds; the meters show input, output and gain reduction. Drag or wheel controls to adjust, and double-click or right-click to reset. Reported delay is `round(sample_rate × 0.001) − 1` samples; the bypass paths retain its alignment.
 
 
 # License
