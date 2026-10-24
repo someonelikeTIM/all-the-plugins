@@ -27,7 +27,7 @@
 
 # Install and use
 ---
-<!-- The website places these operating notes and all control tables in its Controls tab. Keep complete platform-specific usage, gestures, defaults, audio support, and important limitations here, grouped under clear platform labels when needed. Keep Overview focused on the sound and use cases. Installation requirements remain concise and accurate. Do not add screenshots to this section. -->
+<!-- Use one shared Control/Behavior table, then short, scannable notes grouped as Using the interface, Defaults, Audio support and limits, and Platform differences. State common Windows/Mac instructions once. Include only genuine differences under platform labels; do not repeat a whole table, gesture list, or defaults paragraph for each OS. Keep exact reset behavior, automation/state limits and latency distinctions. The website places operating notes in Controls and installation/upgrade steps in Installation. Keep requirements concise and accurate. Do not add screenshots here. -->
 {{INSTALLATION_REQUIREMENTS_FOR_AVAILABLE_FORMATS}}
 
 | Control | Behavior |
