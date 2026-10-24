@@ -4,6 +4,8 @@ FET compressor with five ratio modes, linked or separate channel controls, mid/s
 
 **Inspired by:** IK Multimedia TR5 Black 76
 
+**Release version:** v1.1
+
 ![Blacktop 76 editor](screenshots/ATP-Blacktop-76.png)
 
 
