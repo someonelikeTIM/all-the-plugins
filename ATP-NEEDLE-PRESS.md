@@ -1,4 +1,4 @@
-# Needle Press
+# Pure Comp
 ---
 Four-character compression with pre/post tone shaping, harmonic color, parallel mix, linked or dual-mono detection and selectable oversampling.
 
@@ -6,7 +6,7 @@ Four-character compression with pre/post tone shaping, harmonic color, parallel 
 
 **Release version:** v1.1
 
-![Needle Press editor](screenshots/ATP-Needle-Press-mac.png)
+![Pure Comp editor](screenshots/ATP-Needle-Press-mac.png)
 
 
 # Downloads
@@ -19,9 +19,11 @@ Four-character compression with pre/post tone shaping, harmonic color, parallel 
 
 # Install and use
 ---
-**Windows:** Download and extract the individual ZIP. Copy the complete `ATP Needle Press.vst3` folder to `%LOCALAPPDATA%\Programs\Common\VST3` or your system VST3 folder, then rescan your host.
+**Windows:** Download and extract the individual ZIP. Copy the complete `ATP Pure Comp.vst3` folder to `%LOCALAPPDATA%\Programs\Common\VST3` or your system VST3 folder, then rescan your host.
 
-**Mac:** Extract the Mac ZIP and copy the complete `ATP Needle Press.vst3` bundle into `~/Library/Audio/Plug-Ins/VST3/`, then reopen and rescan your host.
+**Mac:** Extract the Mac ZIP and copy the complete `ATP Pure Comp.vst3` bundle into `~/Library/Audio/Plug-Ins/VST3/`, then reopen and rescan your host.
+
+When upgrading from Needle Press, replace the previous `ATP Needle Press.vst3` bundle with `ATP Pure Comp.vst3` in the same VST3 folder. Do not keep both installed: they share the same plugin identity.
 
 | Control | Behavior |
 | --- | --- |
@@ -40,7 +42,14 @@ Four-character compression with pre/post tone shaping, harmonic color, parallel 
 | Oversampling | Selects Off, 2x, 4x, 8x or 16x processing and reports the corresponding plug-in delay. |
 | Stereo Link / Dual Mono | Stereo Link applies shared gain reduction to both channels; Dual Mono detects and compresses each channel independently. |
 
-Defaults: Input and Output 0 dB, A mode, Bottom and Top 0 dB in Pre, THD centered, Mix 100%, SC 85 off, Bypass off, Auto Gain off, Oversampling off and Stereo Link. Drag or wheel knobs to adjust and double-click to reset; click mode and toggle controls directly. With Auto Gain on, Output changes establish a new level and later Input changes counter-adjust from it. Bottom and Top placed Post do not color the fully dry Mix endpoint. Supports 32-bit floating-point mono and stereo processing at 44.1, 48, 88.2, 96, 176.4 and 192 kHz. Oversampling reports 0 samples of latency when Off, 62 at 2x, 76 at 4x, 82 at 8x and 84 at 16x. Bypass retains the selected oversampling delay.
+**Defaults:** Input and Output 0 dB, A mode, Bottom and Top 0 dB in Pre, THD centered, Mix 100%, SC 85 off, Bypass off, Auto Gain off, Oversampling off and Stereo Link.
+
+Drag or wheel knobs to adjust and double-click to reset; click mode and toggle controls directly.
+
+- With Auto Gain on, Output changes establish a new level and later Input changes counter-adjust from it.
+- Bottom and Top placed Post do not color the fully dry Mix endpoint.
+- Supports 32-bit floating-point mono and stereo processing at 44.1, 48, 88.2, 96, 176.4 and 192 kHz.
+- Oversampling reports 0 samples of latency when Off, 62 at 2x, 76 at 4x, 82 at 8x and 84 at 16x. Bypass retains the selected oversampling delay.
 
 
 # License

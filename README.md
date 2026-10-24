@@ -39,7 +39,7 @@ Choose a plugin to see its available downloads and installation instructions.
 | [Overtone Mill](ATP-OVERTONE-MILL.md) |
 | [Console Clamp](ATP-CONSOLE-CLAMP.md) |
 | [Pulse Carver](ATP-PULSE-CARVER.md) |
-| [Needle Press](ATP-NEEDLE-PRESS.md) |
+| [Pure Comp](ATP-NEEDLE-PRESS.md) |
 | [Vocal Ember](ATP-VOCAL-EMBER.md) |
 | [Blacktop 76](ATP-BLACKTOP-76.md) |
 | [PANdemonium](ATP-PANDEMONIUM.md) |
