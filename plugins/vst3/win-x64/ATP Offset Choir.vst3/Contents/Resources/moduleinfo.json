@@ -1,5 +1,5 @@
 {
-  "Name": "ATP Offset Choir",
+  "Name": "ATP Double Trouble",
   "Version": "1.0.0",
   "Factory Info": {
     "Vendor": "All the Plugins",
@@ -15,7 +15,7 @@
     {
       "CID": "8D867A4FF4704C81B672E9D2F64228A1",
       "Category": "Audio Module Class",
-      "Name": "ATP Offset Choir 2",
+      "Name": "ATP Double Trouble 2",
       "Vendor": "All the Plugins",
       "Version": "1.0.0",
       "SDKVersion": "VST 3.8.1",
@@ -31,7 +31,7 @@
     {
       "CID": "48DD347A74C74D569C5347A9CE3782B0",
       "Category": "Audio Module Class",
-      "Name": "ATP Offset Choir 4",
+      "Name": "ATP Double Trouble 4",
       "Vendor": "All the Plugins",
       "Version": "1.0.0",
       "SDKVersion": "VST 3.8.1",
