@@ -11,7 +11,7 @@ Choose a plugin to see its available downloads and installation instructions.
 | [Broom Service](ATP-BROOM-SERVICE.md) |
 | [Metronome](ATP-METRONOME.md) |
 | [Relay Utility](ATP-RELAY-UTILITY.md) |
-| [Dyno Mite](ATP-DYNO-MITE.md) |
+| [Sustainer](ATP-DYNO-MITE.md) |
 | [Tilt Nouveau](ATP-TILT-NOUVEAU.md) |
 | [Fusion Stereo Image](ATP-FUSION-STEREO-IMAGE.md) |
 | [Lookahead Compressor](ATP-LOOKAHEAD-COMPRESSOR.md) |
