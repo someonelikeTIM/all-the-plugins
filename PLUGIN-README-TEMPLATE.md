@@ -27,14 +27,14 @@
 
 # Install and use
 ---
-<!-- Use one shared Control/Behavior table, then short, scannable notes grouped as Using the interface, Defaults, Audio support and limits, and Platform differences. State common Windows/Mac instructions once. Include only genuine differences under platform labels; do not repeat a whole table, gesture list, or defaults paragraph for each OS. Keep exact reset behavior, automation/state limits and latency distinctions. The website places operating notes in Controls and installation/upgrade steps in Installation. Keep requirements concise and accurate. Do not add screenshots here. -->
+<!-- Start with short, scannable notes grouped as Using the interface, Defaults, Audio support and limits, and Platform differences, followed by one shared Control/Behavior reference table. State common Windows/Mac instructions once. Include only genuine differences under platform labels; do not repeat a whole table, gesture list, or defaults paragraph for each OS. Keep exact reset behavior, automation/state limits and latency distinctions. The website places operating notes at the top of Controls and installation/upgrade steps only in Installation. Keep requirements concise and accurate. Do not add screenshots here. -->
 {{INSTALLATION_REQUIREMENTS_FOR_AVAILABLE_FORMATS}}
+
+{{EDITOR_USAGE_DEFAULTS_AND_AUDIO_SUPPORT}}
 
 | Control | Behavior |
 | --- | --- |
 | {{CONTROL_NAME}} | {{CONTROL_BEHAVIOR}} |
-
-{{EDITOR_USAGE_DEFAULTS_AND_AUDIO_SUPPORT}}
 
 
 # License
