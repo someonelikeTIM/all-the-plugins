@@ -45,6 +45,7 @@ Choose a plugin to see its available downloads and installation instructions.
 | [PANdemonium](ATP-PANDEMONIUM.md) |
 | [Offset Choir](ATP-OFFSET-CHOIR.md) |
 | [Velvet Cinch](ATP-VELVET-CINCH.md) |
+| [Photon Clamp](ATP-PHOTON-CLAMP.md) |
 
 
 # Install
