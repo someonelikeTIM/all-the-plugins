@@ -43,6 +43,7 @@ Choose a plugin to see its available downloads and installation instructions.
 | [Vocal Ember](ATP-VOCAL-EMBER.md) |
 | [Blacktop 76](ATP-BLACKTOP-76.md) |
 | [PANdemonium](ATP-PANDEMONIUM.md) |
+| [Offset Choir](ATP-OFFSET-CHOIR.md) |
 
 
 # Install
