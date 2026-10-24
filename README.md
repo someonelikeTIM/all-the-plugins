@@ -14,7 +14,7 @@ Choose a plugin to see its available downloads and installation instructions.
 | [Sustainer](ATP-DYNO-MITE.md) |
 | [Tilt Nouveau](ATP-TILT-NOUVEAU.md) |
 | [Fusion Stereo Image](ATP-FUSION-STEREO-IMAGE.md) |
-| [Lookahead Compressor](ATP-LOOKAHEAD-COMPRESSOR.md) |
+| [AheadComp](ATP-LOOKAHEAD-COMPRESSOR.md) |
 | [Sub Sifter](ATP-SUB-SIFTER.md) |
 | [Phase Align](ATP-PHASE-ALIGN.md) |
 | [Plum EQ](ATP-PLUM-EQ.md) |
