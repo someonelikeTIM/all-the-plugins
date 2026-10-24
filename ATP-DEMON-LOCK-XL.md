@@ -4,6 +4,8 @@ Heavy mono and stereo dynamics and saturation with independently modeled compres
 
 **Inspired by:** Soundtoys Devil-Loc Deluxe
 
+**Release version:** v1.1
+
 ![ATP Demon Lock XL editor](screenshots/ATP-Demon-Lock-XL.png)
 
 
@@ -25,9 +27,9 @@ Download and extract the individual ZIP. Copy the complete `ATP Demon Lock XL.vs
 | Release | Switches the compression envelope between Slow and Fast recovery. |
 | Darkness | Sets the modeled post-effect low-pass response from 20 kHz down to 500 Hz; this continuously variable response is a measured functional approximation. |
 | Mix | Blends the latency-aligned dry and processed signals with a rounded equal-power curve from 0% to 100%. |
-| Bypass | Smoothly returns to the latency-aligned dry signal. |
+| Host bypass | Smoothly returns to the latency-aligned dry signal through the host bypass parameter; no editor bypass button. |
 
-Defaults: Crush 1.0, Crunch 1.0, Mix 100%, Darkness 20 kHz, Slow release and Bypass off. Drag the knobs, use the mouse wheel or arrow keys, and double-click to reset. Supports mono and stereo at 44.1, 48, 88.2, 96, 176.4 and 192 kHz. The effect can raise peaks; adjust the level in your host.
+Defaults: Crush 1.0, Crunch 1.0, Mix 100%, Darkness 20 kHz, Slow release and host bypass off. Drag the knobs, use the mouse wheel or arrow keys, and double-click to reset. Supports mono and stereo at 44.1, 48, 88.2, 96, 176.4 and 192 kHz with 32-bit floating-point audio processing. The effect can raise peaks; adjust the level in your host.
 
 
 # License
