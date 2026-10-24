@@ -47,6 +47,7 @@ Choose a plugin to see its available downloads and installation instructions.
 | [Velvet Cinch](ATP-VELVET-CINCH.md) |
 | [Quiet Verse](ATP-QUIET-VERSE.md) |
 | [Satin Tether](ATP-SATIN-TETHER.md) |
+| [Linen Curve](ATP-LINEN-CURVE.md) |
 | [Photon Clamp](ATP-PHOTON-CLAMP.md) |
 
 
