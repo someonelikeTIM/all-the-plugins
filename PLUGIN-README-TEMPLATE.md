@@ -2,11 +2,20 @@
 ---
 {{SHORT_PRODUCT_DESCRIPTION}}
 
+<!-- Keep the opening description to one short sentence about what the plugin does. -->
+
 **Inspired by:** {{ORIGINAL_PLUGIN}}
 
 **Release version:** v1.0
 
+<!-- Place the actual editor screenshot here, once. Do not repeat screenshots in Overview, Controls, or Install and use; the website already displays the editor in its showcase. -->
 ![{{PLUGIN_NAME}} editor](screenshots/{{SCREENSHOT_FILENAME}})
+
+
+# Overview
+---
+<!-- Write 2–4 short, listener-focused sentences (roughly 40–80 words): describe the sound or musical purpose and recommend concrete use cases. Avoid repeating the product name/opening description. Do not put control-by-control instructions, mouse/keyboard gestures, defaults, sample rates, latency, technical limitations, tables, or screenshots here. Do not claim unverified sonic equivalence or compatibility. -->
+{{MUSICAL_BENEFITS_AND_RECOMMENDED_USE_CASES}}
 
 
 # Downloads
@@ -18,6 +27,7 @@
 
 # Install and use
 ---
+<!-- The website places these operating notes and all control tables in its Controls tab. Keep complete platform-specific usage, gestures, defaults, audio support, and important limitations here, grouped under clear platform labels when needed. Keep Overview focused on the sound and use cases. Installation requirements remain concise and accurate. Do not add screenshots to this section. -->
 {{INSTALLATION_REQUIREMENTS_FOR_AVAILABLE_FORMATS}}
 
 | Control | Behavior |
