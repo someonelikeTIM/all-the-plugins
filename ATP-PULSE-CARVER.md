@@ -4,6 +4,8 @@ Rhythmic amplitude modulation with editable Shapes, event-based Rhythms, detecto
 
 **Inspired by:** Soundtoys Tremolator
 
+**Release version:** v1.1
+
 ![Pulse Carver editor](screenshots/ATP-Pulse-Carver.png)
 
 
@@ -28,9 +30,9 @@ Download and extract the individual ZIP. Copy the complete `ATP Pulse Carver.vst
 | Analog / Digital / Style | Digital selects Op-Amp. Returning to Analog retains that style; choosing Clean, Crunch, Fat, Shred, Squash, Pump or Dirt enables Analog. |
 | Detector / Rate Mod / Depth Mod | The detector follows the left input. Threshold, Attack, Release and Envelope/Gate shape it, while Rate Mod and Depth Mod apply it to the rhythm. |
 | Width | Offsets the right-channel rhythm phase to widen the stereo motion. |
-| Bypass | Crossfades to the latency-aligned dry signal while preserving the reported plug-in delay. |
+| Host bypass | Crossfades to the latency-aligned dry signal while preserving the reported plug-in delay; no editor bypass button. |
 
-Drag or wheel knobs to adjust and double-click to reset. Select EDIT to open the Shape and Rhythm editors. Add or drag Shape points with the left mouse button; remove interior points with the right button. Click the Rhythm grid to add or remove events. Turn Sync off for manual Tempo and Tap Tempo. Supports mono and stereo at 44.1, 48, 88.2, 96, 176.4 and 192 kHz. Reported latency is 45 samples at 44.1/48 kHz, 64 at 88.2/96 kHz and 128 at 176.4/192 kHz; Bypass retains this delay.
+Drag or wheel knobs to adjust and double-click to reset. Select EDIT to open the Shape and Rhythm editors. Add or drag Shape points with the left mouse button; remove interior points with the right button. Click the Rhythm grid to add or remove events. Turn Sync off for manual Tempo and Tap Tempo. Supports mono and stereo at 44.1, 48, 88.2, 96, 176.4 and 192 kHz. Reported latency is 45 samples at 44.1/48 kHz, 64 at 88.2/96 kHz and 128 at 176.4/192 kHz; host bypass retains this delay.
 
 
 # License
