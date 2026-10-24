@@ -1,5 +1,5 @@
 {
-  "Name": "ATP Linen Curve",
+  "Name": "ATP Redux Equalizer",
   "Version": "1.0.0",
   "Factory Info": {
     "Vendor": "All the Plugins",
@@ -15,7 +15,7 @@
     {
       "CID": "7F195A2156214AE8B5D35920E9031002",
       "Category": "Audio Module Class",
-      "Name": "ATP Linen Curve 2",
+      "Name": "ATP Redux Equalizer 2",
       "Vendor": "All the Plugins",
       "Version": "1.0.0",
       "SDKVersion": "VST 3.8.1",
@@ -30,7 +30,7 @@
     {
       "CID": "7F195A2156214AE8B5D35920E9031004",
       "Category": "Audio Module Class",
-      "Name": "ATP Linen Curve 4",
+      "Name": "ATP Redux Equalizer 4",
       "Vendor": "All the Plugins",
       "Version": "1.0.0",
       "SDKVersion": "VST 3.8.1",
@@ -45,7 +45,7 @@
     {
       "CID": "7F195A2156214AE8B5D35920E9031006",
       "Category": "Audio Module Class",
-      "Name": "ATP Linen Curve 6",
+      "Name": "ATP Redux Equalizer 6",
       "Vendor": "All the Plugins",
       "Version": "1.0.0",
       "SDKVersion": "VST 3.8.1",
