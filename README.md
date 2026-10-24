@@ -43,11 +43,11 @@ Choose a plugin to see its available downloads and installation instructions.
 | [Vocal Ember](ATP-VOCAL-EMBER.md) |
 | [Blacktop 76](ATP-BLACKTOP-76.md) |
 | [PANdemonium](ATP-PANDEMONIUM.md) |
-| [Offset Choir](ATP-OFFSET-CHOIR.md) |
-| [Velvet Cinch](ATP-VELVET-CINCH.md) |
-| [Quiet Verse](ATP-QUIET-VERSE.md) |
-| [Satin Tether](ATP-SATIN-TETHER.md) |
-| [Linen Curve](ATP-LINEN-CURVE.md) |
+| [Double Trouble](ATP-OFFSET-CHOIR.md) |
+| [Redux Axx](ATP-VELVET-CINCH.md) |
+| [Redux Vox](ATP-QUIET-VERSE.md) |
+| [Redux Compressor](ATP-SATIN-TETHER.md) |
+| [Redux Equalizer](ATP-LINEN-CURVE.md) |
 | [Echo Parcel](ATP-ECHO-PARCEL.md) |
 | [Photon Clamp](ATP-PHOTON-CLAMP.md) |
 
