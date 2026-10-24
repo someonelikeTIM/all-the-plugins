@@ -4,6 +4,8 @@ VCA-style compression with three saturation characters, pre/post tone shaping an
 
 **Inspired by:** Purafied Audio LED Compressor
 
+**Release version:** v1.0
+
 ![Photon Clamp editor](screenshots/ATP-Photon-Clamp.png)
 
 
@@ -12,6 +14,7 @@ VCA-style compression with three saturation characters, pre/post tone shaping an
 | Platform | Format | Download |
 | --- | --- | --- |
 | Windows | VST3 | [Windows VST3](https://raw.githubusercontent.com/someonelikeTIM/all-the-plugins/main/downloads/windows/ATP-Photon-Clamp-Windows-VST3.zip) |
+| Mac | VST3 | [Mac VST3](https://raw.githubusercontent.com/someonelikeTIM/all-the-plugins/main/downloads/macos/ATP-Photon-Clamp-macOS-universal-VST3.zip) |
 
 
 # Install and use
@@ -34,6 +37,31 @@ Download and extract the individual ZIP. Copy the complete `ATP Photon Clamp.vst
 | DUCK / SAT meters | Display live compression and saturation activity. |
 
 Windows 64-bit VST3; mono or stereo float audio. Initial settings include ratio 3, Mix 100%, Auto Gain on and oversampling Off. Drag or wheel rotary controls; use arrow, Home and End keys for a focused trim. Double-click a rotary or trim to restore its declared reset value. Attack starts at 7 and resets to 10; Release starts and resets at 0. Host automation covers the ten named parameters; additional editor controls are recalled with the plugin state.
+
+
+## Mac VST3
+
+![Photon Clamp Mac editor](screenshots/ATP-Photon-Clamp-mac.png)
+
+Extract the Mac ZIP and copy the complete `ATP Photon Clamp.vst3` bundle into `~/Library/Audio/Plug-Ins/VST3/`, then reopen and rescan your host.
+
+| Control | Behavior |
+| --- | --- |
+| INPUT / OUTPUT | Adjusts the input/output level controls. |
+| RATIO | Selects 2:1, 3:1, 4:1, 10:1 or NUKE (38:1). |
+| SAT MODE | Selects Normal, S1 or S2; clicking the active S1/S2 button returns to Normal. |
+| THD | Adjusts harmonic drive. |
+| MIX | Blends dry and processed paths. |
+| LOW / HIGH | Shapes tone, with separate PRE/POST placement choices. |
+| SC HPF | Filters the compression detector rather than the audio output. |
+| AUTO GAIN | Counter-adjusts OUTPUT as INPUT changes. Turning it on sets OUTPUT opposite the current displayed INPUT value; an explicit OUTPUT change establishes a new offset. |
+| OVSMP | Selects Off, 2x, 4x, 8x or 16x and reports 0, 62, 76, 82 or 84 samples of latency. |
+| STEREO / DUAL | Selects linked or dual-mono compression. |
+| Core IN | Controls wet-feed/raw-dry routing independently of host bypass. With IN off, raw dry is added after OUTPUT while the wet network continues zero-input/tail processing. |
+| ATTACK / RELEASE | Adjusts continuous 0–10 timing controls, not millisecond readouts. |
+| GAIN REDUCTION / SATURATION | Shows detector-driven reduction and smoothed drive-level indications; neither strip is an output peak meter or calibrated dB readout. |
+
+Drag or wheel knobs, hold Shift while dragging for fine adjustment and double-click to reset. Click ratio, mode and switch controls directly. The eight additional settings are saved with plugin state; the ten main parameters support host automation. Use the host's bypass control when needed.
 
 
 # License
