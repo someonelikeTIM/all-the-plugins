@@ -18,7 +18,7 @@ Bring out the leading edge of drums and percussion, or add bite to picked guitar
 ---
 | Platform | Format | Download |
 | --- | --- | --- |
-| Windows x64 | VST3 | [Windows VST3](https://raw.githubusercontent.com/someonelikeTIM/all-the-plugins/main/downloads/windows/ATP-FetSlap-Windows-VST3.zip) |
+| Windows x64 | VST3 | [Windows VST3](https://raw.githubusercontent.com/someonelikeTIM/all-the-plugins/0ec4049c72aa6d85068e67e1b6a71f8ce0135732/downloads/windows/ATP-FetSlap-Windows-VST3.zip) |
 
 
 # Install and use
