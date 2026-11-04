@@ -11,47 +11,49 @@ Drive and automatic leveling with high-pass, low-pass and bright-shaping control
 
 # Overview
 ---
-Add drive and automatic leveling to bring a vocal into a more deliberate place in the mix. Use Intensity for the amount of drive, then shape the lower and upper edges with the high-pass and low-pass filters.
-
-Bump and Bright offer additional tonal emphasis. Compare the processed and dry sound while watching the pre/post filter spectra, gain reduction and output level.
+Bring a vocal forward with drive and automatic leveling, then shape its weight and top end with the filters. Blend the processed and original signal for a more restrained parallel treatment. The spectrum and output displays help you judge how the processing sits in the mix.
 
 
 # Downloads
 ---
 | Platform | Format | Download |
 | --- | --- | --- |
-| Windows | VST3 | [Download](https://raw.githubusercontent.com/someonelikeTIM/all-the-plugins/main/downloads/windows/ATP-Vocal-Intensity-Windows-VST3.zip) |
-| Mac | VST3 | [Mac VST3](https://raw.githubusercontent.com/someonelikeTIM/all-the-plugins/main/downloads/macos/ATP-Vocal-Intensity-macOS-universal-VST3.zip) |
+| Windows | VST3 | [Windows VST3](https://raw.githubusercontent.com/someonelikeTIM/all-the-plugins/main/downloads/windows/ATP-Vocal-Intensity-Windows-VST3.zip) |
+| Mac | VST3 | [Mac VST3](https://raw.githubusercontent.com/someonelikeTIM/all-the-plugins/ed2135f5a54aa1bdce853374f3781958287632cc/downloads/macos/ATP-Vocal-Intensity-macOS-universal-VST3.zip) |
 
 
 # Install and use
 ---
-**Windows:** Extract the Windows ZIP and copy the complete `ATP Vocal Intensity.vst3` folder into `%LOCALAPPDATA%\Programs\Common\VST3` or your system VST3 folder, then rescan your host. Requires Windows 10 or later and a Windows x64 VST3 host. The bundle contains one x64 VST3 module and uses Windows system libraries; no separate SDK or runtime installation is needed.
+**Windows:** Extract the ZIP and copy the complete `ATP Vocal Intensity.vst3` folder into `%LOCALAPPDATA%\Programs\Common\VST3` or your system VST3 folder, then rescan your host. Replace an existing copy of the same plugin. If the host retains the already-loaded previous editor, restart the host.
+
+**Using the interface:** Drag or wheel the four knobs; double-click to reset and hold Shift for fine adjustment. Click BRIGHT or BUMP to toggle them. The tinted face, bold white label and glowing strip indicate ON. Click the lock for detented or smooth manual movement. Click the numeric PEAK readout to clear the held sample peak; the analog RMS needle continues normally. Editor controls leave transport keys with the host.
 
 | Control | Behavior |
 | --- | --- |
-| Intensity (dB) | Sets drive into the automatic leveling path from -24 to +24 dB, with 0.1 dB processing steps. |
-| Leveler GR (dB) | Displays the largest attenuation from the leveler’s actual applied gain in the latest 2,048-sample window. This is separate from the unchanged legacy host Leveler reduction (%) parameter. |
-| High-pass filter | Raises the high-pass cutoff as the knob increases. The editor shows nominal Hz/kHz; host automation retains the original filter-position scale. |
-| HPF Bump | Adds resonant emphasis around the high-pass cutoff. |
-| Low-pass filter | Raises the low-pass cutoff as the knob increases. The editor shows nominal Hz/kHz; host automation retains the original filter-position scale. |
-| Bright Boost | Adds high-frequency emphasis before the low-pass stage. |
-| Pre/Post filter spectra | Show actual audio spectra around the filters: PRE FILTER follows the leveler, and POST FILTER precedes the final limiter. |
-| RTA IN | Enables or disables spectrum analysis/display for this editor view. Audio processing, saved settings and the meters are unaffected. |
-| Output RMS | Measures the latest 2,048 output samples per active channel, averaging channel powers. The analog meter’s 0 mark corresponds to -12 dBFS RMS; the numeric readout reports dBFS. |
-| LIMIT (dB) | Displays the largest attenuation from the final limiter’s actual applied gain in the latest 2,048-sample window. |
-| Host bypass | Returns processing toward unity through smoothed transitions while retaining low-level dither. Available from the host; no separate editor bypass button. |
-| Compare | Hold COMPARE for momentary comparison; release restores the prior exact comparison-bypass setting. If recalled active, clear the host’s Momentary Bypass parameter to resume processing. |
+| HI PASS | Raises the high-pass cutoff. The face shows nominal Hz/kHz; host automation retains the original filter-position scale. |
+| LO PASS | Raises the low-pass cutoff. The face shows nominal Hz/kHz; host automation retains the original filter-position scale. |
+| BRIGHT | Enables the bright filter before the low-pass stage. The cyan strip glows when active. |
+| BUMP | Adds resonance around the high-pass cutoff. The amber strip glows when active. |
+| INTENSITY | Sets drive into the automatic leveling path from -24 to +24 dB, with 0.1 dB processing steps. |
+| MIX | Blends the unprocessed input with the complete processed signal before output metering: 0% is dry and 100% is wet. Changes are smoothed. Spectrum and gain-reduction displays remain independent of Mix. |
+| Lock | New editor views start LOCKED, snapping manual knob movements to the eleven marked positions. UNLOCKED permits smooth movement. Toggling the lock leaves values unchanged; automation and recall remain continuous. |
+| Spectrum | Always displays actual pre/post-filter spectra from the wet processing path, before Mix. |
+| GR dB | Displays the largest leveler attenuation in the latest 2,048-sample observation window, using the actual applied gain. |
+| OUTPUT RMS | The analog needle measures the final blended output RMS, averaging channel powers. The zero mark corresponds to -12 dBFS RMS. |
+| PEAK | Holds the highest absolute output sample across either channel, after Mix. Click the numeric readout to reset. Closing and reopening the editor retains the hold; processing reset or preparation clears it. |
+| Host bypass | Available through the host, with the existing smoothed transition toward unity and low-level dither. |
 
-Insert on a mono or stereo track. Drag or wheel the three knobs; double-click to reset and hold Shift for fine adjustment. Click BUMP or BRIGHT to toggle them. Hold COMPARE to hear the comparison path, then release to restore its previous setting. Host bypass remains available through the host.
+**Defaults:** 0 dB Intensity, 0% high-pass position, 100% low-pass position, 100% Mix, Bright and Bump off, and both host bypass parameters off. New editor views start LOCKED.
 
-Filter readouts are nominal frequencies derived from the filter’s R×C control law, not a measured cutoff calibration. Host values and saved settings retain the original percentage/normalized filter positions. RTA IN changes only this editor view; HELD WINDOW indicates that the display retains its last observed window rather than reporting new audio.
+**Saved settings:** Existing settings retain their values. Older settings load at 100% Mix. If a recalled Momentary Bypass setting is active, clear it through the host to resume processing. The peak hold and manual lock are editor/measurement states, not stored audio parameters.
 
-Defaults are 0 dB Intensity, 0% HPF position, 100% LPF position, Bump and Bright off, and both bypasses off. Supports 32-bit mono and stereo audio with no reported latency or tail.
+**Compatibility:** Windows 10 or later and a Windows x64 VST3 host. Supports 32-bit floating-point mono and stereo audio with zero reported latency. No separate SDK or runtime installation is needed. Filter readouts are nominal frequencies from the existing control law.
 
 
 # Mac VST3
 ---
+The Mac download retains its earlier interface and control set. The updated interface, Mix control and click-reset peak hold described above are available in the Windows build.
+
 ![Vocal Intensity Mac editor](screenshots/ATP-Vocal-Intensity-mac.png)
 
 Extract the ZIP and copy the complete `ATP Vocal Intensity.vst3` bundle into `~/Library/Audio/Plug-Ins/VST3/`, then reopen and rescan your audio host. Replace an existing copy of the same plugin rather than keeping duplicates.
@@ -205,7 +207,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 # License
 ---
-This specific independently implemented binary is licensed under the MIT license reproduced below. The repository's existing GPL-3.0 license remains in place for repository material; it does not replace this binary's explicit license. Required bundled library notices are included in full below.
+Each independently implemented plugin build listed above is licensed under the MIT license reproduced below. The repository's existing GPL-3.0 license remains in place for repository material; it does not replace these builds' explicit license. Required bundled library notices are included in full below.
 
 Copyright (c) 2026 someonelikeTIM
 
@@ -218,7 +220,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 # Third-party notices
 ---
-This plugin includes Steinberg VST3 SDK components and LLVM / libc++ runtime components. Their full notices and distribution terms follow.
+This plugin includes Steinberg VST3 SDK, LLVM / libc++ runtime and MinGW-w64 runtime licensing components. Their full notices and distribution terms follow.
 
 
 # Steinberg VST3 SDK
