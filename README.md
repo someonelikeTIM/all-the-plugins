@@ -36,6 +36,7 @@ Choose a plugin to see its available downloads and installation instructions.
 | [Vocal Intensity](ATP-VOCAL-INTENSITY.md) |
 | [Oui-Q](ATP-OUI-Q.md) |
 | [Demon Lock XL](ATP-DEMON-LOCK-XL.md) |
+| [Demon Love](ATP-DEMON-LOVE.md) |
 | [Vocal Gatehouse](ATP-VOCAL-GATEHOUSE.md) |
 | [Tube Hearth](ATP-TUBE-HEARTH.md) |
 | [Overtone Mill](ATP-OVERTONE-MILL.md) |
