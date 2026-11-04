@@ -13,7 +13,7 @@ VCA-style compression with three saturation characters, pre/post tone shaping an
 ---
 | Platform | Format | Download |
 | --- | --- | --- |
-| Windows | VST3 | [Windows VST3](https://raw.githubusercontent.com/someonelikeTIM/all-the-plugins/main/downloads/windows/ATP-Photon-Clamp-Windows-VST3.zip) |
+| Windows | VST3 | [Windows VST3](https://raw.githubusercontent.com/someonelikeTIM/all-the-plugins/7f67e9477f44a5ad3cd5ce33cfd83cf425eec884/downloads/windows/ATP-Photon-Clamp-Windows-VST3.zip) |
 | Mac | VST3 | [Mac VST3](https://raw.githubusercontent.com/someonelikeTIM/all-the-plugins/main/downloads/macos/ATP-Photon-Clamp-macOS-universal-VST3.zip) |
 
 

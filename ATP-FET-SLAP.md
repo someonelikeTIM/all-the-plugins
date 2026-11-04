@@ -17,9 +17,9 @@ Beta release. Please report UI bugs, crashes, installation issues, and unexpecte
 ---
 | Platform | Format | Download |
 | --- | --- | --- |
-| Windows | VST3 | [Windows VST3](https://raw.githubusercontent.com/someonelikeTIM/all-the-plugins/main/downloads/windows/ATP-FET-Slap-Windows-VST3.zip) |
+| Windows | VST3 | [Windows VST3](https://raw.githubusercontent.com/someonelikeTIM/all-the-plugins/7f67e9477f44a5ad3cd5ce33cfd83cf425eec884/downloads/windows/ATP-FET-Slap-Windows-VST3.zip) |
 | Mac | VST3 | [Mac VST3](https://raw.githubusercontent.com/someonelikeTIM/all-the-plugins/main/downloads/macos/ATP-FET-Slap-macOS-universal-VST3.zip) |
-| Mac | AU | [Mac AU](https://raw.githubusercontent.com/someonelikeTIM/all-the-plugins/main/downloads/macos/ATP-FET-Slap-macOS-universal-AU.zip) |
+| Mac | AU | [Mac AU](https://raw.githubusercontent.com/someonelikeTIM/all-the-plugins/7f67e9477f44a5ad3cd5ce33cfd83cf425eec884/downloads/macos/ATP-FET-Slap-macOS-universal-AU.zip) |
 
 
 # Install and use

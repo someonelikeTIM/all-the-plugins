@@ -13,7 +13,7 @@ A stereo parametric equalizer with two-, four- and six-band variants, resonant s
 ---
 | Platform | Format | Download |
 | --- | --- | --- |
-| Windows 64-bit | VST3 | [Windows VST3](https://raw.githubusercontent.com/someonelikeTIM/all-the-plugins/main/downloads/windows/ATP-Linen-Curve-Windows-VST3.zip) |
+| Windows 64-bit | VST3 | [Windows VST3](https://raw.githubusercontent.com/someonelikeTIM/all-the-plugins/7f67e9477f44a5ad3cd5ce33cfd83cf425eec884/downloads/windows/ATP-Linen-Curve-Windows-VST3.zip) |
 | Mac | VST3 | [Mac VST3](https://raw.githubusercontent.com/someonelikeTIM/all-the-plugins/main/downloads/macos/ATP-Redux-Equalizer-macOS-universal-VST3.zip) |
 | Mac | AU | [Mac AU](https://raw.githubusercontent.com/someonelikeTIM/all-the-plugins/main/downloads/macos/ATP-Redux-Equalizer-macOS-universal-AU.zip) |
 

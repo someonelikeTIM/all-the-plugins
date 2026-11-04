@@ -18,7 +18,7 @@ Bring a vocal forward with drive and automatic leveling, then shape its weight a
 ---
 | Platform | Format | Download |
 | --- | --- | --- |
-| Windows | VST3 | [Windows VST3](https://raw.githubusercontent.com/someonelikeTIM/all-the-plugins/6a9003591404d48185c4dbb6652e9915098d1e12/downloads/windows/ATP-Vocal-Intensity-Windows-VST3.zip) |
+| Windows | VST3 | [Windows VST3](https://raw.githubusercontent.com/someonelikeTIM/all-the-plugins/7f67e9477f44a5ad3cd5ce33cfd83cf425eec884/downloads/windows/ATP-Vocal-Intensity-Windows-VST3.zip) |
 | Mac | VST3 | [Mac VST3](https://raw.githubusercontent.com/someonelikeTIM/all-the-plugins/ed2135f5a54aa1bdce853374f3781958287632cc/downloads/macos/ATP-Vocal-Intensity-macOS-universal-VST3.zip) |
 
 

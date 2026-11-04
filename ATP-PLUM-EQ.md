@@ -13,7 +13,7 @@ High-pass filtering and two-band shelving equalization with input/output trim, F
 ---
 | Platform | Format | Download |
 | --- | --- | --- |
-| Windows x64 | VST3 | [Download](https://raw.githubusercontent.com/someonelikeTIM/all-the-plugins/main/downloads/windows/ATP-Plum-EQ-Windows-VST3.zip) |
+| Windows x64 | VST3 | [Download](https://raw.githubusercontent.com/someonelikeTIM/all-the-plugins/7f67e9477f44a5ad3cd5ce33cfd83cf425eec884/downloads/windows/ATP-Plum-EQ-Windows-VST3.zip) |
 
 
 # Install and use

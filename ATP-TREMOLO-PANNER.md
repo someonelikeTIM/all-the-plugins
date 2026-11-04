@@ -20,7 +20,7 @@ Use the effect to animate sustained parts or add rhythmic motion to loops. Mix s
 ---
 | Platform | Format | Download |
 | --- | --- | --- |
-| Windows | VST3 | [Download](https://raw.githubusercontent.com/someonelikeTIM/all-the-plugins/main/downloads/windows/ATP-Tremolo-Panner-Windows-VST3.zip) |
+| Windows | VST3 | [Download](https://raw.githubusercontent.com/someonelikeTIM/all-the-plugins/7f67e9477f44a5ad3cd5ce33cfd83cf425eec884/downloads/windows/ATP-Tremolo-Panner-Windows-VST3.zip) |
 | Mac | VST3 | [Mac VST3](https://raw.githubusercontent.com/someonelikeTIM/all-the-plugins/main/downloads/macos/ATP-Tremolo-Panner-macOS-universal-VST3.zip) |
 
 

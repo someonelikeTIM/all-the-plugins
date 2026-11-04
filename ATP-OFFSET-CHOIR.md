@@ -18,7 +18,7 @@ Layer subtly shifted voices behind a lead vocal, guitar or synth to add width wi
 ---
 | Platform | Format | Download |
 | --- | --- | --- |
-| Windows 64-bit | VST3 | [Windows VST3](https://raw.githubusercontent.com/someonelikeTIM/all-the-plugins/main/downloads/windows/ATP-Offset-Choir-Windows-VST3.zip) |
+| Windows 64-bit | VST3 | [Windows VST3](https://raw.githubusercontent.com/someonelikeTIM/all-the-plugins/7f67e9477f44a5ad3cd5ce33cfd83cf425eec884/downloads/windows/ATP-Offset-Choir-Windows-VST3.zip) |
 | Mac | VST3 | [Mac VST3](https://raw.githubusercontent.com/someonelikeTIM/all-the-plugins/main/downloads/macos/ATP-Double-Trouble-macOS-universal-VST3.zip) |
 | Mac | AU | [Mac AU](https://raw.githubusercontent.com/someonelikeTIM/all-the-plugins/main/downloads/macos/ATP-Double-Trouble-macOS-universal-AU.zip) |
 
