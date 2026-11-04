@@ -13,7 +13,7 @@ A graphic equalizer with low-pass and high-pass filters, trim and comparison byp
 ---
 | Platform | Format | Download |
 | --- | --- | --- |
-| Windows | VST3 | [Download](https://raw.githubusercontent.com/someonelikeTIM/all-the-plugins/main/downloads/windows/ATP-Mastering-EQ-Windows-VST3.zip) |
+| Windows | VST3 | [Download](https://raw.githubusercontent.com/someonelikeTIM/all-the-plugins/9f328532b8d2969e1fc1f898d0b7f36fea59ba63/downloads/windows/ATP-Mastering-EQ-Windows-VST3.zip) |
 
 
 # Install and use

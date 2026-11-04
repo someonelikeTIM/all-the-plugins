@@ -13,9 +13,9 @@ Phase alignment with independent channel delays, all-pass filters and polarity c
 ---
 | Platform | Format | Download |
 | --- | --- | --- |
-| Windows | VST3 | [Download](https://raw.githubusercontent.com/someonelikeTIM/all-the-plugins/main/downloads/windows/ATP-Phase-Align-Windows-VST3.zip) |
-| Mac | VST3 | [Download](https://raw.githubusercontent.com/someonelikeTIM/all-the-plugins/main/downloads/macos/ATP-Phase-Align-macOS-universal-VST3.zip) |
-| Mac | AU | [Mac AU](https://raw.githubusercontent.com/someonelikeTIM/all-the-plugins/main/downloads/macos/ATP-Phase-Align-macOS-universal-AU.zip) |
+| Windows | VST3 | [Download](https://raw.githubusercontent.com/someonelikeTIM/all-the-plugins/9f328532b8d2969e1fc1f898d0b7f36fea59ba63/downloads/windows/ATP-Phase-Align-Windows-VST3.zip) |
+| Mac | VST3 | [Download](https://raw.githubusercontent.com/someonelikeTIM/all-the-plugins/9f328532b8d2969e1fc1f898d0b7f36fea59ba63/downloads/macos/ATP-Phase-Align-macOS-universal-VST3.zip) |
+| Mac | AU | [Mac AU](https://raw.githubusercontent.com/someonelikeTIM/all-the-plugins/9f328532b8d2969e1fc1f898d0b7f36fea59ba63/downloads/macos/ATP-Phase-Align-macOS-universal-AU.zip) |
 
 
 # Install and use

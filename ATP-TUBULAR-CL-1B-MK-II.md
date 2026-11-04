@@ -24,8 +24,8 @@ Shape vocal, bass and instrument dynamics with a linked stereo detector and a VU
 ---
 | Platform | Format | Download |
 | --- | --- | --- |
-| Windows x64 | VST3 | [Windows VST3](https://raw.githubusercontent.com/someonelikeTIM/all-the-plugins/main/downloads/windows/ATP-Tubular-CL-1B-mk-II-Windows-VST3.zip) |
-| Mac | VST3 | [Mac VST3](https://raw.githubusercontent.com/someonelikeTIM/all-the-plugins/main/downloads/macos/ATP-Tubular-CL1B-macOS-universal-VST3.zip) |
+| Windows x64 | VST3 | [Windows VST3](https://raw.githubusercontent.com/someonelikeTIM/all-the-plugins/9f328532b8d2969e1fc1f898d0b7f36fea59ba63/downloads/windows/ATP-Tubular-CL-1B-mk-II-Windows-VST3.zip) |
+| Mac | VST3 | [Mac VST3](https://raw.githubusercontent.com/someonelikeTIM/all-the-plugins/9f328532b8d2969e1fc1f898d0b7f36fea59ba63/downloads/macos/ATP-Tubular-CL1B-macOS-universal-VST3.zip) |
 
 
 # Install and use

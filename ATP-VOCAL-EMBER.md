@@ -13,8 +13,8 @@ Vocal saturation with seven characters, treble shaping, parallel mix and level m
 ---
 | Platform | Format | Download |
 | --- | --- | --- |
-| Windows | VST3 | [Windows VST3](https://raw.githubusercontent.com/someonelikeTIM/all-the-plugins/7f67e9477f44a5ad3cd5ce33cfd83cf425eec884/downloads/windows/ATP-Vocal-Ember-Windows-VST3.zip) |
-| Mac | VST3 | [Mac VST3](https://raw.githubusercontent.com/someonelikeTIM/all-the-plugins/main/downloads/macos/ATP-Vocal-Ember-macOS-universal-VST3.zip) |
+| Windows | VST3 | [Windows VST3](https://raw.githubusercontent.com/someonelikeTIM/all-the-plugins/9f328532b8d2969e1fc1f898d0b7f36fea59ba63/downloads/windows/ATP-Vocal-Ember-Windows-VST3.zip) |
+| Mac | VST3 | [Mac VST3](https://raw.githubusercontent.com/someonelikeTIM/all-the-plugins/9f328532b8d2969e1fc1f898d0b7f36fea59ba63/downloads/macos/ATP-Vocal-Ember-macOS-universal-VST3.zip) |
 
 
 # Install and use

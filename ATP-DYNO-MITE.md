@@ -15,7 +15,7 @@ Shown at +80% Sustain; the default is 0%.
 ---
 | Platform | Format | Download |
 | --- | --- | --- |
-| Windows | VST3 | [Download](https://raw.githubusercontent.com/someonelikeTIM/all-the-plugins/7f67e9477f44a5ad3cd5ce33cfd83cf425eec884/downloads/windows/ATP-Dyno-Mite-Windows-VST3.zip) |
+| Windows | VST3 | [Download](https://raw.githubusercontent.com/someonelikeTIM/all-the-plugins/9f328532b8d2969e1fc1f898d0b7f36fea59ba63/downloads/windows/ATP-Dyno-Mite-Windows-VST3.zip) |
 
 
 # Install and use

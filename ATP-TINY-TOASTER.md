@@ -13,7 +13,7 @@ Tube-style saturation with Heat, Mix, Bias and Noise controls.
 ---
 | Platform | Format | Download |
 | --- | --- | --- |
-| Windows | VST3 | [Download](https://raw.githubusercontent.com/someonelikeTIM/all-the-plugins/main/downloads/windows/ATP-Tiny-Toaster-Windows-VST3.zip) |
+| Windows | VST3 | [Download](https://raw.githubusercontent.com/someonelikeTIM/all-the-plugins/9f328532b8d2969e1fc1f898d0b7f36fea59ba63/downloads/windows/ATP-Tiny-Toaster-Windows-VST3.zip) |
 
 
 # Install and use

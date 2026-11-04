@@ -13,7 +13,7 @@ Lookahead console-style compression with Program timing, depth control and a fil
 ---
 | Platform | Format | Download |
 | --- | --- | --- |
-| Windows | VST3 | [Windows VST3](https://raw.githubusercontent.com/someonelikeTIM/all-the-plugins/7f67e9477f44a5ad3cd5ce33cfd83cf425eec884/downloads/windows/ATP-Console-Clamp-Windows-VST3.zip) |
+| Windows | VST3 | [Windows VST3](https://raw.githubusercontent.com/someonelikeTIM/all-the-plugins/9f328532b8d2969e1fc1f898d0b7f36fea59ba63/downloads/windows/ATP-Console-Clamp-Windows-VST3.zip) |
 
 
 # Install and use

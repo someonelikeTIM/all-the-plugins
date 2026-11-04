@@ -13,9 +13,9 @@ A metronome with transport modes, volume and accent controls, and independently 
 ---
 | Platform | Format | Download |
 | --- | --- | --- |
-| Windows | VST3 | [Download](https://raw.githubusercontent.com/someonelikeTIM/all-the-plugins/main/downloads/windows/ATP-Metronome-Windows-VST3.zip) |
-| Mac | VST3 | [Download](https://raw.githubusercontent.com/someonelikeTIM/all-the-plugins/main/downloads/macos/ATP-Metronome-macOS-universal-VST3.zip) |
-| Mac | AU | [Download](https://raw.githubusercontent.com/someonelikeTIM/all-the-plugins/main/downloads/macos/ATP-Metronome-macOS-universal-AU.zip) |
+| Windows | VST3 | [Download](https://raw.githubusercontent.com/someonelikeTIM/all-the-plugins/9f328532b8d2969e1fc1f898d0b7f36fea59ba63/downloads/windows/ATP-Metronome-Windows-VST3.zip) |
+| Mac | VST3 | [Download](https://raw.githubusercontent.com/someonelikeTIM/all-the-plugins/9f328532b8d2969e1fc1f898d0b7f36fea59ba63/downloads/macos/ATP-Metronome-macOS-universal-VST3.zip) |
+| Mac | AU | [Download](https://raw.githubusercontent.com/someonelikeTIM/all-the-plugins/9f328532b8d2969e1fc1f898d0b7f36fea59ba63/downloads/macos/ATP-Metronome-macOS-universal-AU.zip) |
 
 
 # Install and use

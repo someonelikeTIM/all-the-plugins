@@ -13,9 +13,9 @@ Stereo monitoring, channel swapping and stepped width adjustment.
 ---
 | Platform | Format | Download |
 | --- | --- | --- |
-| Windows | VST3 | [Download](https://raw.githubusercontent.com/someonelikeTIM/all-the-plugins/main/downloads/windows/ATP-Stereo-Loner-Windows-VST3.zip) |
-| Mac | VST3 | [Download](https://raw.githubusercontent.com/someonelikeTIM/all-the-plugins/main/downloads/macos/ATP-Stereo-Loner-0.1.0-macOS-universal-VST3.zip) |
-| Mac | AU | [Download](https://raw.githubusercontent.com/someonelikeTIM/all-the-plugins/main/downloads/macos/ATP-Stereo-Loner-0.1.0-macOS-universal-AU.zip) |
+| Windows | VST3 | [Download](https://raw.githubusercontent.com/someonelikeTIM/all-the-plugins/9f328532b8d2969e1fc1f898d0b7f36fea59ba63/downloads/windows/ATP-Stereo-Loner-Windows-VST3.zip) |
+| Mac | VST3 | [Download](https://raw.githubusercontent.com/someonelikeTIM/all-the-plugins/9f328532b8d2969e1fc1f898d0b7f36fea59ba63/downloads/macos/ATP-Stereo-Loner-0.1.0-macOS-universal-VST3.zip) |
+| Mac | AU | [Download](https://raw.githubusercontent.com/someonelikeTIM/all-the-plugins/9f328532b8d2969e1fc1f898d0b7f36fea59ba63/downloads/macos/ATP-Stereo-Loner-0.1.0-macOS-universal-AU.zip) |
 
 
 # Install and use
