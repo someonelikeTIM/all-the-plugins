@@ -23,8 +23,6 @@ Choose a plugin to see its available downloads and installation instructions.
 | [De-Esser](ATP-DE-ESSER.md) |
 | [Feral Ranger](ATP-FERAL-RANGER.md) |
 | [I Heart NY](ATP-I-HEART-NY.md) |
-| [Demon Lock](ATP-DEMON-LOCK.md) |
-| [FET Slap](ATP-FET-SLAP.md) |
 | [FetSlap](ATP-FETSLAP.md) |
 | [Tubular CL 1B mk II](ATP-TUBULAR-CL-1B-MK-II.md) |
 | [Mastering EQ](ATP-MASTERING-EQ.md) |
@@ -35,7 +33,6 @@ Choose a plugin to see its available downloads and installation instructions.
 | [PreCrate](ATP-PRECRATE.md) |
 | [Vocal Intensity](ATP-VOCAL-INTENSITY.md) |
 | [Oui-Q](ATP-OUI-Q.md) |
-| [Demon Lock XL](ATP-DEMON-LOCK-XL.md) |
 | [Demon Love](ATP-DEMON-LOVE.md) |
 | [Vocal Gatehouse](ATP-VOCAL-GATEHOUSE.md) |
 | [Tube Hearth](ATP-TUBE-HEARTH.md) |
