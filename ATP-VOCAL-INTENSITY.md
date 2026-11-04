@@ -30,25 +30,24 @@ Bring a vocal forward with drive and automatic leveling, then shape its weight a
 
 | Control | Behavior |
 | --- | --- |
-| HI PASS | Raises the high-pass cutoff. The face shows nominal Hz/kHz; host automation retains the original filter-position scale. |
-| LO PASS | Raises the low-pass cutoff. The face shows nominal Hz/kHz; host automation retains the original filter-position scale. |
-| BRIGHT | Enables the bright filter before the low-pass stage. The cyan strip glows when active. |
-| BUMP | Adds resonance around the high-pass cutoff. The amber strip glows when active. |
-| INTENSITY | Sets drive into the automatic leveling path from -24 to +24 dB, with 0.1 dB processing steps. |
-| MIX | Blends the unprocessed input with the complete processed signal before output metering: 0% is dry and 100% is wet. Changes are smoothed. Spectrum and gain-reduction displays remain independent of Mix. |
-| Lock | New editor views start LOCKED, snapping manual knob movements to the eleven marked positions. UNLOCKED permits smooth movement. Toggling the lock leaves values unchanged; automation and recall remain continuous. |
-| Spectrum | Always displays actual pre/post-filter spectra from the wet processing path, before Mix. |
-| GR dB | Displays the largest leveler attenuation in the latest 2,048-sample observation window, using the actual applied gain. |
-| OUTPUT RMS | The analog needle measures the final blended output RMS, averaging channel powers. The zero mark corresponds to -12 dBFS RMS. |
-| PEAK | Holds the highest absolute output sample across either channel, after Mix. Click the numeric readout to reset. Closing and reopening the editor retains the hold; processing reset or preparation clears it. |
-| Host bypass | Available through the host, with the existing smoothed transition toward unity and low-level dither. |
+| HI PASS | Sets the high-pass filter cutoff. |
+| LO PASS | Sets the low-pass filter cutoff. |
+| BRIGHT | Adds brightness. The cyan strip glows when on. |
+| BUMP | Adds emphasis around the high-pass cutoff. The amber strip glows when on. |
+| INTENSITY | Adjusts drive and automatic leveling. |
+| MIX | Blends the original and processed sound. |
+| Lock | Lock the knobs to their marked steps, or unlock for smooth movement. |
+| Spectrum | Shows the wet signal before and after the filters. Mix does not change it. |
+| GR dB | Shows gain reduction. |
+| OUTPUT RMS | Shows the average output level. |
+| PEAK | Holds the loudest output sample peak. Click the value to reset. |
+| Host bypass | Use the host’s bypass control to compare with the original signal. |
 
 **Defaults:** 0 dB Intensity, 0% high-pass position, 100% low-pass position, 100% Mix, Bright and Bump off, and both host bypass parameters off. New editor views start LOCKED.
 
 **Saved settings:** Existing settings retain their values. Older settings load at 100% Mix. If a recalled Momentary Bypass setting is active, clear it through the host to resume processing. The peak hold and manual lock are editor/measurement states, not stored audio parameters.
 
 **Compatibility:** Windows 10 or later and a Windows x64 VST3 host. Supports 32-bit floating-point mono and stereo audio with zero reported latency. No separate SDK or runtime installation is needed. Filter readouts are nominal frequencies from the existing control law.
-
 
 # Mac VST3
 ---
@@ -93,7 +92,7 @@ This Mac plugin uses the Steinberg VST3 SDK and the system LLVM / libc++ runtime
 ---
 MIT License
 
-Copyright (c) 2026, Steinberg Media Technologies GmbH
+Copyright (c)Â 2026,Â Steinberg Media Technologies GmbH
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
@@ -226,7 +225,7 @@ This plugin includes Steinberg VST3 SDK, LLVM / libc++ runtime and MinGW-w64 run
 ---
 MIT License
 
-Copyright (c) 2026, Steinberg Media Technologies GmbH
+Copyright (c)Â 2026,Â Steinberg Media Technologies GmbH
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
@@ -413,14 +412,12 @@ Copyright (C) 1993 by Sun Microsystems, Inc. All rights reserved.
 
 Developed at SunPro, a Sun Microsystems, Inc. business. Permission to use, copy, modify, and distribute this software is freely granted, provided that this notice is preserved.
 
-FIXME: Cephes math lib Copyright (C) 1984-1998 Stephen L. Moshier
-
-It sounds vague, but as to be found at <http://lists.debian.org/debian-legal/2004/12/msg00295.html>, it gives an impression that the author could be willing to give an explicit permission to distribute those files e.g. under a BSD style license. So probably there is no problem here, although it could be good to get a permission from the author and then add a license into the Cephes files in MinGW runtime. At least on follow-up it is marked that debian sees the version a-like BSD one. As MinGW.org (where those cephes parts are coming from) distributes them now over 6 years, it should be fine.
+Cephes math lib Copyright (C) 1984-1998 Stephen L. Moshier
 
 
 # Some string, memory and time conversion functions
 ---
-Copyright © 2005-2020 Rich Felker, et al.
+Copyright Â© 2005-2020 Rich Felker, et al.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 

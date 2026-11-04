@@ -30,14 +30,14 @@ Use the effect to animate sustained parts or add rhythmic motion to loops. Mix s
 
 | Control | Behavior |
 | --- | --- |
-| Mix % | Tremolo/filter modulation depth from 0 to 100%, including the mode’s level compensation. |
+| Mix % | Tremolo/filter modulation depth from 0 to 100%, including the modeâ€™s level compensation. |
 | Filter mode | Selects Cut Low, Cut High, alternating high/low balance, or Cut All for whole-signal tremolo. |
 | LFO type | Selects Swell, Sine, Triangle, Tri-Saw, Swells, Linear or Gated using waveform buttons. |
 | LFO bias | Changes the waveform curvature, ramp shape or hold time, depending on the selected LFO type. |
-| LFO phase | Horizontal slider that shifts the LFO cycle with a 0–1 position control. |
+| LFO phase | Horizontal slider that shifts the LFO cycle with a 0â€“1 position control. |
 | Beat division | Dropdown selecting the named LFO speed divisions from 16th through Four Bars. |
-| LFO step count | Dropdown selecting 6–16 active points for the Swells, Linear and Gated custom shapes. |
-| LFO step 1–16 | Drag active graph points from 0 to 1. Points beyond the active step count are retained for later use. |
+| LFO step count | Dropdown selecting 6â€“16 active points for the Swells, Linear and Gated custom shapes. |
+| LFO step 1â€“16 | Drag active graph points from 0 to 1. Points beyond the active step count are retained for later use. |
 | Sync mode | Free Run uses the BPM control. Host Tempo follows the host tempo. Playhead uses the BPM control and aligns the cycle to the host sample position. |
 | BPM | Own tempo from 40 to 208 BPM in Free Run and Playhead modes. |
 | Stereo width/offset | Horizontal slider setting the relative LFO phase for the right channel; it has no effect in mono. |
@@ -61,7 +61,7 @@ Extract the ZIP and copy the complete `ATP Tremolo Panner.vst3` bundle into `~/L
 | Mix / Filter | Blend the modulation and select the affected frequency region. |
 | LFO shape / Bias | Choose one of seven shapes and adjust its bias. |
 | Phase / Stereo Offset | Shift the cycle and stereo modulation offset. |
-| Beat Division / Steps | Select the rhythmic period and 6–16 editable pattern points. |
+| Beat Division / Steps | Select the rhythmic period and 6â€“16 editable pattern points. |
 | Sync / BPM | Choose Free Run, Host Tempo or Playhead; set the internal rate from 40 to 208 BPM. |
 | Graph | Edit custom pattern points and follow the processing-driven phase marker. |
 | Compare | Hold to audition the comparison path; release, Escape or focus loss restores the previous setting. |
@@ -82,7 +82,6 @@ The above copyright notice and this permission notice shall be included in all c
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 
-
 # Mac VST3 Third-party notices
 ---
 This Mac plugin uses the Steinberg VST3 SDK and the system LLVM / libc++ runtime. Complete notices follow.
@@ -92,7 +91,7 @@ This Mac plugin uses the Steinberg VST3 SDK and the system LLVM / libc++ runtime
 ---
 MIT License
 
-Copyright (c) 2026, Steinberg Media Technologies GmbH
+Copyright (c)Â 2026,Â Steinberg Media Technologies GmbH
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
@@ -225,7 +224,7 @@ This plugin includes Steinberg VST3 SDK components and LLVM / libc++ runtime com
 ---
 MIT License
 
-Copyright (c) 2026, Steinberg Media Technologies GmbH
+Copyright (c)Â 2026,Â Steinberg Media Technologies GmbH
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
@@ -412,14 +411,12 @@ Copyright (C) 1993 by Sun Microsystems, Inc. All rights reserved.
 
 Developed at SunPro, a Sun Microsystems, Inc. business. Permission to use, copy, modify, and distribute this software is freely granted, provided that this notice is preserved.
 
-FIXME: Cephes math lib Copyright (C) 1984-1998 Stephen L. Moshier
-
-It sounds vague, but as to be found at <http://lists.debian.org/debian-legal/2004/12/msg00295.html>, it gives an impression that the author could be willing to give an explicit permission to distribute those files e.g. under a BSD style license. So probably there is no problem here, although it could be good to get a permission from the author and then add a license into the Cephes files in MinGW runtime. At least on follow-up it is marked that debian sees the version a-like BSD one. As MinGW.org (where those cephes parts are coming from) distributes them now over 6 years, it should be fine.
+Cephes math lib Copyright (C) 1984-1998 Stephen L. Moshier
 
 
 # Some string, memory and time conversion functions
 ---
-Copyright © 2005-2020 Rich Felker, et al.
+Copyright Â© 2005-2020 Rich Felker, et al.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 

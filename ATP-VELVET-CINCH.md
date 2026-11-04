@@ -43,8 +43,8 @@ Extract the ZIP and copy the complete `ATP Redux Axx.vst3` bundle into `~/Librar
 
 | Control | Behavior |
 | --- | --- |
-| Threshold | Sets the compression threshold from −60 to 0 dB. |
-| Gain | Sets output gain from −30 to 0 dB. |
+| Threshold | Sets the compression threshold from âˆ’60 to 0 dB. |
+| Gain | Sets output gain from âˆ’30 to 0 dB. |
 | Attack | Sets attack time from 0 to 50 ms. |
 | Input, Output and Attenuation | Display peak levels and processing attenuation from the audio engine. |
 
@@ -73,7 +73,7 @@ This plugin includes Steinberg VST3 SDK components and LLVM / libc++ runtime com
 ---
 MIT License
 
-Copyright (c) 2026, Steinberg Media Technologies GmbH
+Copyright (c)Â 2026,Â Steinberg Media Technologies GmbH
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
@@ -192,8 +192,8 @@ For Audio Unit, extract the AU ZIP and copy the complete `ATP Redux Axx.componen
 
 | Control | Behavior |
 | --- | --- |
-| Threshold | Sets the compression threshold from −60 to 0 dB. |
-| Gain | Sets output gain from −30 to 0 dB. |
+| Threshold | Sets the compression threshold from âˆ’60 to 0 dB. |
+| Gain | Sets output gain from âˆ’30 to 0 dB. |
 | Attack | Sets attack time from 0 to 50 ms. |
 | Input, Output and Attenuation | Display peak levels and processing attenuation from the audio engine. |
 
@@ -222,7 +222,7 @@ This plugin includes Steinberg VST3 SDK components and LLVM / libc++ runtime com
 ---
 MIT License
 
-Copyright (c) 2026, Steinberg Media Technologies GmbH
+Copyright (c)Â 2026,Â Steinberg Media Technologies GmbH
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
@@ -426,7 +426,7 @@ This plugin includes Steinberg VST3 SDK components and LLVM / libc++ runtime com
 ---
 MIT License
 
-Copyright (c) 2026, Steinberg Media Technologies GmbH
+Copyright (c)Â 2026,Â Steinberg Media Technologies GmbH
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
@@ -613,14 +613,12 @@ Copyright (C) 1993 by Sun Microsystems, Inc. All rights reserved.
 
 Developed at SunPro, a Sun Microsystems, Inc. business. Permission to use, copy, modify, and distribute this software is freely granted, provided that this notice is preserved.
 
-FIXME: Cephes math lib Copyright (C) 1984-1998 Stephen L. Moshier
-
-It sounds vague, but as to be found at <http://lists.debian.org/debian-legal/2004/12/msg00295.html>, it gives an impression that the author could be willing to give an explicit permission to distribute those files e.g. under a BSD style license. So probably there is no problem here, although it could be good to get a permission from the author and then add a license into the Cephes files in MinGW runtime. At least on follow-up it is marked that debian sees the version a-like BSD one. As MinGW.org (where those cephes parts are coming from) distributes them now over 6 years, it should be fine.
+Cephes math lib Copyright (C) 1984-1998 Stephen L. Moshier
 
 
 # Some string, memory and time conversion functions
 ---
-Copyright © 2005-2020 Rich Felker, et al.
+Copyright Â© 2005-2020 Rich Felker, et al.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 

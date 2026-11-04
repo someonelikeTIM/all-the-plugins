@@ -49,11 +49,11 @@ Extract the ZIP and copy the complete `ATP Redux Equalizer.vst3` bundle into `~/
 | Band tabs and graph nodes | Select one of the variant's available bands; dragging a graph node adjusts frequency and gain. |
 | Band Enable | Enables or disables the selected band. Bands start disabled. |
 | Type | Chooses the selected band's response; choices depend on the band's position. |
-| Gain and Frequency | Set band gain from −18 to +18 dB and frequency from approximately 16 to 21357 Hz. |
-| Q | Sets Bell Q from 0.26 to 6.50; non-Bell types restrict effective Q to approximately 0.71–1.41. |
+| Gain and Frequency | Set band gain from âˆ’18 to +18 dB and frequency from approximately 16 to 21357 Hz. |
+| Q | Sets Bell Q from 0.26 to 6.50; non-Bell types restrict effective Q to approximately 0.71â€“1.41. |
 | L / R | Chooses the channel being edited. |
 | LINK | Applies relative paired editor edits in each control's scale until a range limit is reached; Enable and Type apply identically. Host automation retains independent channel addressing. |
-| Output L / R | Set independent output gains from −24 to +12 dB. |
+| Output L / R | Set independent output gains from âˆ’24 to +12 dB. |
 | Output meters and peak holds | Observe processed output. Clicking the output peak/meter area requests a peak-hold reset as audio is processed. |
 | TRIM | Applies a shared peak-based correction to both output faders, within their ranges, and requests a peak reset. With no recorded peak it uses +12 dB. |
 | RTA | Toggles a local spectrum display of the averaged stereo output without altering audio. |
@@ -83,7 +83,7 @@ This plugin includes Steinberg VST3 SDK components and LLVM / libc++ runtime com
 ---
 MIT License
 
-Copyright (c) 2026, Steinberg Media Technologies GmbH
+Copyright (c)Â 2026,Â Steinberg Media Technologies GmbH
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
@@ -223,7 +223,7 @@ This plugin includes Steinberg VST3 SDK components and LLVM / libc++ runtime com
 ---
 MIT License
 
-Copyright (c) 2026, Steinberg Media Technologies GmbH
+Copyright (c)Â 2026,Â Steinberg Media Technologies GmbH
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
@@ -427,7 +427,7 @@ This plugin includes Steinberg VST3 SDK components and LLVM / libc++ runtime com
 ---
 MIT License
 
-Copyright (c) 2026, Steinberg Media Technologies GmbH
+Copyright (c)Â 2026,Â Steinberg Media Technologies GmbH
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
@@ -614,14 +614,12 @@ Copyright (C) 1993 by Sun Microsystems, Inc. All rights reserved.
 
 Developed at SunPro, a Sun Microsystems, Inc. business. Permission to use, copy, modify, and distribute this software is freely granted, provided that this notice is preserved.
 
-FIXME: Cephes math lib Copyright (C) 1984-1998 Stephen L. Moshier
-
-It sounds vague, but as to be found at <http://lists.debian.org/debian-legal/2004/12/msg00295.html>, it gives an impression that the author could be willing to give an explicit permission to distribute those files e.g. under a BSD style license. So probably there is no problem here, although it could be good to get a permission from the author and then add a license into the Cephes files in MinGW runtime. At least on follow-up it is marked that debian sees the version a-like BSD one. As MinGW.org (where those cephes parts are coming from) distributes them now over 6 years, it should be fine.
+Cephes math lib Copyright (C) 1984-1998 Stephen L. Moshier
 
 
 # Some string, memory and time conversion functions
 ---
-Copyright © 2005-2020 Rich Felker, et al.
+Copyright Â© 2005-2020 Rich Felker, et al.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 

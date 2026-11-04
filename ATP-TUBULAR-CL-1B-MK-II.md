@@ -45,7 +45,7 @@ Shape vocal, bass and instrument dynamics with a linked stereo detector and a VU
 | Output | Adjusts processed output level; the lowest range is silent. |
 | Ratio | Adjusts compression ratio from 2:1 to 10:1. |
 | Threshold | Sets the level where gain reduction begins; fully counterclockwise is OFF. |
-| Attack / Release | Adjust Manual timing on a 0–10 scale. |
+| Attack / Release | Adjust Manual timing on a 0â€“10 scale. |
 | Timing | Fixed, F/M (fixed attack with manual recovery), or Manual. |
 | SIDECHAIN | Uses the internal detector or a routed mono external sidechain. |
 | HPF | Off, 80 Hz or 220 Hz detector filtering. Off retains DC blocking. |
@@ -77,7 +77,7 @@ This plugin includes Steinberg VST3 SDK components and LLVM / libc++ runtime com
 ---
 MIT License
 
-Copyright (c) 2026, Steinberg Media Technologies GmbH
+Copyright (c)Â 2026,Â Steinberg Media Technologies GmbH
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
@@ -272,13 +272,13 @@ Developed at SunPro, a Sun Microsystems, Inc. business. Permission to use, copy,
 
 * * * * * *
 
-FIXME: Cephes math lib Copyright (C) 1984-1998 Stephen L. Moshier
+Cephes math lib Copyright (C) 1984-1998 Stephen L. Moshier
 
-It sounds vague, but as to be found at <http://lists.debian.org/debian-legal/2004/12/msg00295.html>, it gives an impression that the author could be willing to give an explicit permission to distribute those files e.g. under a BSD style license. So probably there is no problem here, although it could be good to get a permission from the author and then add a license into the Cephes files in MinGW runtime. At least on follow-up it is marked that debian sees the version a-like BSD one. As MinGW.org (where those cephes parts are coming from) distributes them now over 6 years, it should be fine.
+
 
 Some string, memory and time conversion functions
 
-Copyright Â© 2005-2020 Rich Felker, et al.
+Copyright Ã‚Â© 2005-2020 Rich Felker, et al.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 

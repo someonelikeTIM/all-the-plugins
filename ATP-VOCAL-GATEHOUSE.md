@@ -53,7 +53,7 @@ Extract the Mac ZIP and copy the complete `ATP Vocal Gatehouse.vst3` bundle into
 | Match | Level-match the global bypass comparison. |
 | Pan, Width | Adjust stereo placement and width with horizontal sliders. |
 
-The graph shows live input history with Open and Close thresholds; the meters show input, output and gain reduction. Drag or wheel controls to adjust, and double-click or right-click to reset. Reported delay is `round(sample_rate × 0.001) − 1` samples; the bypass paths retain its alignment.
+The graph shows live input history with Open and Close thresholds; the meters show input, output and gain reduction. Drag or wheel controls to adjust, and double-click or right-click to reset. Reported delay is `round(sample_rate Ã— 0.001) âˆ’ 1` samples; the bypass paths retain its alignment.
 
 
 # License
@@ -78,7 +78,7 @@ This plugin includes Steinberg VST3 SDK, LLVM / libc++ runtime and MinGW-w64 run
 ---
 MIT License
 
-Copyright (c) 2026, Steinberg Media Technologies GmbH
+Copyright (c)Â 2026,Â Steinberg Media Technologies GmbH
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
@@ -265,14 +265,12 @@ Copyright (C) 1993 by Sun Microsystems, Inc. All rights reserved.
 
 Developed at SunPro, a Sun Microsystems, Inc. business. Permission to use, copy, modify, and distribute this software is freely granted, provided that this notice is preserved.
 
-FIXME: Cephes math lib Copyright (C) 1984-1998 Stephen L. Moshier
-
-It sounds vague, but as to be found at <http://lists.debian.org/debian-legal/2004/12/msg00295.html>, it gives an impression that the author could be willing to give an explicit permission to distribute those files e.g. under a BSD style license. So probably there is no problem here, although it could be good to get a permission from the author and then add a license into the Cephes files in MinGW runtime. At least on follow-up it is marked that debian sees the version a-like BSD one. As MinGW.org (where those cephes parts are coming from) distributes them now over 6 years, it should be fine.
+Cephes math lib Copyright (C) 1984-1998 Stephen L. Moshier
 
 
 # Some string, memory and time conversion functions
 ---
-Copyright © 2005-2020 Rich Felker, et al.
+Copyright Â© 2005-2020 Rich Felker, et al.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 

@@ -34,7 +34,7 @@ Beta release. Please report UI bugs, crashes, installation issues, and unexpecte
 | --- | --- |
 | Mix | Linear dry/wet blend from 0% dry to 100% processed. With Oversampling enabled, the dry side is delayed by 64 samples to remain aligned. |
 | Tone | Shapes the driven signal frequency balance from 0% to 100%. |
-| Snap | Windows and Mac VST3 use the revised transient shaping. Its nominal 0–30 dB scale is an amount readout, not an output-gain promise. |
+| Snap | Windows and Mac VST3 use the revised transient shaping. Its nominal 0â€“30 dB scale is an amount readout, not an output-gain promise. |
 | Output | Final output gain from -15 to +15 dB. |
 | Oversampling | Enables the 2x nonlinear path and 64-sample latency. The plugin asks the host to refresh delay compensation whenever effective latency changes; either bypass returns reported effective latency to zero. |
 | Host bypass | Use the host bypass control. Returns the immediate dry input, skips effect processing and reduces reported effective latency to zero. |
@@ -43,7 +43,6 @@ Beta release. Please report UI bugs, crashes, installation issues, and unexpecte
 Insert on a mono or stereo track. Drag the four knobs for immediate changes; use the mouse wheel or arrow keys, hold Shift for fine changes, and double-click to reset. Click the Oversampling and Effect Active switches to toggle them. Defaults are 100% Mix, 50% Tone, 0 dB Snap, 0 dB Output, Oversampling off, Host Bypass off and Effect Active on. VST3 supports mono/stereo 32-bit and 64-bit audio; AU supports mono/stereo 32-bit audio. Oversampling reports 64 samples of latency while Effect Active is on and Host Bypass is off, and requests host delay-compensation updates when that state changes. Either bypass reduces reported effective latency to zero.
 
 The Windows VST3 Beta updates the textured editor and nonzero Snap shaping. The Mac VST3 Beta updates the textured editor and preserves the approved A1 Snap calibration. Floating-point output can exceed full scale at strong settings; allow headroom and reduce Output before clipping downstream. The existing Mac AU download remains available.
-
 
 
 # License
@@ -68,7 +67,7 @@ This plugin includes Steinberg VST3 SDK, LLVM / libc++ runtime and MinGW-w64 run
 ---
 MIT License
 
-Copyright (c) 2026, Steinberg Media Technologies GmbH
+Copyright (c)Â 2026,Â Steinberg Media Technologies GmbH
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
@@ -255,14 +254,12 @@ Copyright (C) 1993 by Sun Microsystems, Inc. All rights reserved.
 
 Developed at SunPro, a Sun Microsystems, Inc. business. Permission to use, copy, modify, and distribute this software is freely granted, provided that this notice is preserved.
 
-FIXME: Cephes math lib Copyright (C) 1984-1998 Stephen L. Moshier
-
-It sounds vague, but as to be found at <http://lists.debian.org/debian-legal/2004/12/msg00295.html>, it gives an impression that the author could be willing to give an explicit permission to distribute those files e.g. under a BSD style license. So probably there is no problem here, although it could be good to get a permission from the author and then add a license into the Cephes files in MinGW runtime. At least on follow-up it is marked that debian sees the version a-like BSD one. As MinGW.org (where those cephes parts are coming from) distributes them now over 6 years, it should be fine.
+Cephes math lib Copyright (C) 1984-1998 Stephen L. Moshier
 
 
 # Some string, memory and time conversion functions
 ---
-Copyright © 2005-2020 Rich Felker, et al.
+Copyright Â© 2005-2020 Rich Felker, et al.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
