@@ -18,7 +18,7 @@ Bring weight and movement to drums, room microphones and other sounds that benef
 ---
 | Platform | Format | Download |
 | --- | --- | --- |
-| Windows | VST3 | [Windows VST3](https://raw.githubusercontent.com/someonelikeTIM/all-the-plugins/main/downloads/windows/ATP-Demon-Love-Windows-VST3.zip) |
+| Windows | VST3 | [Windows VST3](https://raw.githubusercontent.com/someonelikeTIM/all-the-plugins/3692578cb74325ef7c0da0738607398ca96f5f88/downloads/windows/ATP-Demon-Love-Windows-VST3.zip) |
 
 
 # Install and use
