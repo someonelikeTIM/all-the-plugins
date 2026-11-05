@@ -2,9 +2,7 @@
 ---
 Opto-style compression with Vintage and Modern processing, flexible timing and parallel blend.
 
-**Release version:** v0.2.1
-
-Beta release. Please report UI bugs, crashes, installation issues, and unexpected audio behavior.
+**Release version:** v1.0
 
 **Inspired by:** Tube-Tech CL 1B mk II
 
@@ -20,15 +18,12 @@ Shape vocal, bass and instrument dynamics with linked stereo compression and a V
 ---
 | Platform | Format | Download |
 | --- | --- | --- |
-| Windows | VST3 | [Windows VST3](https://raw.githubusercontent.com/someonelikeTIM/all-the-plugins/83bef510a20ff257c19b9d370312f8bc21a2b47d/downloads/windows/ATP-Tubular-CL-1B-Windows-VST3.zip) |
-| Mac (earlier beta) | VST3 | [Mac VST3](https://raw.githubusercontent.com/someonelikeTIM/all-the-plugins/9f328532b8d2969e1fc1f898d0b7f36fea59ba63/downloads/macos/ATP-Tubular-CL1B-macOS-universal-VST3.zip) |
+| Windows | VST3 | [Windows VST3](https://raw.githubusercontent.com/someonelikeTIM/all-the-plugins/main/downloads/windows/ATP-Tubular-CL-1B-Windows-VST3.zip) |
 
 
 # Install and use
 ---
 **Windows:** Extract the ZIP and copy the complete `ATP Tubular CL-1B.vst3` folder into `%CommonProgramFiles%\VST3` or your user VST3 folder, replacing the earlier Tubular bundle, then rescan your host. Keep a backup of the previous copy.
-
-**Mac:** The Mac download retains its earlier editor and plug-in name. Copy that bundle into `~/Library/Audio/Plug-Ins/VST3/`, then reopen and rescan your host.
 
 **Using the interface:** Drag or wheel the knobs, double-click to reset and hold Shift for finer adjustment. Select modes with the buttons. Click the lock icon for detented or continuous manual editing; automation and recalled values remain continuous.
 
