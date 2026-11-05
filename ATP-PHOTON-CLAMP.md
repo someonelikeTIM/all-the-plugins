@@ -4,7 +4,7 @@ VCA-style compression with three saturation characters, pre/post tone shaping an
 
 **Inspired by:** Purafied Audio LED Compressor
 
-**Release version:** v1.0
+**Release version:** v0.1
 
 ![Photon Clamp editor](screenshots/ATP-Photon-Clamp.png)
 

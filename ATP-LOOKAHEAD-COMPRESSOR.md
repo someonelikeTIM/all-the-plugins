@@ -4,7 +4,7 @@ Lookahead compression with threshold, ratio, knee and makeup gain controls.
 
 **Inspired by:** Harrison Lookahead Compressor
 
-**Release version:** v1.1
+**Release version:** v0.2
 
 ![AheadComp editor](screenshots/ATP-Lookahead-Compressor.png)
 

@@ -4,7 +4,7 @@ Frequency-selective tremolo and stereo modulation with selectable LFO shapes and
 
 **Inspired by:** Harrison Tremolo Panner
 
-**Release version:** v1.1
+**Release version:** v0.2
 
 ![Tremolo Panner editor](screenshots/ATP-Tremolo-Panner.png)
 

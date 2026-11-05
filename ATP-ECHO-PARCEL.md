@@ -4,7 +4,7 @@ A stereo multi-tap delay with two- and six-tap variants, individual filters, ste
 
 **Inspired by:** Waves SuperTap
 
-**Release version:** v1.0
+**Release version:** v0.1
 
 ![UltraTap editor](screenshots/ATP-Echo-Parcel.png)
 

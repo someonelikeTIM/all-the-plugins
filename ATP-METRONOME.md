@@ -4,7 +4,7 @@ A metronome with transport modes, volume and accent controls, and independently 
 
 **Inspired by:** standalone Metronome
 
-**Release version:** v1.0
+**Release version:** v0.1
 
 ![Metronome macOS editor](screenshots/ATP-Metronome-mac.png)
 

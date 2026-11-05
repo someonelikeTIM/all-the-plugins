@@ -4,7 +4,7 @@ Vocal saturation with seven characters, treble shaping, parallel mix and level m
 
 **Inspired by:** iZotope Nectar 4 Saturation
 
-**Release version:** v1.1
+**Release version:** v0.2
 
 ![Vocal Ember editor](screenshots/ATP-Vocal-Ember.png)
 

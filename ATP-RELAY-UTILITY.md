@@ -4,7 +4,7 @@ A stereo utility with gain, pan, width, delay, polarity and high-pass controls.
 
 **Inspired by:** Relay
 
-**Release version:** v1.0
+**Release version:** v0.1
 
 ![Relay Utility Windows editor](screenshots/ATP-Relay-Utility.png)
 

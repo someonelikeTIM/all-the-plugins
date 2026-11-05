@@ -4,7 +4,7 @@ A stereo parametric equalizer with two-, four- and six-band variants, resonant s
 
 **Inspired by:** Waves Renaissance Equalizer
 
-**Release version:** v1.0
+**Release version:** v0.1
 
 ![Redux Equalizer editor](screenshots/ATP-Linen-Curve.png)
 

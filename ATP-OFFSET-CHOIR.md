@@ -4,7 +4,7 @@ A stereo pitch and delay doubler with two-voice and four-voice variants, individ
 
 **Inspired by:** Waves Doubler
 
-**Release version:** v1.0
+**Release version:** v0.1
 
 ![Double Trouble editor](screenshots/ATP-Offset-Choir.png)
 

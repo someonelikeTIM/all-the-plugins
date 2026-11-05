@@ -4,7 +4,7 @@ Modeled even- and odd-harmonic saturation with drive, depth, shape, parallel mix
 
 **Inspired by:** SSL Native X-Saturator
 
-**Release version:** v1.1
+**Release version:** v0.2
 
 ![Overtone Mill Mac editor](screenshots/ATP-Overtone-Mill-mac.png)
 

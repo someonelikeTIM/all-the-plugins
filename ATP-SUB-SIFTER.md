@@ -4,7 +4,7 @@ Bass shaping with four rotary controls, a three-position resonance selector and 
 
 **Inspired by:** bx_subfilter
 
-**Release version:** v1.1
+**Release version:** v0.2
 
 ![Sub Sifter editor](screenshots/ATP-Sub-Sifter.png)
 

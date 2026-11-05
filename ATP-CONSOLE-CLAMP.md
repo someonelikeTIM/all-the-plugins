@@ -4,7 +4,7 @@ Lookahead console-style compression with Program timing, depth control and a fil
 
 **Inspired by:** Harrison MPC Compressor
 
-**Release version:** v1.1
+**Release version:** v0.2
 
 ![Console Clamp editor](screenshots/ATP-Console-Clamp.png)
 

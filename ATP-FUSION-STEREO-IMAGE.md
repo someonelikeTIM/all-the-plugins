@@ -4,7 +4,7 @@ Mid/Side stereo imaging with width, low-frequency space shaping and input/output
 
 **Inspired by:** SSL Fusion Stereo Image
 
-**Release version:** v1.0
+**Release version:** v0.1
 
 ![Fusion Stereo Image editor](screenshots/ATP-Fusion-Stereo-Image.png)
 

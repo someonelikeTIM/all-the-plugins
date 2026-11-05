@@ -4,7 +4,7 @@ Parallel compression with Spank intensity, compressed-signal level, output gain 
 
 **Inspired by:** BABY Audio I Heart NY
 
-**Release version:** v1.0
+**Release version:** v0.1
 
 ![I Heart NY editor](screenshots/ATP-I-Heart-NY.png)
 

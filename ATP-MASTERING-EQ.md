@@ -4,7 +4,7 @@ A graphic equalizer with low-pass and high-pass filters, trim and comparison byp
 
 **Inspired by:** Harrison Mastering EQ
 
-**Release version:** v1.0
+**Release version:** v0.1
 
 ![Mastering EQ editor](screenshots/ATP-Mastering-EQ.png)
 

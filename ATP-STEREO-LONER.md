@@ -4,7 +4,7 @@ Stereo monitoring, channel swapping and stepped width adjustment.
 
 **Inspired by:** bx_solo
 
-**Release version:** v1.1
+**Release version:** v0.2
 
 ![Stereo Loner macOS editor](screenshots/ATP-Stereo-Loner-mac.png)
 

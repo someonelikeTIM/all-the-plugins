@@ -4,7 +4,7 @@ Rhythmic amplitude modulation with editable Shapes, event-based Rhythms, detecto
 
 **Inspired by:** Soundtoys Tremolator
 
-**Release version:** v1.1
+**Release version:** v0.2
 
 ![Pulse Carver editor](screenshots/ATP-Pulse-Carver.png)
 

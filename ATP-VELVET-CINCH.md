@@ -4,7 +4,7 @@ A stereo compressor and limiter with automatic level compensation, adaptive reco
 
 **Inspired by:** Waves Renaissance Axx
 
-**Release version:** v1.0
+**Release version:** v0.1
 
 ![Redux Axx editor](screenshots/ATP-Velvet-Cinch.png)
 

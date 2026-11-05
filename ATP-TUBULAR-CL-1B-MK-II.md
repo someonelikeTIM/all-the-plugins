@@ -2,7 +2,7 @@
 ---
 An opto-style compressor with Vintage and Modern processing, flexible timing, sidechain filtering and parallel blend.
 
-**Release version:** v1.0
+**Release version:** v0.1
 
 Beta release. Please report UI bugs, crashes, installation issues, and unexpected audio behavior.
 

@@ -4,7 +4,7 @@ Tube-style saturation with Heat, Mix, Bias and Noise controls.
 
 **Inspired by:** Soundtoys Little Radiator
 
-**Release version:** v1.1
+**Release version:** v0.2
 
 ![Tiny Toaster editor](screenshots/ATP-Tiny-Toaster.png)
 

@@ -4,7 +4,7 @@ Phase alignment with independent channel delays, all-pass filters and polarity c
 
 **Inspired by:** SSL Native X-Phase
 
-**Release version:** v1.1
+**Release version:** v0.2
 
 ![Phase Align editor](screenshots/ATP-Phase-Align-mac.png)
 

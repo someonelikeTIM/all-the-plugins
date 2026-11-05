@@ -4,7 +4,7 @@ Mono and stereo vocal gating with adjustable hysteresis, envelope timing, parall
 
 **Inspired by:** iZotope Nectar 4 Gate
 
-**Release version:** v1.1
+**Release version:** v0.2
 
 ![Vocal Gatehouse editor](screenshots/ATP-Vocal-Gatehouse.png)
 

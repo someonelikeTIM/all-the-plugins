@@ -4,7 +4,7 @@ Sibilance detection and frequency-selective attenuation with band monitoring and
 
 **Inspired by:** Harrison De-Esser
 
-**Release version:** v1.0
+**Release version:** v0.1
 
 ![De-Esser editor](screenshots/ATP-De-Esser.png)
 

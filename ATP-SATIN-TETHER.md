@@ -4,7 +4,7 @@ A stereo soft-knee compressor and expander with adaptive release, linked limitin
 
 **Inspired by:** Waves Renaissance Compressor
 
-**Release version:** v1.0
+**Release version:** v0.1
 
 ![Redux Compressor editor](screenshots/ATP-Satin-Tether.png)
 

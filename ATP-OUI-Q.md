@@ -4,7 +4,7 @@ Three-band character equalization and drive with direct rotary controls.
 
 **Inspired by:** Soundtoys Sie-Q
 
-**Release version:** v1.1
+**Release version:** v0.2
 
 ![Oui-Q editor](screenshots/ATP-Oui-Q.png)
 

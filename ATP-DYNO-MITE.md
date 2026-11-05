@@ -4,7 +4,7 @@ Transient shaping with threshold, sustain and output trim.
 
 **Inspired by:** Harrison Dyno Mite
 
-**Release version:** v1.1
+**Release version:** v0.2
 
 ![Sustainer editor](screenshots/ATP-Dyno-Mite.png)
 
