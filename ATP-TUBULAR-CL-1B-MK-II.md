@@ -19,11 +19,19 @@ Shape vocal, bass and instrument dynamics with linked stereo compression and a V
 | Platform | Format | Download |
 | --- | --- | --- |
 | Windows | VST3 | [Windows VST3](https://raw.githubusercontent.com/someonelikeTIM/all-the-plugins/cbe3efe3627c2399a556a3f8c74f87f78da0bbb6/downloads/windows/ATP-Tubular-CL-1B-Windows-VST3.zip) |
+| macOS 11+ | VST3 | [Mac VST3](https://raw.githubusercontent.com/someonelikeTIM/all-the-plugins/fe19337c757cb27c6c5e892d0f720b81170f89a5/downloads/macos/ATP-Tubular-CL-1B-macOS-universal-VST3.zip) |
+| macOS 11+ | AU | [Mac AU](https://raw.githubusercontent.com/someonelikeTIM/all-the-plugins/fe19337c757cb27c6c5e892d0f720b81170f89a5/downloads/macos/ATP-Tubular-CL-1B-macOS-universal-AU.zip) |
 
 
 # Install and use
 ---
 **Windows:** Extract the ZIP and copy the complete `ATP Tubular CL-1B.vst3` folder into `%CommonProgramFiles%\VST3` or your user VST3 folder, replacing the earlier Tubular bundle, then rescan your host. Keep a backup of the previous copy.
+
+**Mac VST3:** Extract the ZIP and copy the complete `.vst3` bundle into `~/Library/Audio/Plug-Ins/VST3/`, then rescan your host.
+
+**Mac AU:** Extract the ZIP and copy the complete `.component` bundle into `~/Library/Audio/Plug-Ins/Components/`, then rescan your AU host.
+
+Mac downloads are universal Apple Silicon / Intel builds for macOS 11 or later, Developer ID signed and Apple notarized. Back up the previous version outside the host scan folders before replacing it.
 
 **Using the interface:** Drag or wheel the knobs, double-click to reset and hold Shift for finer adjustment. Select modes with the buttons. Click the lock icon for detented or continuous manual editing; automation and recalled values remain continuous.
 

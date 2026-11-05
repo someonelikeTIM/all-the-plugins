@@ -14,11 +14,19 @@ A stereo compressor and limiter with automatic level compensation, adaptive reco
 | Platform | Format | Download |
 | --- | --- | --- |
 | Windows x64 | VST3 | [Windows VST3](https://raw.githubusercontent.com/someonelikeTIM/all-the-plugins/c8caa41fe89b9aac9f39b0e97e003c07bf720f89/downloads/windows/ATP-Velvet-Cinch-Windows-VST3.zip) |
+| macOS 11+ | VST3 | [Mac VST3](https://raw.githubusercontent.com/someonelikeTIM/all-the-plugins/fe19337c757cb27c6c5e892d0f720b81170f89a5/downloads/macos/ATP-Redux-Axx-macOS-universal-VST3.zip) |
+| macOS 11+ | AU | [Mac AU](https://raw.githubusercontent.com/someonelikeTIM/all-the-plugins/fe19337c757cb27c6c5e892d0f720b81170f89a5/downloads/macos/ATP-Redux-Axx-macOS-universal-AU.zip) |
 
 
 # Install and use
 ---
-Extract the ZIP and copy the complete `ATP Redux Axx.vst3` folder into `C:\Program Files\Common Files\VST3`. Replace the earlier copy of the same plugin, then restart or rescan your host. Windows x64 VST3; stereo input and output.
+**Windows:** Extract the ZIP and copy the complete `ATP Redux Axx.vst3` folder into `C:\Program Files\Common Files\VST3`. Replace the earlier copy of the same plugin, then restart or rescan your host. Windows x64 VST3; stereo input and output.
+
+**Mac VST3:** Extract the ZIP and copy the complete `.vst3` bundle into `~/Library/Audio/Plug-Ins/VST3/`, then rescan your host.
+
+**Mac AU:** Extract the ZIP and copy the complete `.component` bundle into `~/Library/Audio/Plug-Ins/Components/`, then rescan your AU host.
+
+Mac downloads are universal Apple Silicon / Intel builds for macOS 11 or later, Developer ID signed and Apple notarized. Back up the previous version outside the host scan folders before replacing it.
 
 | Control | Behavior |
 | --- | --- |
