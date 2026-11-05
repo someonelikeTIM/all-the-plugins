@@ -24,7 +24,7 @@ Choose a plugin to see its available downloads and installation instructions.
 | [Feral Ranger](ATP-FERAL-RANGER.md) |
 | [I Heart NY](ATP-I-HEART-NY.md) |
 | [FetSlap](ATP-FETSLAP.md) |
-| [Tubular CL 1B mk II](ATP-TUBULAR-CL-1B-MK-II.md) |
+| [Tubular CL-1B](ATP-TUBULAR-CL-1B-MK-II.md) |
 | [Mastering EQ](ATP-MASTERING-EQ.md) |
 | [DeciPress](ATP-DECIPRESS.md) |
 | [Second Breath](ATP-SECOND-BREATH.md) |

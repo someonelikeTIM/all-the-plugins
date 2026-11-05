@@ -1,58 +1,54 @@
-# Tubular CL 1B mk II
+# Tubular CL-1B
 ---
-An opto-style compressor with Vintage and Modern processing, flexible timing, sidechain filtering and parallel blend.
+Opto-style compression with Vintage and Modern processing, flexible timing and parallel blend.
 
-**Release version:** v0.1
+**Release version:** v0.2.1
 
 Beta release. Please report UI bugs, crashes, installation issues, and unexpected audio behavior.
 
-**Inspired by:** Tube-Tech CL 1B mk II. Independently implemented processing.
+**Inspired by:** Tube-Tech CL 1B mk II
 
+![Tubular CL-1B editor](screenshots/ATP-Tubular-CL-1B.png)
 
-
-
-![Tubular Mac VST3 editor](screenshots/ATP-Tubular-CL1B-macOS.png)
-
-![Tubular Windows VST3 editor](screenshots/ATP-Tubular-CL-1B-mk-II.png)
 
 # Overview
 ---
-Shape vocal, bass and instrument dynamics with a linked stereo detector and a VU-style meter. Choose Fixed, Manual or combined timing, then blend the compressed signal with the dry signal for more gradual control.
+Shape vocal, bass and instrument dynamics with linked stereo compression and a VU-style meter. Choose Fixed, Manual or combined timing, then blend the compressed signal with the dry signal for more gradual control. Vintage and Modern processing offer two approaches to the compression, while detector filtering and external sidechain routing help tailor its response.
 
 
 # Downloads
 ---
 | Platform | Format | Download |
 | --- | --- | --- |
-| Windows x64 | VST3 | [Windows VST3](https://raw.githubusercontent.com/someonelikeTIM/all-the-plugins/9f328532b8d2969e1fc1f898d0b7f36fea59ba63/downloads/windows/ATP-Tubular-CL-1B-mk-II-Windows-VST3.zip) |
-| Mac | VST3 | [Mac VST3](https://raw.githubusercontent.com/someonelikeTIM/all-the-plugins/9f328532b8d2969e1fc1f898d0b7f36fea59ba63/downloads/macos/ATP-Tubular-CL1B-macOS-universal-VST3.zip) |
+| Windows | VST3 | [Windows VST3](https://raw.githubusercontent.com/someonelikeTIM/all-the-plugins/main/downloads/windows/ATP-Tubular-CL-1B-Windows-VST3.zip) |
+| Mac (earlier beta) | VST3 | [Mac VST3](https://raw.githubusercontent.com/someonelikeTIM/all-the-plugins/9f328532b8d2969e1fc1f898d0b7f36fea59ba63/downloads/macos/ATP-Tubular-CL1B-macOS-universal-VST3.zip) |
 
 
 # Install and use
 ---
-**Windows VST3:** Close your host, extract the ZIP, and copy the entire `ATP Tubular CL 1B mk II.vst3` folder into `%CommonProgramFiles%\VST3`. Reopen or rescan your 64-bit VST3 host, then insert **ATP Tubular CL 1B mk II** on an audio track. Keep the bundle's `Contents` folder intact.
+**Windows:** Extract the ZIP and copy the complete `ATP Tubular CL-1B.vst3` folder into `%CommonProgramFiles%\VST3` or your user VST3 folder, replacing the earlier Tubular bundle, then rescan your host. Keep a backup of the previous copy.
 
-**Mac VST3:** Extract the Mac ZIP and copy the complete `ATP Tubular CL 1B mk II.vst3` bundle into `~/Library/Audio/Plug-Ins/VST3/`, then reopen and rescan your host. Requires macOS 12.0 or newer.
+**Mac:** The Mac download retains its earlier editor and plug-in name. Copy that bundle into `~/Library/Audio/Plug-Ins/VST3/`, then reopen and rescan your host.
 
-**Using the interface:** drag knobs vertically, click selectors and the IN switch, or use the mouse wheel. Hold Shift for finer knob adjustments. The meter selector chooses input, compression or output level.
+**Using the interface:** Drag or wheel the knobs, double-click to reset and hold Shift for finer adjustment. Select modes with the buttons. Click the lock icon for detented or continuous manual editing; automation and recalled values remain continuous.
 
-**Defaults:** Modern generation, Manual timing, internal sidechain, optional low cut Off, 100% wet and IN enabled. Ratio starts at 6:1; Attack and Release at 5.0. Threshold starts at OFF, so lower the threshold to engage compression. Processing begins at its settled sound.
+**Defaults:** Threshold OFF, Ratio 6:1, Attack and Release 5.0, Modern generation, Manual timing, internal sidechain, low cut Off and Mix 100%.
 
-**Audio support:** mono or stereo main audio and a mono auxiliary sidechain; 44.1, 48, 88.2, 96, 176.4 and 192 kHz. Accepts 32-bit and 64-bit host sample buffers. Latency is four samples at 44.1/48 kHz and zero at the higher listed rates.
+**Audio:** Mono or stereo with a mono auxiliary sidechain and 32-bit or 64-bit host buffers.
 
 | Control | Behavior |
 | --- | --- |
-| Output | Adjusts processed output level; the lowest range is silent. |
-| Ratio | Adjusts compression ratio from 2:1 to 10:1. |
-| Threshold | Sets the level where gain reduction begins; fully counterclockwise is OFF. |
-| Attack / Release | Adjust Manual timing on a 0â€“10 scale. |
-| Timing | Fixed, F/M (fixed attack with manual recovery), or Manual. |
-| SIDECHAIN | Uses the internal detector or a routed mono external sidechain. |
-| HPF | Off, 80 Hz or 220 Hz detector filtering. Off retains DC blocking. |
-| VIBE | Selects Vintage or Modern processing. |
-| MIX | Blends processed and aligned dry audio. Output affects the processed branch. |
-| IN | Enables processing or selects aligned dry audio. Host bypass remains available separately. |
+| Threshold | Sets where compression begins; fully counterclockwise is OFF. |
+| Ratio | Sets compression ratio from 2:1 to 10:1. |
+| Attack / Release | Adjusts Manual timing on a 0 to 10 scale. |
+| Timing | Selects Fixed, F/M (fixed attack with manual release), or Manual timing. |
+| Generation | Selects Vintage or Modern processing. |
+| Sidechain | Selects the internal detector or a routed mono external sidechain. |
+| Low cut | Selects Off, 80 Hz or 220 Hz detector filtering. |
+| Mix | Blends processed and aligned dry audio from 0% to 100%. |
+| Output | Adjusts the processed branch level; the lowest setting is silent. |
 | Meter | Selects input, gain reduction or output indication. |
+| Host bypass | Returns to aligned dry audio. Legacy IN remains available through host parameters for earlier presets. |
 
 
 # License
@@ -70,14 +66,14 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 # Third-party notices
 ---
-This plugin includes Steinberg VST3 SDK components and LLVM / libc++ runtime components. Their full notices and distribution terms follow.
+This plugin includes Steinberg VST3 SDK, LLVM / libc++ runtime and MinGW-w64 runtime licensing components. Their full notices and distribution terms follow.
 
 
 # Steinberg VST3 SDK
 ---
 MIT License
 
-Copyright (c)Â 2026,Â Steinberg Media Technologies GmbH
+Copyright (c) 2026, Steinberg Media Technologies GmbH
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
@@ -188,28 +184,28 @@ Permission is hereby granted, free of charge, to any person obtaining a copy of 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.  IN NO EVENT SHALL THE CONTRIBUTORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS WITH THE SOFTWARE.
 
 
-# MinGW-w64 runtime
+# MinGW-w64 runtime licensing
 ---
-MinGW-w64 runtime licensing
-
 This program or library was built using MinGW-w64 and statically linked against the MinGW-w64 runtime. Some parts of the runtime are under licenses which require that the copyright and license notices are included when distributing the code in binary form. These notices are listed below.
 
-Overall copyright notice
 
+# Overall copyright notice
+---
 Copyright (c) 2009, 2010, 2011, 2012, 2013 by the mingw-w64 project
 
 This license has been certified as open source. It has also been designated as GPL compatible by the Free Software Foundation (FSF).
 
 Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
 
-1. Redistributions in source code must retain the accompanying copyright notice, this list of conditions, and the following disclaimer. 2. Redistributions in binary form must reproduce the accompanying copyright notice, this list of conditions, and the following disclaimer in the documentation and/or other materials provided with the distribution. 3. Names of the copyright holders must not be used to endorse or promote products derived from this software without prior written permission from the copyright holders. 4. The right to distribute this software or to use it for any purpose does not give you the right to use Servicemarks (sm) or Trademarks (tm) of the copyright holders. Use of them is covered by separate agreement with the copyright holders. 5. If any files are modified, you must cause the modified files to carry prominent notices stating that you changed the files and the date of any change.
+1. Redistributions in source code must retain the accompanying copyright notice, this list of conditions, and the following disclaimer. 2. Redistributions in binary form must reproduce the accompanying copyright notice, this list of conditions, and the following disclaimer in the documentation and/or other materials provided with the distribution. 3. Names of the copyright holders must not be used to endorse or promote products derived from this software without prior written permission from the copyright holders. 4. The right to distribute this software or to use it for any purpose does not give you the right to use Servicemarks (sm) or Trademarks (tm) of the copyright holders.  Use of them is covered by separate agreement with the copyright holders. 5. If any files are modified, you must cause the modified files to carry prominent notices stating that you changed the files and the date of any change.
 
 Disclaimer
 
 THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS ``AS IS'' AND ANY EXPRESSED OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDERS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-getopt, getopt_long, and getop_long_only
 
+# getopt, getopt_long, and getop_long_only
+---
 Copyright (c) 2002 Todd C. Miller <Todd.Miller@courtesan.com>
 
 Permission to use, copy, modify, and distribute this software for any purpose with or without fee is hereby granted, provided that the above copyright notice and this permission notice appear in all copies.
@@ -218,18 +214,17 @@ THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH RE
 
 Sponsored in part by the Defense Advanced Research Projects Agency (DARPA) and Air Force Research Laboratory, Air Force Materiel Command, USAF, under agreement number F39502-99-1-0512.
 
-* * * * * *
-
 Copyright (c) 2000 The NetBSD Foundation, Inc. All rights reserved.
 
 This code is derived from software contributed to The NetBSD Foundation by Dieter Baron and Thomas Klausner.
 
 Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met: 1. Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer. 2. Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
 
-THIS SOFTWARE IS PROVIDED BY THE NETBSD FOUNDATION, INC. AND CONTRIBUTORS ``AS IS'' AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE FOUNDATION OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+THIS SOFTWARE IS PROVIDED BY THE NETBSD FOUNDATION, INC. AND CONTRIBUTORS ``AS IS'' AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.  IN NO EVENT SHALL THE FOUNDATION OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-gdtoa: Converting between IEEE floating point numbers and ASCII
 
+# gdtoa: Converting between IEEE floating point numbers and ASCII
+---
 The author of this software is David M. Gay.
 
 Copyright (C) 1997, 1998, 1999, 2000, 2001 by Lucent Technologies All Rights Reserved
@@ -238,17 +233,13 @@ Permission to use, copy, modify, and distribute this software and its documentat
 
 LUCENT DISCLAIMS ALL WARRANTIES WITH REGARD TO THIS SOFTWARE, INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL LUCENT OR ANY OF ITS ENTITIES BE LIABLE FOR ANY SPECIAL, INDIRECT OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 
-* * * * * *
-
 The author of this software is David M. Gay.
 
 Copyright (C) 2005 by David M. Gay All Rights Reserved
 
 Permission to use, copy, modify, and distribute this software and its documentation for any purpose and without fee is hereby granted, provided that the above copyright notice appear in all copies and that both that the copyright notice and this permission notice and warranty disclaimer appear in supporting documentation, and that the name of the author or any of his current or former employers not be used in advertising or publicity pertaining to distribution of the software without specific, written prior permission.
 
-THE AUTHOR DISCLAIMS ALL WARRANTIES WITH REGARD TO THIS SOFTWARE, INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR OR ANY OF HIS CURRENT OR FORMER EMPLOYERS BE LIABLE FOR ANY SPECIAL, INDIRECT OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
-
-* * * * * *
+THE AUTHOR DISCLAIMS ALL WARRANTIES WITH REGARD TO THIS SOFTWARE, INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS.  IN NO EVENT SHALL THE AUTHOR OR ANY OF HIS CURRENT OR FORMER EMPLOYERS BE LIABLE FOR ANY SPECIAL, INDIRECT OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 
 The author of this software is David M. Gay.
 
@@ -258,27 +249,25 @@ Permission to use, copy, modify, and distribute this software and its documentat
 
 LUCENT DISCLAIMS ALL WARRANTIES WITH REGARD TO THIS SOFTWARE, INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL LUCENT OR ANY OF ITS ENTITIES BE LIABLE FOR ANY SPECIAL, INDIRECT OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 
-Parts of the math library
 
+# Parts of the math library
+---
 Copyright (C) 1993 by Sun Microsystems, Inc. All rights reserved.
 
 Developed at SunSoft, a Sun Microsystems, Inc. business. Permission to use, copy, modify, and distribute this software is freely granted, provided that this notice is preserved.
-
-* * * * * *
 
 Copyright (C) 1993 by Sun Microsystems, Inc. All rights reserved.
 
 Developed at SunPro, a Sun Microsystems, Inc. business. Permission to use, copy, modify, and distribute this software is freely granted, provided that this notice is preserved.
 
-* * * * * *
-
 Cephes math lib Copyright (C) 1984-1998 Stephen L. Moshier
 
 
 
-Some string, memory and time conversion functions
 
-Copyright Ã‚Â© 2005-2020 Rich Felker, et al.
+# Some string, memory and time conversion functions
+---
+Copyright © 2005-2020 Rich Felker, et al.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
@@ -286,37 +275,13 @@ The above copyright notice and this permission notice shall be included in all c
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-Headers and IDLs imported from Wine
 
+# Headers and IDLs imported from Wine
+---
 Some header and IDL files were imported from the Wine project. These files are prominent maked in source. Their copyright belongs to contributors and they are distributed under LGPL license.
 
 Disclaimer
 
 This library is free software; you can redistribute it and/or modify it under the terms of the GNU Lesser General Public License as published by the Free Software Foundation; either version 2.1 of the License, or (at your option) any later version.
 
-This library is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU Lesser General Public License for more details.
-
-
-# winpthreads runtime
----
-Copyright (c) 2011 mingw-w64 project
-
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-
-Parts of this library are derived by:
-
-Posix Threads library for Microsoft Windows
-
-Use at own risk, there is no implied warranty to this code. It uses undocumented features of Microsoft Windows that can change at any time in the future.
-
-(C) 2010 Lockless Inc. All rights reserved.
-
-Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
-
-* Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer. * Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution. * Neither the name of Lockless Inc. nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.
-
-THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AN ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+This library is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public License for more details.
