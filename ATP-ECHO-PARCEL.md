@@ -13,7 +13,7 @@ A six-tap stereo delay with tempo sync, modulation, feedback and per-tap EQ.
 ---
 | Platform | Format | Download |
 | --- | --- | --- |
-| Windows x64 | VST3 | [Windows VST3](https://raw.githubusercontent.com/someonelikeTIM/all-the-plugins/main/downloads/windows/ATP-Echo-Parcel-Windows-VST3.zip) |
+| Windows x64 | VST3 | [Windows VST3](https://raw.githubusercontent.com/someonelikeTIM/all-the-plugins/3246244f84c8b8f460ee2e3f707c50870a8bff65/downloads/windows/ATP-Echo-Parcel-Windows-VST3.zip) |
 
 
 # Install and use
