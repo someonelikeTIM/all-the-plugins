@@ -13,7 +13,7 @@ A stereo soft-knee compressor and expander with adaptive release, linked limitin
 ---
 | Platform | Format | Download |
 | --- | --- | --- |
-| Windows x64 | VST3 | [Windows VST3](https://raw.githubusercontent.com/someonelikeTIM/all-the-plugins/main/downloads/windows/ATP-Satin-Tether-Windows-VST3.zip) |
+| Windows x64 | VST3 | [Windows VST3](https://raw.githubusercontent.com/someonelikeTIM/all-the-plugins/c8caa41fe89b9aac9f39b0e97e003c07bf720f89/downloads/windows/ATP-Satin-Tether-Windows-VST3.zip) |
 
 
 # Install and use
