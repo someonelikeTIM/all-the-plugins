@@ -50,6 +50,7 @@ Choose a plugin to see its available downloads and installation instructions.
 | [Redux Equalizer](ATP-LINEN-CURVE.md) |
 | [UltraTap](ATP-ECHO-PARCEL.md) |
 | [Photon Clamp](ATP-PHOTON-CLAMP.md) |
+| [DriveComp](ATP-DRIVECOMP.md) |
 
 
 # Install
