@@ -20,7 +20,7 @@ Shape vocal, bass and instrument dynamics with linked stereo compression and a V
 ---
 | Platform | Format | Download |
 | --- | --- | --- |
-| Windows | VST3 | [Windows VST3](https://raw.githubusercontent.com/someonelikeTIM/all-the-plugins/main/downloads/windows/ATP-Tubular-CL-1B-Windows-VST3.zip) |
+| Windows | VST3 | [Windows VST3](https://raw.githubusercontent.com/someonelikeTIM/all-the-plugins/83bef510a20ff257c19b9d370312f8bc21a2b47d/downloads/windows/ATP-Tubular-CL-1B-Windows-VST3.zip) |
 | Mac (earlier beta) | VST3 | [Mac VST3](https://raw.githubusercontent.com/someonelikeTIM/all-the-plugins/9f328532b8d2969e1fc1f898d0b7f36fea59ba63/downloads/macos/ATP-Tubular-CL1B-macOS-universal-VST3.zip) |
 
 
