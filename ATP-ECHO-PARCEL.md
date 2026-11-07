@@ -14,11 +14,19 @@ A six-tap stereo delay with tempo sync, modulation, feedback and per-tap EQ.
 | Platform | Format | Download |
 | --- | --- | --- |
 | Windows x64 | VST3 | [Windows VST3](https://raw.githubusercontent.com/someonelikeTIM/all-the-plugins/3246244f84c8b8f460ee2e3f707c50870a8bff65/downloads/windows/ATP-Echo-Parcel-Windows-VST3.zip) |
+| macOS 11+ | VST3 | [Mac VST3](https://raw.githubusercontent.com/someonelikeTIM/all-the-plugins/e317e1e98f327635bfec577cf0aeaf09cd4118f5/downloads/macos/ATP-UltraTap-macOS-universal-VST3.zip) |
+| macOS 11+ | AU | [Mac AU](https://raw.githubusercontent.com/someonelikeTIM/all-the-plugins/e317e1e98f327635bfec577cf0aeaf09cd4118f5/downloads/macos/ATP-UltraTap-macOS-universal-AU.zip) |
 
 
 # Install and use
 ---
-Extract the ZIP and copy the complete `ATP UltraTap.vst3` folder into `C:\Program Files\Common Files\VST3`. Replace the earlier copy of the same plugin, then restart or rescan your host. Windows x64 VST3; stereo input and output. Six-tap version only.
+**Windows:** Extract the ZIP and copy the complete `ATP UltraTap.vst3` folder into `C:\Program Files\Common Files\VST3`. Replace the earlier copy of the same plugin, then restart or rescan your host. Windows x64 VST3; stereo input and output. Six-tap version only.
+
+**Mac VST3:** Extract the ZIP and copy the complete `.vst3` bundle into `~/Library/Audio/Plug-Ins/VST3/`, then rescan your host.
+
+**Mac AU:** Extract the ZIP and copy the complete `.component` bundle into `~/Library/Audio/Plug-Ins/Components/`, then rescan your AU host.
+
+Mac downloads are universal Apple Silicon / Intel builds for macOS 11 or later, Developer ID signed and Apple notarized. Back up the previous version outside the host scan folders before replacing it.
 
 | Control | Behavior |
 | --- | --- |
